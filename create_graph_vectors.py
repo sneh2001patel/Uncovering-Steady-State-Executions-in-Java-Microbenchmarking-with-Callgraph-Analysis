@@ -1,7 +1,6 @@
 import os
 import numpy as np
 import networkx as nx
-from graphviz import Source
 from karateclub import Graph2Vec
 from tree import *
 

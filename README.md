@@ -3,7 +3,7 @@
 
 ### JMH
 
-The data used in this repo was collected using JMH on the java file `JMH/test/src/main/java/org/sample/MyBenchmark.java`.The java file runs a recursive binary search to find an element in an array. The JMH was run on 10 forks with 1000 iterations and 0 warm-up iterations. We used the `perf` to collect the profiler events to create the flame graphs.
+The data used in this repo was collected using JMH on the java file `JMH/test/src/main/java/org/sample/MyBenchmark.java`. The java file runs a recursive binary search to find an element in an array. The JMH was run on 10 forks with 1000 iterations and 0 warm-up iterations. We used the `perf` to collect the profiler events to create the flame graphs.
 
 ---
 

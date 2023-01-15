@@ -1,10 +1,12 @@
 import rpy2
 import math
 import json 
+import random
 from glob import glob
 from kneed import KneeLocator
 from outlier_detection import *
 from rpy2.robjects.packages import importr, data
+
 BOOTSTRAP_ITERATIONS = 10000
 
 dataset = []

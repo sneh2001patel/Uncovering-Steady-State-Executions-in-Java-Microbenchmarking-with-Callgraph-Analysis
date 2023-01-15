@@ -1,0 +1,27 @@
+Thread-10;[unknown];[unknown];void java.io.PrintStream.write;void java.io.FileOutputStream.writeBytes;jexpm1;[libjava.so];rcmd_af;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_write;ksys_write;vfs_write;__fsnotify_parent;fsnotify;send_to_group;fsnotify_handle_inode_event.isra.0;inotify_handle_inode_event;__kmalloc;get_obj_cgroup_from_current 40000
+Thread-10;[unknown];[unknown];void java.io.PrintStream.write;void java.io.FileOutputStream.writeBytes;jexpm1;[libjava.so];rcmd_af;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_write;ksys_write;vfs_write;__fsnotify_parent;take_dentry_name_snapshot;__raw_callee_save___pv_queued_spin_unlock 40000
+gnome-shell;[unknown];[unknown];[unknown];clutter_paint_volume_free 40000
+gnome-shell;[unknown];[unknown];[unknown];graphene_matrix_multiply 160000
+gnome-shell;[unknown];__netlink_request;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_poll;do_sys_poll;do_poll.constprop.0;sock_poll;unix_poll 40000
+gnome-shell;[unknown];clutter_events_pending 40000
+gnome-shell;[unknown];g_main_context_check 40000
+gnome-terminal-;[unknown];[unknown];[unknown];wl_display_read_events 80000
+gnome-terminal-;[unknown];__netlink_request;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_poll;do_sys_poll;do_poll.constprop.0;tty_poll 40000
+gnome-terminal-;[unknown];g_main_context_check 80000
+llvmpipe-0;setsourcefilter;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_ioctl;vmw_unlocked_ioctl;vmw_generic_ioctl 40000
+llvmpipe-3;[unknown];[unknown];[kms_swrast_dri.so];[perf-1594.map] 40000
+llvmpipe-3;[unknown];[unknown];[kms_swrast_dri.so];[perf-1594.map];asm_exc_page_fault;exc_page_fault;do_user_addr_fault;handle_mm_fault;__handle_mm_fault;handle_pte_fault;do_fault 80000
+llvmpipe-3;[unknown];[unknown];[kms_swrast_dri.so];[perf-1594.map];asm_exc_page_fault;exc_page_fault;do_user_addr_fault;handle_mm_fault;__handle_mm_fault;handle_pte_fault;do_fault;do_read_fault;pte_alloc_one 40000
+llvmpipe-5;[unknown];[unknown];[kms_swrast_dri.so];[perf-1594.map] 80000
+llvmpipe-5;[unknown];[unknown];[kms_swrast_dri.so];[perf-1594.map];asm_exc_page_fault;exc_page_fault;do_user_addr_fault;handle_mm_fault;__handle_mm_fault;handle_pte_fault;do_fault;do_read_fault;__do_fault;pte_alloc_one;alloc_pages;__alloc_pages;__memcg_kmem_charge_page 40000
+llvmpipe-5;__strlen_sse2;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_futex;do_futex;futex_wake;wake_up_q;try_to_wake_up;__lock_text_start 80000
+llvmpipe-6;[unknown];[unknown];[kms_swrast_dri.so];[perf-1594.map] 120000
+llvmpipe-6;[unknown];[unknown];[kms_swrast_dri.so];[perf-1594.map];asm_exc_page_fault;exc_page_fault;do_user_addr_fault;find_vma 40000
+llvmpipe-6;[unknown];__stpncpy_sse2_unaligned 40000
+org.sample.MyBe;__strncat_ssse3;SystemDictionary::find_method_handle_type;[libjvm.so];[libjvm.so];MacroAssembler::fast_md5;LibraryCallKit::inline_string_copy;LibraryCallKit::inline_fp_conversions;StubRoutines ;Interpreter;Interpreter;java.lang.Object org.openjdk.jmh.runner.BenchmarkHandler$BenchmarkTask.call;_new_array_Java;ErrorContext::stackmap_details;[libjvm.so];ShenandoahSATBMarkQueueSet::ShenandoahSATBMarkQueueSet;[libc.so.6] 240000
+org.sample.MyBe;__strncat_ssse3;SystemDictionary::find_method_handle_type;[libjvm.so];[libjvm.so];MacroAssembler::fast_md5;LibraryCallKit::inline_string_copy;LibraryCallKit::inline_fp_conversions;StubRoutines ;Interpreter;Interpreter;java.lang.Object org.openjdk.jmh.runner.BenchmarkHandler$BenchmarkTask.call;int[] org.sample.MyBenchmark.getArray 160000
+org.sample.MyBe;__strncat_ssse3;SystemDictionary::find_method_handle_type;[libjvm.so];[libjvm.so];MacroAssembler::fast_md5;LibraryCallKit::inline_string_copy;LibraryCallKit::inline_fp_conversions;StubRoutines ;Interpreter;Interpreter;java.lang.Object org.openjdk.jmh.runner.BenchmarkHandler$BenchmarkTask.call;int[] org.sample.MyBenchmark.getArray;asm_sysvec_call_function_single;sysvec_call_function_single;irqentry_exit;irqentry_exit_to_user_mode;exit_to_user_mode_prepare;exit_to_user_mode_loop 120000
+org.sample.MyBe;__strncat_ssse3;SystemDictionary::find_method_handle_type;[libjvm.so];[libjvm.so];MacroAssembler::fast_md5;LibraryCallKit::inline_string_copy;LibraryCallKit::inline_fp_conversions;StubRoutines ;Interpreter;Interpreter;java.lang.Object org.openjdk.jmh.runner.BenchmarkHandler$BenchmarkTask.call;java.lang.StringBuilder org.apache.logging.log4j.core.layout.PatternLayout$PatternSerializer.toSerializable 40000
+swapper;secondary_startup_64_no_verify;start_secondary;cpu_startup_entry;do_idle;cpuidle_idle_call;default_idle_call;arch_cpu_idle;native_safe_halt 2720000
+swapper;secondary_startup_64_no_verify;start_secondary;cpu_startup_entry;do_idle;schedule_idle;__schedule;finish_task_switch.isra.0 40000
+swapper;secondary_startup_64_no_verify;x86_64_start_kernel;x86_64_start_reservations;start_kernel;arch_call_rest_init;rest_init;cpu_startup_entry;do_idle;cpuidle_idle_call;default_idle_call;arch_cpu_idle;native_safe_halt 840000

@@ -1,0 +1,16 @@
+G1_Service;[unknown];__GI___strncasecmp_l_sse2;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_futex;do_futex;futex_wait;futex_wait_queue_me;schedule;__schedule;finish_task_switch.isra.0 40000
+llvmpipe-0;[unknown];[unknown];[kms_swrast_dri.so];[perf-1594.map];asm_sysvec_apic_timer_interrupt;sysvec_apic_timer_interrupt;irq_exit_rcu;__softirqentry_text_start 40000
+llvmpipe-2;[kms_swrast_dri.so] 40000
+llvmpipe-2;[unknown];[unknown];[kms_swrast_dri.so];[perf-1594.map] 80000
+llvmpipe-2;[unknown];[unknown];[kms_swrast_dri.so];[perf-1594.map];asm_exc_page_fault;exc_page_fault;do_user_addr_fault;handle_mm_fault;__handle_mm_fault;handle_pte_fault;do_fault;do_read_fault;__do_fault;vmw_bo_vm_fault;ttm_bo_vm_reserve;ww_mutex_lock_interruptible;__ww_mutex_lock_interruptible_slowpath;__ww_mutex_lock.constprop.0;mutex_spin_on_owner 80000
+llvmpipe-3;[unknown];[kms_swrast_dri.so] 80000
+llvmpipe-3;[unknown];[kms_swrast_dri.so];[perf-1594.map] 120000
+llvmpipe-4;[unknown];[kms_swrast_dri.so];[perf-1594.map] 120000
+llvmpipe-4;[unknown];[unknown];[kms_swrast_dri.so] 40000
+llvmpipe-4;[unknown];[unknown];[kms_swrast_dri.so];[perf-1594.map];asm_exc_page_fault;exc_page_fault;do_user_addr_fault;handle_mm_fault;__handle_mm_fault;handle_pte_fault;do_fault;do_read_fault;__do_fault;vmw_bo_vm_fault;ttm_mem_io_reserve 80000
+llvmpipe-5;[unknown];[kms_swrast_dri.so];[perf-1594.map] 40000
+llvmpipe-5;[unknown];[unknown];[kms_swrast_dri.so];[perf-1594.map] 120000
+llvmpipe-6;[unknown];[kms_swrast_dri.so];[perf-1594.map] 40000
+llvmpipe-6;[unknown];[kms_swrast_dri.so];[perf-1594.map];asm_sysvec_apic_timer_interrupt;sysvec_apic_timer_interrupt;irq_exit_rcu;__softirqentry_text_start;run_timer_softirq;__run_timers.part.0;call_timer_fn;vbg_heartbeat_timer;vbg_req_perform 160000
+org.sample.MyBe;__strncat_ssse3;SystemDictionary::find_method_handle_type;[libjvm.so];[libjvm.so];MacroAssembler::fast_md5;LibraryCallKit::inline_string_copy;LibraryCallKit::inline_fp_conversions;StubRoutines ;Interpreter;Interpreter;_new_array_Java;ErrorContext::stackmap_details;[libjvm.so];ShenandoahSATBMarkQueueSet::ShenandoahSATBMarkQueueSet;[libc.so.6] 240000
+swapper;secondary_startup_64_no_verify;start_secondary;cpu_startup_entry;do_idle;cpuidle_idle_call;default_idle_call;arch_cpu_idle;native_safe_halt 120000

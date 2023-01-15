@@ -1,0 +1,20 @@
+Thread-16;int java.net.Socket$SocketInputStream.read;int sun.nio.ch.SocketDispatcher.read0;rcmd_af;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_read;ksys_read;vfs_read;new_sync_read;sock_read_iter;sock_recvmsg;inet6_recvmsg;tcp_recvmsg;tcp_recvmsg_locked;sk_wait_data;tcp_release_cb 160000
+gnome-shell;[libmutter-clutter-10.so.0.0.0] 80000
+gnome-shell;[unknown];[unknown];[unknown];[libmutter-clutter-10.so.0.0.0] 80000
+gnome-shell;[unknown];[unknown];[unknown];clutter_stage_window_get_type 80000
+gnome-shell;[unknown];[unknown];[unknown];graphene_matrix_multiply 120000
+nautilus;[libgio-2.0.so.0.7200.1] 40000
+nautilus;[nautilus] 40000
+nautilus;[unknown];[libglib-2.0.so.0.7200.1] 40000
+nautilus;[unknown];[libgtk-3.so.0.2404.29];[unknown];[libglib-2.0.so.0.7200.1] 40000
+nautilus;[unknown];[libgtk-3.so.0.2404.29];__strtold_l 40000
+nautilus;[unknown];[unknown];[unknown];g_vfs_get_type 40000
+nautilus;[unknown];[unknown];g_atomic_ref_count_dec 40000
+nautilus;[unknown];[unknown];round_and_return 40000
+nautilus;[unknown];g_hash_table_unref 80000
+nautilus;[unknown];g_markup_parse_context_parse 40000
+nautilus;[unknown];g_slice_free1 40000
+nautilus;[unknown];g_string_insert_len 40000
+nautilus;g_mutex_unlock 40000
+org.sample.MyBe;__strncat_ssse3;SystemDictionary::find_method_handle_type;[libjvm.so];[libjvm.so];MacroAssembler::fast_md5;LibraryCallKit::inline_string_copy;LibraryCallKit::inline_fp_conversions;StubRoutines ;Interpreter;Interpreter;int[] org.sample.MyBenchmark.getArray 400000
+swapper;secondary_startup_64_no_verify;start_secondary;cpu_startup_entry;do_idle;cpuidle_idle_call;default_idle_call;arch_cpu_idle;native_safe_halt 1880000

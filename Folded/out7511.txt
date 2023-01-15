@@ -1,0 +1,55 @@
+GC_Thread#1;__strcat_ssse3;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_futex;do_futex;futex_wake;wake_up_q;try_to_wake_up;__lock_text_start 120000
+GC_Thread#1;__strncat_ssse3;SystemDictionary::find_method_handle_type;[libjvm.so];[libjvm.so];[libjvm.so];CompilerToVM::initialize_intrinsics 40000
+GC_Thread#1;__strncat_ssse3;SystemDictionary::find_method_handle_type;[libjvm.so];[libjvm.so];[libjvm.so];CompilerToVM::initialize_intrinsics;CompilerToVM::initialize_intrinsics;LogImpl< 40000
+GC_Thread#2;[unknown];IdealKit::storeCM;[unknown];[unknown];____wcstold_l_internal 40000
+GC_Thread#2;__strncat_ssse3;SystemDictionary::find_method_handle_type;[libjvm.so];[libjvm.so];[libjvm.so];CompilerToVM::initialize_intrinsics;CompilerToVM::initialize_intrinsics;ResourceHashtable<long, JVMCIObject, &;JVMCIEnv::new_site_Site_array 40000
+GC_Thread#7;__strncat_ssse3;SystemDictionary::find_method_handle_type;[libjvm.so];[libjvm.so];[libjvm.so];CompilerToVM::initialize_intrinsics 160000
+GC_Thread#7;__strncat_ssse3;SystemDictionary::find_method_handle_type;[libjvm.so];[libjvm.so];[libjvm.so];CompilerToVM::initialize_intrinsics;CompilerToVM::initialize_intrinsics;ResourceHashtable<long, JVMCIObject, &;RegisterSaver::save_live_registers 240000
+GC_Thread#7;__strncat_ssse3;SystemDictionary::find_method_handle_type;[libjvm.so];[libjvm.so];[libjvm.so];CompilerToVM::initialize_intrinsics;CompilerToVM::initialize_intrinsics;ResourceHashtable<long, JVMCIObject, &;RegisterSaver::save_live_registers;asm_sysvec_apic_timer_interrupt;sysvec_apic_timer_interrupt;irq_exit_rcu;__softirqentry_text_start 40000
+GC_Thread#7;__strncat_ssse3;SystemDictionary::find_method_handle_type;[libjvm.so];[libjvm.so];[libjvm.so];CompilerToVM::initialize_intrinsics;CompilerToVM::initialize_intrinsics;ResourceHashtable<long, JVMCIObject, &;__strcat_ssse3 80000
+VM_Thread;__strncat_ssse3;SystemDictionary::find_method_handle_type;[libjvm.so];[libjvm.so];[libjvm.so];[libjvm.so];[libjvm.so];JVMCIGlobals::check_jvmci_flags_are_consistent;JavaArgumentUnboxer::do_type;c2v_registerNativeMethods;c2v_disassembleCodeBlob;CompilerToVM::initialize_intrinsics;[libjvm.so];__strstr_sse2_unaligned;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_futex;do_futex;futex_wake;wake_up_q;try_to_wake_up;__lock_text_start 40000
+VM_Thread;__strncat_ssse3;SystemDictionary::find_method_handle_type;[libjvm.so];[libjvm.so];[libjvm.so];[libjvm.so];[libjvm.so];JVMCIGlobals::check_jvmci_flags_are_consistent;JavaArgumentUnboxer::do_type;c2v_registerNativeMethods;c2v_disassembleCodeBlob;c2v_asResolvedJavaMethod;[libjvm.so];__strstr_sse2_unaligned;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_futex;do_futex;futex_wake;wake_up_q;try_to_wake_up;__lock_text_start 40000
+VM_Thread;__strncat_ssse3;SystemDictionary::find_method_handle_type;[libjvm.so];[libjvm.so];[libjvm.so];[libjvm.so];[libjvm.so];JVMCIGlobals::check_jvmci_flags_are_consistent;JavaArgumentUnboxer::do_type;c2v_registerNativeMethods;c2v_registerNativeMethods;c2v_asResolvedJavaMethod;[libjvm.so];__strstr_sse2_unaligned;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_futex;do_futex;futex_wake;__raw_callee_save___pv_queued_spin_unlock 80000
+VM_Thread;__strncat_ssse3;SystemDictionary::find_method_handle_type;[libjvm.so];[libjvm.so];[libjvm.so];[libjvm.so];[libjvm.so];JVMCIGlobals::check_jvmci_flags_are_consistent;JavaArgumentUnboxer::do_type;c2v_registerNativeMethods;c2v_registerNativeMethods;c2v_asResolvedJavaMethod;[libjvm.so];__strstr_sse2_unaligned;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_futex;do_futex;futex_wake;wake_up_q;try_to_wake_up;__lock_text_start 160000
+gedit;[libcairo.so.2.11600.0] 40000
+gedit;[libcairo.so.2.11600.0];[libcairo.so.2.11600.0] 40000
+gedit;[libcairo.so.2.11600.0];[unknown];[libcairo.so.2.11600.0] 40000
+gedit;[unknown];[libcairo.so.2.11600.0] 40000
+gedit;[unknown];[libgtk-3.so.0.2404.29] 80000
+gedit;[unknown];[libgtk-3.so.0.2404.29];[unknown];[libgtk-3.so.0.2404.29] 40000
+gedit;[unknown];[unknown];[unknown];[libgdk-3.so.0.2404.29] 80000
+gedit;[unknown];[unknown];[unknown];____wcstold_l_internal 40000
+gedit;[unknown];[unknown];[unknown];__res_context_send;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_recvmsg;__sys_recvmsg;___sys_recvmsg;____sys_recvmsg;sock_recvmsg;unix_stream_recvmsg;unix_stream_read_generic;consume_skb;skb_release_data;skb_free_head;kfree 80000
+gedit;[unknown];[unknown];[unknown];gtk_render_background 40000
+gedit;[unknown];__stpncpy_sse2_unaligned 40000
+gedit;[unknown];gdk_window_begin_draw_frame 40000
+gedit;____wcstof_l_internal 40000
+gedit;____wcstold_l_internal 40000
+gedit;g_main_context_default 80000
+gmain;[unknown];__netlink_request;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_poll;do_sys_poll;do_poll.constprop.0;__fdget;__fget_light;__fget_files 40000
+gnome-shell;[libxcb.so.1.1.0] 40000
+gnome-shell;[unknown];[libmutter-10.so.0.0.0] 40000
+gnome-shell;[unknown];[unknown];[unknown];clutter_stage_view_get_refresh_rate 40000
+gnome-shell;[unknown];[unknown];[unknown];cogl_framebuffer_discard_buffers 40000
+gnome-shell;[unknown];[unknown];[unknown];g_list_find 40000
+gnome-shell;[unknown];[unknown];g_main_context_prepare 40000
+gnome-shell;[unknown];__netlink_request;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_poll;do_sys_poll;do_poll.constprop.0;__ep_eventpoll_poll.isra.0 40000
+gnome-shell;[unknown];__res_context_send;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_sendmsg;__sys_sendmsg;___sys_sendmsg;____sys_sendmsg;sock_sendmsg;unix_stream_sendmsg;sock_def_readable;__wake_up_sync_key;__wake_up_common_lock;__lock_text_start 40000
+gnome-shell;[unknown];g_io_channel_get_buffer_condition 40000
+gnome-shell;__res_context_send;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_recvmsg;__sys_recvmsg;___sys_recvmsg;import_iovec;__import_iovec;iovec_from_user.part.0;__check_object_size;__check_object_size.part.0;check_stack_object 40000
+gnome-shell;g_ptr_array_remove_range 40000
+gnome-shell;setsourcefilter;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_ioctl;vmw_unlocked_ioctl;vmw_generic_ioctl;drm_ioctl;drm_ioctl_kernel;drm_mode_cursor2_ioctl;drm_mode_cursor_common;drm_mode_cursor_universal;__setplane_atomic;drm_atomic_helper_update_plane;drm_atomic_commit;drm_atomic_check_only;vmw_kms_atomic_check_modeset 40000
+gnome-shell;setsourcefilter;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_ioctl;vmw_unlocked_ioctl;vmw_generic_ioctl;drm_ioctl;drm_ioctl_kernel;drm_mode_cursor2_ioctl;drm_mode_cursor_common;drm_mode_cursor_universal;__setplane_atomic;drm_atomic_helper_update_plane;drm_atomic_commit;drm_atomic_helper_commit;commit_tail;drm_atomic_helper_commit_tail;drm_atomic_helper_commit_planes;vmw_du_cursor_plane_atomic_update;ttm_bo_kmap;vmap;get_vm_area_caller;__get_vm_area_node.constprop.0;alloc_vmap_area 40000
+gnome-shell;setsourcefilter;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_ioctl;vmw_unlocked_ioctl;vmw_generic_ioctl;drm_ioctl;drm_ioctl_kernel;drm_mode_cursor2_ioctl;drm_mode_cursor_common;drm_mode_cursor_universal;__setplane_atomic;drm_atomic_helper_update_plane;drm_atomic_commit;drm_atomic_helper_commit;commit_tail;drm_atomic_helper_commit_tail;drm_atomic_helper_commit_planes;vmw_du_cursor_plane_atomic_update;vmw_cursor_update_image;vmw_cmd_commit_flush;vmw_local_fifo_commit;vmw_fifo_ping_host 40000
+gnome-shell;setsourcefilter;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_ioctl;vmw_unlocked_ioctl;vmw_generic_ioctl;drm_ioctl;drm_ioctl_kernel;drm_mode_cursor2_ioctl;drm_mode_cursor_common;drm_mode_cursor_universal;__setplane_atomic;drm_atomic_helper_update_plane;drm_atomic_get_plane_state;drm_atomic_get_crtc_state;vmw_du_crtc_duplicate_state;memcpy;asm_sysvec_apic_timer_interrupt;sysvec_apic_timer_interrupt;irq_exit_rcu;__softirqentry_text_start 120000
+gnome-shell;setsourcefilter;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_ioctl;vmw_unlocked_ioctl;vmw_generic_ioctl;drm_ioctl;drm_ioctl_kernel;drm_mode_cursor_ioctl;drm_mode_cursor_common;drm_mode_cursor_universal;__setplane_atomic;drm_atomic_helper_update_plane;drm_atomic_commit;drm_atomic_helper_commit;commit_tail;drm_atomic_helper_commit_tail;drm_atomic_helper_commit_planes;vmw_du_cursor_plane_atomic_update;vmw_cursor_update_image;vmw_cmd_commit_flush;vmw_local_fifo_commit;vmw_fifo_ping_host 40000
+gnome-shell;setsourcefilter;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_ioctl;vmw_unlocked_ioctl;vmw_generic_ioctl;drm_ioctl;drm_ioctl_kernel;drm_mode_cursor_ioctl;drm_mode_cursor_common;drm_mode_cursor_universal;__setplane_atomic;drm_atomic_helper_update_plane;drm_atomic_get_plane_state;vmw_du_plane_duplicate_state;kmemdup;__kmalloc_track_caller;___slab_alloc 40000
+gnome-shell;setsourcefilter;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_ioctl;vmw_unlocked_ioctl;vmw_generic_ioctl;drm_ioctl;drm_ioctl_kernel;drm_mode_page_flip_ioctl;drm_atomic_helper_page_flip;drm_atomic_nonblocking_commit;drm_atomic_helper_commit;queue_work_on 40000
+kworker/u16:0-e;ret_from_fork;kthread;worker_thread;process_one_work;commit_work;commit_tail;drm_atomic_helper_commit_tail;drm_atomic_helper_commit_planes;vmw_sou_primary_plane_atomic_update;vmw_event_fence_action_queue;vmw_goal_waiter_add;vmw_generic_waiter_add 120000
+kworker/u16:0-e;ret_from_fork;kthread;worker_thread;process_one_work;commit_work;commit_tail;drm_atomic_helper_commit_tail;drm_atomic_helper_commit_planes;vmw_sou_primary_plane_atomic_update;vmw_sou_plane_update_bo;vmw_du_helper_plane_update;vmw_cmd_commit;vmw_local_fifo_commit;vmw_fifo_ping_host 160000
+kworker/u16:0-e;ret_from_fork;kthread;worker_thread;process_one_work;commit_work;commit_tail;drm_atomic_helper_commit_tail;drm_atomic_helper_commit_planes;vmw_sou_primary_plane_atomic_update;vmw_sou_plane_update_bo;vmw_du_helper_plane_update;vmw_validation_prepare;vmw_validation_bo_validate;ttm_bo_validate 120000
+swapper;secondary_startup_64_no_verify;start_secondary;cpu_startup_entry;do_idle;cpuidle_idle_call;default_idle_call;arch_cpu_idle;native_safe_halt 3240000
+swapper;secondary_startup_64_no_verify;start_secondary;cpu_startup_entry;do_idle;cpuidle_idle_call;default_idle_call;arch_cpu_idle;native_safe_halt;asm_sysvec_apic_timer_interrupt;sysvec_apic_timer_interrupt;irq_exit_rcu;__softirqentry_text_start;run_timer_softirq;__run_timers.part.0;call_timer_fn;vbg_heartbeat_timer;vbg_req_perform 80000
+swapper;secondary_startup_64_no_verify;start_secondary;cpu_startup_entry;do_idle;schedule_idle;__schedule;finish_task_switch.isra.0 40000
+swapper;secondary_startup_64_no_verify;x86_64_start_kernel;x86_64_start_reservations;start_kernel;arch_call_rest_init;rest_init;cpu_startup_entry;do_idle;cpuidle_idle_call;default_idle_call;arch_cpu_idle;native_safe_halt 600000
+swapper;secondary_startup_64_no_verify;x86_64_start_kernel;x86_64_start_reservations;start_kernel;arch_call_rest_init;rest_init;cpu_startup_entry;do_idle;tick_nohz_idle_exit;asm_sysvec_apic_timer_interrupt;sysvec_apic_timer_interrupt;irq_exit_rcu;__softirqentry_text_start 40000

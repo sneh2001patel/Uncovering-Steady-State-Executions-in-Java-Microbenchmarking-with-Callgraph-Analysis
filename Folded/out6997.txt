@@ -1,0 +1,15 @@
+gedit;[unknown];[libgdk-3.so.0.2404.29] 80000
+gedit;[unknown];__netlink_request;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_poll;do_sys_poll 40000
+gnome-shell;[libmutter-clutter-10.so.0.0.0] 120000
+gnome-shell;[libmutter-clutter-10.so.0.0.0];asm_sysvec_apic_timer_interrupt;sysvec_apic_timer_interrupt;irq_exit_rcu;__softirqentry_text_start 40000
+gnome-shell;[unknown];[unknown];[unknown];[libmutter-clutter-10.so.0.0.0] 160000
+gnome-shell;[unknown];[unknown];[unknown];clutter_actor_get_paint_volume 40000
+gnome-shell;[unknown];[unknown];[unknown];g_type_check_instance_cast 80000
+gnome-shell;[unknown];[unknown];[unknown];g_type_check_instance_is_a 40000
+gnome-shell;[unknown];[unknown];[unknown];graphene_matrix_multiply 40000
+gnome-shell;graphene_matrix_multiply 40000
+org.sample.MyBe;__strncat_ssse3;SystemDictionary::find_method_handle_type;[libjvm.so];[libjvm.so];MacroAssembler::fast_md5;LibraryCallKit::inline_string_copy;LibraryCallKit::inline_fp_conversions;StubRoutines ;Interpreter;Interpreter;_new_array_Java;ErrorContext::stackmap_details;[libjvm.so];ShenandoahSATBMarkQueueSet::ShenandoahSATBMarkQueueSet;[libc.so.6] 40000
+org.sample.MyBe;__strncat_ssse3;SystemDictionary::find_method_handle_type;[libjvm.so];[libjvm.so];MacroAssembler::fast_md5;LibraryCallKit::inline_string_copy;LibraryCallKit::inline_fp_conversions;StubRoutines ;Interpreter;Interpreter;_new_array_Java;ErrorContext::stackmap_details;[libjvm.so];ShenandoahSATBMode::initialize_heuristics;ElfDecoder::decode;[libjvm.so] 200000
+swapper;secondary_startup_64_no_verify;start_secondary;cpu_startup_entry;do_idle;cpuidle_idle_call;default_idle_call;arch_cpu_idle;native_safe_halt 2600000
+swapper;secondary_startup_64_no_verify;start_secondary;cpu_startup_entry;do_idle;cpuidle_idle_call;default_idle_call;arch_cpu_idle;native_safe_halt;asm_sysvec_apic_timer_interrupt;sysvec_apic_timer_interrupt;irq_exit_rcu;__softirqentry_text_start 40000
+swapper;secondary_startup_64_no_verify;start_secondary;cpu_startup_entry;do_idle;cpuidle_idle_call;default_idle_call;arch_cpu_idle;native_safe_halt;asm_sysvec_apic_timer_interrupt;sysvec_apic_timer_interrupt;irq_exit_rcu;__softirqentry_text_start;run_timer_softirq;__run_timers.part.0;call_timer_fn;vbg_heartbeat_timer;vbg_req_perform 40000

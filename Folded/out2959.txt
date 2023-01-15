@@ -1,0 +1,9 @@
+gnome-shell;[unknown];[kms_swrast_dri.so] 40000
+gnome-shell;[unknown];[unknown];[libmutter-cogl-10.so.0.0.0] 40000
+gnome-shell;[unknown];[unknown];[unknown];[libmutter-10.so.0.0.0] 40000
+gnome-shell;[unknown];[unknown];[unknown];[unknown];____wcstof_l_internal 40000
+gnome-shell;[unknown];clutter_actor_get_effects 40000
+llvmpipe-5;[unknown];__GI___strncasecmp_l_sse2;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_futex;do_futex;futex_wait;futex_wait_queue_me;schedule;__schedule;finish_task_switch.isra.0 40000
+llvmpipe-6;[unknown];[unknown];[kms_swrast_dri.so];[perf-1594.map] 160000
+llvmpipe-6;[unknown];__GI___strncasecmp_l_sse2;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_futex;do_futex;futex_wake;wake_up_q;try_to_wake_up;__lock_text_start 40000
+swapper;secondary_startup_64_no_verify;start_secondary;cpu_startup_entry;do_idle;cpuidle_idle_call;default_idle_call;arch_cpu_idle;native_safe_halt 520000

@@ -1,0 +1,48 @@
+G1_Service;__strncat_ssse3;SystemDictionary::find_method_handle_type;[libjvm.so];MutexedWriteOp<CheckpointWriteOp<JfrBuffer> >::process;JNIJVMCI::JavaKind::set_typeChar;[libjvm.so];[libjvm.so] 40000
+Thread-28;[unknown];[unknown];void java.io.PrintStream.write;void java.io.FileOutputStream.writeBytes;jexpm1;[libjava.so];MacroAssembler::vectorized_mismatch;MacroAssembler::vectorized_mismatch 240000
+Thread-28;[unknown];void java.io.ObjectInputStream.readSerialData 200000
+Thread-28;boolean org.openjdk.jmh.runner.link.BinaryLinkServer$Handler.handleOutputFormat 40000
+Thread-28;int java.net.Socket$SocketInputStream.read 80000
+Thread-28;int java.net.Socket$SocketInputStream.read;int sun.nio.ch.SocketDispatcher.read0;rcmd_af;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_read;ksys_read;vfs_read;new_sync_read;sock_read_iter;sock_recvmsg;inet6_recvmsg;tcp_recvmsg;release_sock;__release_sock;tcp_v4_do_rcv;tcp_rcv_established;tcp_data_ready;sock_def_readable 120000
+Thread-28;void org.openjdk.jmh.runner.format.TextReportFormat.iterationResult;asm_exc_page_fault;exc_page_fault;do_user_addr_fault;handle_mm_fault;__handle_mm_fault;handle_pte_fault;do_anonymous_page;__mem_cgroup_charge;charge_memcg;try_charge_memcg 80000
+gedit;[libcairo.so.2.11600.0] 40000
+gedit;[libgtk-3.so.0.2404.29] 40000
+gedit;[libpixman-1.so.0.40.0];_dl_load_cache_lookup 80000
+gedit;[unknown];[libcairo.so.2.11600.0] 40000
+gedit;[unknown];[libgtk-3.so.0.2404.29] 40000
+gedit;[unknown];[libgtk-3.so.0.2404.29];[unknown];cairo_matrix_transform_point 80000
+gedit;[unknown];[libpixman-1.so.0.40.0] 80000
+gedit;[unknown];[unknown];[libcairo.so.2.11600.0] 40000
+gedit;[unknown];[unknown];[unknown];__res_context_send;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_recvmsg;__sys_recvmsg;___sys_recvmsg;____sys_recvmsg;sock_recvmsg;unix_stream_recvmsg;unix_stream_read_generic;consume_skb;skb_release_data;skb_free_head;kfree;memcg_slab_free_hook;obj_cgroup_uncharge;refill_obj_stock;drain_obj_stock 80000
+gedit;[unknown];[unknown];[unknown];g_boxed_copy 40000
+gedit;[unknown];[unknown];[unknown];gdk_window_get_parent 80000
+gedit;[unknown];__res_context_send;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_sendmsg;__sys_sendmsg;___sys_sendmsg;____sys_sendmsg;sock_sendmsg;unix_stream_sendmsg;sock_def_readable;__wake_up_sync_key;__wake_up_common_lock;__lock_text_start 40000
+gedit;[unknown];cairo_line_to;__gammaf_r_finite@GLIBC_2.15 40000
+gedit;[unknown];cairo_matrix_transform_point 40000
+gedit;[unknown];cairo_pattern_reference 80000
+gedit;g_main_context_query 80000
+gmain;[unknown];[unknown];g_slice_free1 40000
+gmain;g_file_monitor_source_handle_event 80000
+gmain;g_source_set_ready_time 40000
+gmain;rcmd_af;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_read;ksys_read;vfs_read;inotify_read;copy_event_to_user;__check_object_size;__check_object_size.part.0 40000
+gnome-shell;[libmutter-10.so.0.0.0] 40000
+gnome-shell;[unknown];[libglib-2.0.so.0.7200.1] 120000
+gnome-shell;[unknown];[unknown];[unknown];[kms_swrast_dri.so] 40000
+gnome-shell;[unknown];[unknown];[unknown];[libmutter-10.so.0.0.0] 40000
+gnome-shell;[unknown];__netlink_request;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_poll;do_sys_poll;do_poll.constprop.0;sock_poll 40000
+gnome-shell;[unknown];__netlink_request;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_poll;do_sys_poll;do_poll.constprop.0;sock_poll;unix_poll;__pollwait;__get_free_pages;alloc_pages;__alloc_pages;get_page_from_freelist 40000
+gnome-shell;[unknown];__res_context_search;entry_SYSCALL_64_after_hwframe;__x64_sys_epoll_wait 80000
+gnome-shell;[unknown];__res_context_send;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_sendmsg;__sys_sendmsg;___sys_sendmsg;____sys_sendmsg;sock_sendmsg;unix_stream_sendmsg;sock_def_readable;__wake_up_sync_key;__wake_up_common_lock;__lock_text_start 80000
+gnome-shell;[unknown];__res_context_send;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_sendmsg;__sys_sendmsg;___sys_sendmsg;____sys_sendmsg;sock_sendmsg;unix_stream_sendmsg;sock_def_readable;__wake_up_sync_key;__wake_up_common_lock;__lock_text_start;asm_sysvec_apic_timer_interrupt;sysvec_apic_timer_interrupt;irq_exit_rcu;__softirqentry_text_start 80000
+gnome-shell;[unknown];g_main_context_check 40000
+gnome-shell;[unknown];g_type_check_class_cast 240000
+gnome-shell;[unknown];rcmd_af;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_write;ksys_write;vfs_write;rw_verify_area;security_file_permission;apparmor_file_permission 40000
+gnome-shell;__res_context_send;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_recvmsg;__sys_recvmsg;___sys_recvmsg;____sys_recvmsg 120000
+gnome-shell;g_main_context_query 80000
+java;__strncat_ssse3;inflate_file.part.0;JLI_Launch;MacroAssembler::cmp_narrow_klass;MacroAssembler::check_klass_subtype_fast_path;LibraryCallKit::inline_fp_conversions;StubRoutines ;Interpreter;Interpreter;Interpreter;Interpreter;Interpreter;org.openjdk.jmh.results.IterationResult org.openjdk.jmh.runner.BenchmarkHandler.runIteration 200000
+org.sample.MyBe;__strcat_ssse3;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_futex;do_futex;futex_wake;wake_up_q;try_to_wake_up;__lock_text_start 40000
+org.sample.MyBe;__strncat_ssse3;SystemDictionary::find_method_handle_type;[libjvm.so];[libjvm.so];MacroAssembler::fast_md5;LibraryCallKit::inline_string_copy;LibraryCallKit::inline_fp_conversions;StubRoutines ;Interpreter;Interpreter;void java.util.concurrent.FutureTask.run;void java.util.concurrent.FutureTask.run;Interpreter;org.openjdk.jmh.results.BenchmarkTaskResult org.sample.jmh_generated.MyBenchmark_testMethod_jmhTest.testMethod_SingleShotTime;Interpreter;int[] org.sample.MyBenchmark.getArray 600000
+org.sample.MyBe;void java.io.ObjectOutputStream.writeArray 40000
+swapper;secondary_startup_64_no_verify;start_secondary;cpu_startup_entry;do_idle;cpuidle_idle_call;default_idle_call;arch_cpu_idle;native_safe_halt 3680000
+swapper;secondary_startup_64_no_verify;x86_64_start_kernel;x86_64_start_reservations;start_kernel;arch_call_rest_init;rest_init;cpu_startup_entry;do_idle;cpuidle_idle_call;default_idle_call;arch_cpu_idle;native_safe_halt 800000
+swapper;secondary_startup_64_no_verify;x86_64_start_kernel;x86_64_start_reservations;start_kernel;arch_call_rest_init;rest_init;cpu_startup_entry;do_idle;nohz_run_idle_balance;_nohz_idle_balance.constprop.0.isra.0;update_blocked_averages 40000

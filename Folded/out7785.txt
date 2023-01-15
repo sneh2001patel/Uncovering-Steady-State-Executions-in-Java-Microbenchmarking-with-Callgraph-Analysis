@@ -1,0 +1,69 @@
+Thread-28;[unknown];java.io.ObjectStreamClass java.io.ObjectInputStream.readClassDesc 40000
+Thread-28;[unknown];long java.io.ObjectInputStream$BlockDataInputStream.readUTFSpan 40000
+Thread-28;[unknown];void java.io.ObjectStreamClass.readNonProxy;asm_exc_page_fault;exc_page_fault;do_user_addr_fault;handle_mm_fault;__handle_mm_fault;handle_pte_fault;do_anonymous_page 40000
+Thread-28;[unknown];void java.io.ObjectStreamClass.readNonProxy;asm_exc_page_fault;exc_page_fault;do_user_addr_fault;handle_mm_fault;__handle_mm_fault;handle_pte_fault;do_anonymous_page;page_add_new_anon_rmap;__mod_lruvec_page_state;__mod_lruvec_state;__mod_memcg_lruvec_state 80000
+Thread-28;[unknown];void java.io.ObjectStreamClass.readNonProxy;java.lang.String java.lang.String.intern;MacroAssembler::sha256_AVX2_four_rounds_compute_last;[libjvm.so];[libjvm.so] 80000
+Thread-28;java.lang.Class java.io.ObjectInputStream.resolveClass;java.lang.ClassLoader jdk.internal.misc.VM.latestUserDefinedLoader0;MacroAssembler::fast_sha256;G1Policy::calculate_young_list_target_length;[libjvm.so];PhaseIFG::effective_degree 240000
+Thread-28;java.lang.String java.io.ObjectInputStream$BlockDataInputStream.readUTFBody 40000
+Thread-28;java.lang.String java.io.ObjectInputStream$BlockDataInputStream.readUTFBody;asm_exc_page_fault;exc_page_fault;find_vma 40000
+Thread-28;void java.io.ObjectStreamClass.readNonProxy 40000
+dconf_worker;entry_SYSCALL_64_after_hwframe;do_syscall_64;syscall_exit_to_user_mode;exit_to_user_mode_prepare;exit_to_user_mode_loop;arch_do_signal_or_restart;get_signal;do_group_exit;do_exit;exit_mm;mmput;exit_mmap;unmap_vmas;unmap_single_vma;unmap_page_range;zap_pmd_range.isra.0;zap_pte_range;tlb_flush_mmu;free_pages_and_swap_cache;release_pages 40000
+dconf_worker;entry_SYSCALL_64_after_hwframe;do_syscall_64;syscall_exit_to_user_mode;exit_to_user_mode_prepare;exit_to_user_mode_loop;arch_do_signal_or_restart;get_signal;do_group_exit;do_exit;exit_mm;mmput;exit_mmap;unmap_vmas;unmap_single_vma;unmap_page_range;zap_pmd_range.isra.0;zap_pte_range;tlb_flush_mmu;free_pages_and_swap_cache;release_pages;__lock_text_start 120000
+dconf_worker;entry_SYSCALL_64_after_hwframe;do_syscall_64;syscall_exit_to_user_mode;exit_to_user_mode_prepare;exit_to_user_mode_loop;arch_do_signal_or_restart;get_signal;do_group_exit;do_exit;exit_mm;mmput;exit_mmap;unmap_vmas;unmap_single_vma;unmap_page_range;zap_pmd_range.isra.0;zap_pte_range;tlb_flush_mmu;free_pages_and_swap_cache;release_pages;__mem_cgroup_uncharge_list;rcu_read_unlock_strict 40000
+dconf_worker;entry_SYSCALL_64_after_hwframe;do_syscall_64;syscall_exit_to_user_mode;exit_to_user_mode_prepare;exit_to_user_mode_loop;arch_do_signal_or_restart;get_signal;do_group_exit;do_exit;exit_mm;mmput;exit_mmap;unmap_vmas;unmap_single_vma;unmap_page_range;zap_pmd_range.isra.0;zap_pte_range;tlb_flush_mmu;free_pages_and_swap_cache;release_pages;__mem_cgroup_uncharge_list;rcu_read_unlock_strict;asm_sysvec_apic_timer_interrupt;sysvec_apic_timer_interrupt;irq_exit_rcu;__softirqentry_text_start;run_timer_softirq;__run_timers.part.0;call_timer_fn;vbg_heartbeat_timer;vbg_req_perform 40000
+dconf_worker;entry_SYSCALL_64_after_hwframe;do_syscall_64;syscall_exit_to_user_mode;exit_to_user_mode_prepare;exit_to_user_mode_loop;arch_do_signal_or_restart;get_signal;do_group_exit;do_exit;exit_mm;mmput;exit_mmap;unmap_vmas;unmap_single_vma;unmap_page_range;zap_pmd_range.isra.0;zap_pte_range;tlb_flush_mmu;free_pages_and_swap_cache;release_pages;__mem_cgroup_uncharge_list;uncharge_page 40000
+dconf_worker;entry_SYSCALL_64_after_hwframe;do_syscall_64;syscall_exit_to_user_mode;exit_to_user_mode_prepare;exit_to_user_mode_loop;arch_do_signal_or_restart;get_signal;do_group_exit;do_exit;exit_mm;mmput;exit_mmap;unmap_vmas;unmap_single_vma;unmap_page_range;zap_pmd_range.isra.0;zap_pte_range;tlb_flush_mmu;free_pages_and_swap_cache;release_pages;free_unref_page_list 320000
+dconf_worker;entry_SYSCALL_64_after_hwframe;do_syscall_64;syscall_exit_to_user_mode;exit_to_user_mode_prepare;exit_to_user_mode_loop;arch_do_signal_or_restart;get_signal;do_group_exit;do_exit;exit_mm;mmput;exit_mmap;unmap_vmas;unmap_single_vma;unmap_page_range;zap_pmd_range.isra.0;zap_pte_range;tlb_flush_mmu;free_swap_cache 160000
+gdbus;[libgio-2.0.so.0.7200.1];[unknown];[libgio-2.0.so.0.7200.1] 40000
+gdbus;[libglib-2.0.so.0.7200.1] 80000
+gdbus;[libglib-2.0.so.0.7200.1];asm_sysvec_apic_timer_interrupt;sysvec_apic_timer_interrupt;irq_exit_rcu;__softirqentry_text_start 80000
+gdbus;[libgobject-2.0.so.0.7200.1] 80000
+gdbus;[unknown];[libglib-2.0.so.0.7200.1] 40000
+gdbus;[unknown];[libglib-2.0.so.0.7200.1];__strncat_ssse3 40000
+gdbus;[unknown];[unknown];[unknown];[libgio-2.0.so.0.7200.1] 80000
+gdbus;[unknown];[unknown];[unknown];g_main_context_default 120000
+gdbus;[unknown];[unknown];[unknown];g_socket_receive_message;__res_context_send;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_recvmsg;__sys_recvmsg;___sys_recvmsg;____sys_recvmsg;sock_recvmsg;unix_stream_recvmsg;unix_stream_read_generic 80000
+gdbus;[unknown];[unknown];[unknown];g_socket_receive_message;__res_context_send;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_recvmsg;__sys_recvmsg;___sys_recvmsg;____sys_recvmsg;sock_recvmsg;unix_stream_recvmsg;unix_stream_read_generic;consume_skb;skb_release_data;kfree 40000
+gdbus;[unknown];[unknown];[unknown];g_source_get_context 40000
+gdbus;[unknown];[unknown];[unknown];g_type_check_instance_is_fundamentally_a 40000
+gdbus;[unknown];____wcstold_l_internal 40000
+gdbus;[unknown];g_main_context_check 40000
+gdbus;[unknown];g_mutex_lock 40000
+gdbus;[unknown];g_pointer_bit_unlock 80000
+gdbus;[unknown];g_socket_send_message;__res_context_send;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_sendmsg;__sys_sendmsg;___sys_sendmsg;____sys_sendmsg;sock_sendmsg;unix_stream_sendmsg;sock_alloc_send_pskb 40000
+gdbus;[unknown];g_socket_send_message;__res_context_send;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_sendmsg;__sys_sendmsg;___sys_sendmsg;____sys_sendmsg;sock_sendmsg;unix_stream_sendmsg;sock_def_readable;__wake_up_sync_key;__wake_up_common_lock;__lock_text_start 40000
+gdbus;[unknown];g_variant_get_type 40000
+gdbus;[unknown];g_variant_ref_sink 80000
+gdbus;[unknown];g_variant_type_free 40000
+gdbus;[unknown];g_variant_type_is_variant 40000
+gdbus;[unknown];rcmd_af 40000
+gdbus;[unknown];rcmd_af;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_write;ksys_write;vfs_write;eventfd_write 200000
+gdbus;____wcstod_l_internal 40000
+gdbus;____wcstof_l_internal 40000
+gdbus;__netlink_request;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_poll;do_sys_poll;do_poll.constprop.0 40000
+gdbus;g_bit_lock 80000
+gdbus;g_hash_table_lookup 40000
+gdbus;g_mutex_lock 240000
+gdbus;g_mutex_unlock 40000
+gdbus;g_slice_alloc 40000
+gnome-shell;[libmozjs-91.so.91.7.0] 40000
+gnome-shell;[unknown];[libgjs.so.0.0.0] 80000
+gnome-shell;[unknown];[libgjs.so.0.0.0];[libgjs.so.0.0.0];[libffi.so.8.1.0] 40000
+gnome-shell;[unknown];[libgobject-2.0.so.0.7200.1] 40000
+gnome-shell;[unknown];[libmozjs-91.so.91.7.0] 80000
+gnome-shell;[unknown];[libmozjs-91.so.91.7.0];[libmozjs-91.so.91.7.0] 80000
+gnome-shell;[unknown];[libmozjs-91.so.91.7.0];[perf-1594.map];[perf-1594.map] 80000
+gnome-shell;[unknown];[unknown];[libmozjs-91.so.91.7.0] 80000
+gnome-shell;_dl_sysdep_start 160000
+gnome-shell;g_type_check_instance_is_fundamentally_a 40000
+ibus-engine-sim;[unknown];[libglib-2.0.so.0.7200.1];__strncat_ssse3 40000
+ibus-engine-sim;[unknown];g_mutex_lock 40000
+ibus-engine-sim;[unknown];g_variant_type_is_subtype_of 40000
+ibus-extension-;[libglib-2.0.so.0.7200.1] 40000
+ibus-extension-;[unknown];[unknown];[unknown];[libgio-2.0.so.0.7200.1] 40000
+ibus-extension-;[unknown];[unknown];[unknown];g_type_check_instance_cast 40000
+ibus-extension-;[unknown];rcmd_af;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_write;ksys_write;vfs_write;_copy_from_user 40000
+ibus-extension-;____wcstof_l_internal 40000
+ibus-extension-;g_hash_table_lookup 40000
+perf;__vstrfmon_l_internal;main;run_builtin;cmd_record;record__mmap_read_evlist.constprop.0;record__write.constprop.0;rcmd_af;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_write;ksys_write;vfs_write;__fsnotify_parent;fsnotify;send_to_group;fsnotify_handle_inode_event.isra.0;inotify_handle_inode_event;fsnotify_destroy_event;inotify_free_event;kfree 280000
+swapper;secondary_startup_64_no_verify;start_secondary;cpu_startup_entry;do_idle;cpuidle_idle_call;default_idle_call;arch_cpu_idle;native_safe_halt 520000

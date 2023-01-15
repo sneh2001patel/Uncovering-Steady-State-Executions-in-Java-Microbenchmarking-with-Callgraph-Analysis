@@ -1,0 +1,18 @@
+gnome-shell;[unknown];[libmozjs-91.so.91.7.0] 80000
+gnome-shell;[unknown];[libmozjs-91.so.91.7.0];[perf-1594.map];[unknown];[perf-1594.map];[unknown];[perf-1594.map];[unknown];[perf-1594.map];[unknown];[perf-1594.map];[unknown];[perf-1594.map];[perf-1594.map] 80000
+gnome-shell;[unknown];[libmozjs-91.so.91.7.0];asm_sysvec_apic_timer_interrupt;sysvec_apic_timer_interrupt;irq_exit_rcu;__softirqentry_text_start 80000
+gnome-shell;[unknown];[libmozjs-91.so.91.7.0];asm_sysvec_apic_timer_interrupt;sysvec_apic_timer_interrupt;irqentry_exit;irqentry_exit_to_user_mode;exit_to_user_mode_prepare;exit_to_user_mode_loop;schedule;__schedule;finish_task_switch.isra.0 80000
+gnome-shell;[unknown];[unknown];[libmozjs-91.so.91.7.0] 80000
+gnome-shell;[unknown];[unknown];[libmozjs-91.so.91.7.0];[libgjs.so.0.0.0] 40000
+nautilus;[libc.so.6] 40000
+nautilus;[unknown];[libgobject-2.0.so.0.7200.1] 80000
+nautilus;[unknown];[libgobject-2.0.so.0.7200.1];asm_sysvec_apic_timer_interrupt;sysvec_apic_timer_interrupt;irq_exit_rcu;__softirqentry_text_start;run_timer_softirq;__run_timers.part.0;call_timer_fn;vbg_heartbeat_timer;vbg_req_perform 40000
+nautilus;[unknown];[libpango-1.0.so.0.5000.6] 40000
+nautilus;[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[libgtk-3.so.0.2404.29] 40000
+nautilus;[unknown];[unknown];[unknown];g_type_check_instance_is_fundamentally_a 120000
+nautilus;[unknown];[unknown];[unknown];gdk_x11_window_get_type 80000
+nautilus;[unknown];[unknown];[unknown];gtk_target_list_find 40000
+nautilus;[unknown];g_rw_lock_reader_unlock 40000
+nautilus;g_slice_alloc 80000
+org.sample.MyBe;__strncat_ssse3;SystemDictionary::find_method_handle_type;[libjvm.so];[libjvm.so];MacroAssembler::fast_md5;LibraryCallKit::inline_string_copy;LibraryCallKit::inline_fp_conversions;StubRoutines ;Interpreter;Interpreter;_new_array_Java;ErrorContext::stackmap_details;[libjvm.so];ShenandoahSATBMarkQueueSet::ShenandoahSATBMarkQueueSet;[libc.so.6] 600000
+swapper;secondary_startup_64_no_verify;start_secondary;cpu_startup_entry;do_idle;cpuidle_idle_call;default_idle_call;arch_cpu_idle;native_safe_halt 2680000

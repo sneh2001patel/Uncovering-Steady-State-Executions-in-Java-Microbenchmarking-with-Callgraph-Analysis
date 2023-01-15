@@ -1,0 +1,8 @@
+llvmpipe-0;[unknown];__strncat_ssse3;[kms_swrast_dri.so] 40000
+llvmpipe-0;[unknown];__strncat_ssse3;[kms_swrast_dri.so];[perf-1594.map] 480000
+llvmpipe-0;[unknown];__strncat_ssse3;[perf-1594.map] 40000
+llvmpipe-3;[unknown];[unknown];[kms_swrast_dri.so];[perf-1594.map] 280000
+llvmpipe-3;[unknown];__strncpy_sse2_unaligned 120000
+llvmpipe-6;[unknown];[kms_swrast_dri.so];[perf-1594.map] 80000
+llvmpipe-6;[unknown];[unknown];[kms_swrast_dri.so];[perf-1594.map] 360000
+swapper;secondary_startup_64_no_verify;start_secondary;cpu_startup_entry;do_idle;cpuidle_idle_call;default_idle_call;arch_cpu_idle;native_safe_halt 1600000

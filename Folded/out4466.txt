@@ -1,0 +1,9 @@
+Thread-19;[unknown];[unknown];void java.io.PrintStream.write;void java.io.FileOutputStream.writeBytes;jexpm1;[libjava.so];rcmd_af;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_write;ksys_write;vfs_write;new_sync_write;ext4_file_write_iter;ext4_buffered_write_iter;generic_perform_write;ext4_da_write_end;generic_write_end;__mark_inode_dirty;ext4_dirty_inode;__ext4_mark_inode_dirty;ext4_mark_iloc_dirty;ext4_do_update_inode.isra.0;__ext4_handle_dirty_metadata;jbd2_journal_dirty_metadata 40000
+Thread-19;int java.net.Socket$SocketInputStream.read;int sun.nio.ch.SocketDispatcher.read0;rcmd_af;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_read;ksys_read;vfs_read;sock_read_iter 40000
+nautilus;[unknown];[libgobject-2.0.so.0.7200.1] 40000
+nautilus;[unknown];[unknown];[unknown];[unknown];g_sequence_get_begin_iter 40000
+nautilus;____wcstof_l_internal 40000
+nautilus;g_hash_table_lookup 40000
+org.sample.MyBe;__strcat_ssse3;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_futex;do_futex;futex_wake;wake_up_q;try_to_wake_up;__lock_text_start 40000
+swapper;secondary_startup_64_no_verify;start_secondary;cpu_startup_entry;do_idle;cpuidle_idle_call;default_idle_call;arch_cpu_idle;native_safe_halt 1160000
+swapper;secondary_startup_64_no_verify;start_secondary;cpu_startup_entry;do_idle;cpuidle_idle_call;default_idle_call;arch_cpu_idle;native_safe_halt;asm_sysvec_apic_timer_interrupt;sysvec_apic_timer_interrupt;irq_exit_rcu;__softirqentry_text_start 40000

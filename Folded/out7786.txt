@@ -1,0 +1,43 @@
+Thread-28;[unknown];void java.io.ObjectInputStream.filterCheck 40000
+Thread-28;[unknown];void java.io.ObjectStreamClass.readNonProxy;asm_exc_page_fault;exc_page_fault;do_user_addr_fault 80000
+Thread-28;[unknown];void java.io.ObjectStreamClass.readNonProxy;java.lang.String java.lang.String.intern;MacroAssembler::sha256_AVX2_four_rounds_compute_last;[libjvm.so];[libjvm.so];OopOopIterateDispatch<VerifyRemSetClosure>::Table::oop_oop_iterate<InstanceMirrorKlass, oopDesc*> 80000
+Thread-28;[unknown];void java.util.ArrayList.readObject 40000
+Thread-28;java.io.ObjectStreamClass java.io.ObjectInputStream.readClassDesc;asm_exc_page_fault;exc_page_fault;do_user_addr_fault;handle_mm_fault;__handle_mm_fault;handle_pte_fault;do_anonymous_page;__mem_cgroup_charge;charge_memcg 40000
+Thread-28;java.lang.Class java.io.ObjectInputStream.resolveClass;java.lang.Class java.lang.Class.forName0;JNU_CopyObjectArray;LinearScan::compute_oop_map 80000
+Thread-28;java.lang.Class java.io.ObjectInputStream.resolveClass;java.lang.Class java.lang.Class.forName0;JNU_CopyObjectArray;PhaseMacroExpand::generate_arraycopy 40000
+Thread-28;java.lang.Class java.io.ObjectInputStream.resolveClass;java.lang.Class java.lang.Class.forName0;JNU_CopyObjectArray;PhaseMacroExpand::generate_arraycopy;GenerateOopMap::jump_targets_do 40000
+Thread-28;java.lang.Class java.io.ObjectInputStream.resolveClass;java.lang.Class java.lang.Class.forName0;JNU_IsInstanceOfByName;MacroAssembler::sha256_AVX2;[libjvm.so];[libc.so.6] 80000
+Thread-28;java.lang.Class java.io.ObjectInputStream.resolveClass;java.lang.ClassLoader jdk.internal.misc.VM.latestUserDefinedLoader0;MacroAssembler::fast_sha256 120000
+Thread-28;void java.io.ObjectStreamClass.initNonProxy 40000
+VM_Periodic_Tas;[unknown];__GI___strncasecmp_l_sse2;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_futex;do_futex;futex_wait;futex_wait_queue_me;schedule;__schedule;finish_task_switch.isra.0 80000
+gdbus;[libgio-2.0.so.0.7200.1] 80000
+gdbus;[unknown];[libgio-2.0.so.0.7200.1] 120000
+gdbus;[unknown];[libglib-2.0.so.0.7200.1] 120000
+gdbus;[unknown];[libgobject-2.0.so.0.7200.1] 80000
+gdbus;[unknown];[unknown];[unknown];g_object_new;g_type_fundamental 40000
+gdbus;[unknown];[unknown];[unknown];g_socket_receive_message;__res_context_send;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_recvmsg;__sys_recvmsg;____sys_recvmsg 40000
+gdbus;[unknown];__netlink_request;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_poll;do_sys_poll;do_poll.constprop.0 120000
+gdbus;[unknown];__netlink_request;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_poll;do_sys_poll;do_poll.constprop.0;__fdget;__fget_light;__fget_files 40000
+gdbus;[unknown];__netlink_request;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_poll;do_sys_poll;do_poll.constprop.0;__fget_light 80000
+gdbus;[unknown];__vstrfmon_l_internal 40000
+gdbus;[unknown];g_socket_send_message;__res_context_send;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_sendmsg;__sys_sendmsg;___sys_sendmsg;____sys_sendmsg;sock_sendmsg;sock_def_readable 40000
+gdbus;[unknown];g_variant_iter_next_value 120000
+gdbus;[unknown];rcmd_af;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_write;ksys_write;vfs_write;eventfd_write 40000
+gdbus;[unknown];rcmd_af;entry_SYSCALL_64_after_hwframe;do_syscall_64;syscall_exit_to_user_mode;exit_to_user_mode_prepare;exit_to_user_mode_loop;__rseq_handle_notify_resume;rseq_ip_fixup;__get_user_8 40000
+gdbus;____wcstold_l_internal 40000
+gdbus;__netlink_request;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_poll;do_sys_poll;do_poll.constprop.0;sock_poll 40000
+gdbus;g_hash_table_lookup 80000
+gnome-shell;[unknown];[libmozjs-91.so.91.7.0] 120000
+gnome-shell;[unknown];[libmozjs-91.so.91.7.0];[libmozjs-91.so.91.7.0] 80000
+gnome-shell;[unknown];[libmozjs-91.so.91.7.0];[perf-1594.map];[unknown];[perf-1594.map];[perf-1594.map] 120000
+gnome-shell;[unknown];[unknown];[libmozjs-91.so.91.7.0] 200000
+gnome-shell;_nss_dns_gethostbyaddr2_r;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_mprotect;do_mprotect_pkey;find_vma 40000
+gnome-shell;_nss_dns_gethostbyaddr2_r;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_mprotect;do_mprotect_pkey;mprotect_fixup;change_protection;change_protection_range;flush_tlb_mm_range;native_flush_tlb_multi;on_each_cpu_cond_mask;smp_call_function_many_cond;send_call_function_single_ipi;native_send_call_func_single_ipi;native_write_msr 80000
+gnome-shell;_nss_dns_gethostbyaddr2_r;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_mprotect;do_mprotect_pkey;mprotect_fixup;perf_event_mmap;arch_vma_name 40000
+ibus-engine-sim;[unknown];[unknown];[unknown];g_signal_emit;g_signal_emit_valist 40000
+ibus-extension-;[unknown];__netlink_request;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_poll;do_sys_poll;do_poll.constprop.0;schedule_hrtimeout_range;schedule_hrtimeout_range_clock;schedule;__schedule;finish_task_switch.isra.0 40000
+ibus-extension-;[unknown];__netlink_request;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_poll;do_sys_poll;do_poll.constprop.0;sock_poll;unix_poll 80000
+java;[unknown];__GI___strncasecmp_l_sse2;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_futex;do_futex;futex_wait;futex_wait_queue_me;schedule;__schedule;finish_task_switch.isra.0 40000
+perf;__vstrfmon_l_internal;main;run_builtin;cmd_record;record__mmap_read_evlist.constprop.0;perf_mmap__push;record__pushfn;rcmd_af;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_write;ksys_write;vfs_write;new_sync_write;ext4_file_write_iter;ext4_buffered_write_iter;generic_perform_write;ext4_da_write_begin;grab_cache_page_write_begin;pagecache_get_page;add_to_page_cache_lru;__add_to_page_cache_locked;__mem_cgroup_charge;charge_memcg;try_charge_memcg;refill_stock 280000
+perf;__vstrfmon_l_internal;main;run_builtin;cmd_record;record__mmap_read_evlist.constprop.0;record__write.constprop.0;rcmd_af;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_write;ksys_write;vfs_write;__fsnotify_parent;fsnotify;send_to_group;fsnotify_handle_inode_event.isra.0;inotify_handle_inode_event;fsnotify_destroy_event;inotify_free_event;kfree 40000
+swapper;secondary_startup_64_no_verify;start_secondary;cpu_startup_entry;do_idle;cpuidle_idle_call;default_idle_call;arch_cpu_idle;native_safe_halt 880000

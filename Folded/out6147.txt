@@ -1,0 +1,26 @@
+Thread-25;[unknown];[unknown];void java.io.PrintStream.write;void java.io.FileOutputStream.writeBytes;jexpm1;[libjava.so];rcmd_af;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_write;ksys_write;vfs_write;__fsnotify_parent;fsnotify;send_to_group;fsnotify_handle_inode_event.isra.0;inotify_handle_inode_event;fsnotify_add_event;__wake_up;__wake_up_common_lock;__lock_text_start 40000
+Thread-25;boolean org.openjdk.jmh.runner.link.BinaryLinkServer$Handler.handleOutputFormat 120000
+Thread-25;java.lang.Object java.io.ObjectInputStream.readHandle 40000
+Thread-25;java.lang.Object java.io.ObjectInputStream.readHandle;asm_sysvec_apic_timer_interrupt;sysvec_apic_timer_interrupt;irq_exit_rcu;__softirqentry_text_start 40000
+Thread-25;java.lang.Object jdk.internal.reflect.GeneratedSerializationConstructorAccessor31.newInstance 160000
+gnome-shell;[kms_swrast_dri.so] 120000
+gnome-shell;[libc.so.6] 120000
+gnome-shell;[libmutter-cogl-10.so.0.0.0] 40000
+gnome-shell;[unknown];[kms_swrast_dri.so] 80000
+gnome-shell;[unknown];[kms_swrast_dri.so];[unknown];[kms_swrast_dri.so] 40000
+gnome-shell;[unknown];[perf-1594.map] 40000
+gnome-shell;[unknown];[unknown];[kms_swrast_dri.so] 120000
+gnome-shell;[unknown];[unknown];[unknown];[kms_swrast_dri.so] 40000
+gnome-shell;[unknown];[unknown];[unknown];[libmutter-cogl-10.so.0.0.0] 80000
+gnome-shell;[unknown];glBindSampler 40000
+java;__strcat_ssse3;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_futex;do_futex;futex_wake;wake_up_q;try_to_wake_up;__lock_text_start 40000
+java;__strncat_ssse3;inflate_file.part.0;JLI_Launch;MacroAssembler::cmp_narrow_klass;MacroAssembler::check_klass_subtype_fast_path;LibraryCallKit::inline_fp_conversions;StubRoutines ;Interpreter;Interpreter;Interpreter;Interpreter;Interpreter;Interpreter;Interpreter;Interpreter;Interpreter;Interpreter 40000
+java;__strncat_ssse3;inflate_file.part.0;JLI_Launch;MacroAssembler::cmp_narrow_klass;MacroAssembler::check_klass_subtype_fast_path;LibraryCallKit::inline_fp_conversions;StubRoutines ;Interpreter;Interpreter;Interpreter;Interpreter;Interpreter;Interpreter;Interpreter;Interpreter;Interpreter;Interpreter;void java.util.concurrent.locks.AbstractQueuedSynchronizer.signalNext;Interpreter;__strcat_ssse3 40000
+java;int java.io.ObjectOutputStream$HandleTable.lookup 40000
+org.sample.MyBe;__strncat_ssse3;SystemDictionary::find_method_handle_type;[libjvm.so];[libjvm.so];MacroAssembler::fast_md5;LibraryCallKit::inline_string_copy;LibraryCallKit::inline_fp_conversions;StubRoutines ;Interpreter;Interpreter;Interpreter;Interpreter 40000
+org.sample.MyBe;__strncat_ssse3;SystemDictionary::find_method_handle_type;[libjvm.so];[libjvm.so];MacroAssembler::fast_md5;LibraryCallKit::inline_string_copy;LibraryCallKit::inline_fp_conversions;StubRoutines ;Interpreter;Interpreter;Interpreter;Interpreter;Interpreter;Interpreter;Interpreter;Interpreter;Interpreter;Interpreter 40000
+org.sample.MyBe;__strncat_ssse3;SystemDictionary::find_method_handle_type;[libjvm.so];[libjvm.so];MacroAssembler::fast_md5;LibraryCallKit::inline_string_copy;LibraryCallKit::inline_fp_conversions;StubRoutines ;Interpreter;Interpreter;Interpreter;Interpreter;Interpreter;Interpreter;Interpreter;Interpreter;Interpreter;Interpreter;Interpreter;Interpreter;Interpreter 40000
+org.sample.MyBe;__strncat_ssse3;SystemDictionary::find_method_handle_type;[libjvm.so];[libjvm.so];MacroAssembler::fast_md5;LibraryCallKit::inline_string_copy;LibraryCallKit::inline_fp_conversions;StubRoutines ;Interpreter;Interpreter;Interpreter;Interpreter;Interpreter;Interpreter;Interpreter;Interpreter;Interpreter;Interpreter;Interpreter;Interpreter;Interpreter;boolean java.util.concurrent.locks.AbstractQueuedSynchronizer.releaseShared 40000
+org.sample.MyBe;__strncat_ssse3;SystemDictionary::find_method_handle_type;[libjvm.so];[libjvm.so];MacroAssembler::fast_md5;LibraryCallKit::inline_string_copy;LibraryCallKit::inline_fp_conversions;StubRoutines ;Interpreter;Interpreter;Interpreter;Interpreter;Interpreter;Interpreter;Interpreter;Interpreter;java.lang.Class java.lang.Object.getClass 160000
+rcu_sched;ret_from_fork;kthread;rcu_gp_kthread;rcu_gp_fqs_loop;force_qs_rnp;rcu_all_qs 80000
+swapper;secondary_startup_64_no_verify;start_secondary;cpu_startup_entry;do_idle;cpuidle_idle_call;default_idle_call;arch_cpu_idle;native_safe_halt 2640000

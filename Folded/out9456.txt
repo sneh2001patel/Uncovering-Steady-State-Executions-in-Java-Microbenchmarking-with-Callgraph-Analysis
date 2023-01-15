@@ -1,0 +1,9 @@
+Thread-34;java.io.ObjectStreamClass java.io.ObjectInputStream.readClassDesc;asm_exc_page_fault;exc_page_fault;do_user_addr_fault;handle_mm_fault;__handle_mm_fault;handle_pte_fault;__cgroup_throttle_swaprate 40000
+Thread-34;void java.io.ObjectInputStream.readSerialData 40000
+java;__strncat_ssse3;inflate_file.part.0;JLI_Launch;MacroAssembler::cmp_narrow_klass;MacroAssembler::check_klass_subtype_fast_path;LibraryCallKit::inline_fp_conversions;StubRoutines ;Interpreter;Interpreter;Interpreter;Interpreter;Interpreter;Interpreter 40000
+java;__strncat_ssse3;inflate_file.part.0;JLI_Launch;MacroAssembler::cmp_narrow_klass;MacroAssembler::check_klass_subtype_fast_path;LibraryCallKit::inline_fp_conversions;StubRoutines ;Interpreter;Interpreter;Interpreter;Interpreter;Interpreter;Interpreter;Interpreter;Interpreter;Interpreter;Interpreter;Interpreter;void jdk.internal.misc.Unsafe.park;[libjvm.so] 40000
+java;void java.io.ObjectOutputStream.writeObject0 40000
+nautilus;[unknown];[unknown];[unknown];[unknown];g_weak_ref_get 40000
+nautilus;[unknown];__strncpy_sse2_unaligned 40000
+swapper;secondary_startup_64_no_verify;start_secondary;cpu_startup_entry;do_idle;cpuidle_idle_call;default_idle_call;arch_cpu_idle;native_safe_halt 440000
+swapper;secondary_startup_64_no_verify;x86_64_start_kernel;x86_64_start_reservations;start_kernel;arch_call_rest_init;rest_init;cpu_startup_entry;do_idle;cpuidle_idle_call;default_idle_call;arch_cpu_idle;native_safe_halt 80000

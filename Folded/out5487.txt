@@ -1,0 +1,22 @@
+Thread-22;[unknown];[unknown];void java.io.PrintStream.write;void java.io.FileOutputStream.writeBytes;jexpm1;[libjava.so];MacroAssembler::cmpsd2int 40000
+Thread-22;[unknown];[unknown];void java.io.PrintStream.write;void java.io.FileOutputStream.writeBytes;jexpm1;[libjava.so];rcmd_af;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_write;ksys_write;vfs_write;__fsnotify_parent;fsnotify;send_to_group;fsnotify_handle_inode_event.isra.0;inotify_handle_inode_event;__kmalloc;obj_cgroup_charge;obj_cgroup_charge_pages;try_charge_memcg;page_counter_try_charge;propagate_protected_usage 40000
+Thread-22;int java.net.Socket$SocketInputStream.read;int sun.nio.ch.SocketDispatcher.read0;rcmd_af;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_read;ksys_read;__fdget_pos;__fget_light;__fget_files 80000
+Thread-22;void java.util.Formatter$FormatSpecifier.print 40000
+java;[unknown];__strcat_ssse3 40000
+java;__strncat_ssse3;inflate_file.part.0;JLI_Launch;MacroAssembler::cmp_narrow_klass;MacroAssembler::check_klass_subtype_fast_path;LibraryCallKit::inline_fp_conversions;StubRoutines ;Interpreter;Interpreter;Interpreter;Interpreter;Interpreter;I2C/C2I adapters 40000
+swapper;secondary_startup_64_no_verify;start_secondary;cpu_startup_entry;do_idle;cpuidle_idle_call;default_idle_call;arch_cpu_idle;native_safe_halt 4200000
+systemd-oomd;[unknown];[unknown];____wcstof_l_internal 40000
+systemd-oomd;[unknown];[unknown];__wcscoll_l 40000
+systemd-oomd;[unknown];__validuser2_sa;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_newfstatat;__do_sys_newfstatat;vfs_statx;security_inode_getattr;common_perm_cond 40000
+systemd-oomd;[unknown];__wcsxfrm_l 40000
+systemd-oomd;[unknown];rcmd_af;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_openat;do_sys_openat2;do_filp_open;path_openat;do_open;vfs_open;do_dentry_open;kernfs_fop_open 40000
+systemd-oomd;[unknown];rcmd_af;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_openat;do_sys_openat2;do_filp_open;path_openat;link_path_walk.part.0.constprop.0;walk_component;lookup_fast;kernfs_dop_revalidate 40000
+systemd-oomd;[unknown];rcmd_af;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_openat;do_sys_openat2;do_filp_open;path_openat;open_last_lookups;lookup_fast;kernfs_dop_revalidate 40000
+systemd-oomd;[unknown];rcmd_af;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_read;ksys_read;vfs_read;new_sync_read;kernfs_fop_read_iter;seq_read_iter;kernfs_seq_show;cgroup_seqfile_show;memory_min_show;seq_printf;vsnprintf;number 40000
+systemd-oomd;[unknown];rcmd_af;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_read;ksys_read;vfs_read;new_sync_read;proc_reg_read_iter;seq_read_iter;kvmalloc_node;__kmalloc_node;memcg_slab_post_alloc_hook;mod_objcg_state;arch_local_irq_enable 40000
+systemd-oomd;[unknown];rcmd_af;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_read;ksys_read;vfs_read;rw_verify_area;security_file_permission;apparmor_file_permission;aa_file_perm 40000
+systemd-oomd;[unknown];rcmd_af;entry_SYSCALL_64_after_hwframe;do_syscall_64;syscall_enter_from_user_mode;syscall_trace_enter.constprop.0;__secure_computing;__seccomp_filter;id 240000
+systemd-oomd;[unknown];rcmd_af;entry_SYSCALL_64_after_hwframe;do_syscall_64;syscall_enter_from_user_mode;syscall_trace_enter.constprop.0;__secure_computing;__seccomp_filter;slave_active_lock 40000
+systemd-oomd;getifaddrs_internal;entry_SYSCALL_64_after_hwframe;do_syscall_64;syscall_exit_to_user_mode;exit_to_user_mode_prepare;exit_to_user_mode_loop;task_work_run;____fput;__fput;kernfs_fop_release;cgroup_file_release 80000
+systemd-oomd;getifaddrs_internal;entry_SYSCALL_64_after_hwframe;do_syscall_64;syscall_exit_to_user_mode;exit_to_user_mode_prepare;exit_to_user_mode_loop;task_work_run;____fput;kernfs_fop_release 40000
+systemd-oomd;read_line_full 120000

@@ -1,0 +1,1 @@
+C1_CompilerThre;__strncat_ssse3;SystemDictionary::find_method_handle_type;[libjvm.so];[libjvm.so];java_lang_String::char_converter;print_stack_element_to_stream;GenCollectedHeap::print_heap_change;GraphKit::merge_memory;GraphKit::merge_memory 40000

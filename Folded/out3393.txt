@@ -1,0 +1,5 @@
+VM_Thread;[unknown];__GI___strncasecmp_l_sse2;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_futex;do_futex;futex_wait;futex_wait_queue_me;schedule;__schedule;finish_task_switch.isra.0 80000
+VM_Thread;__strncat_ssse3;SystemDictionary::find_method_handle_type;[libjvm.so];[libjvm.so];[libjvm.so];[libjvm.so];[libjvm.so];JVMCIGlobals::check_jvmci_flags_are_consistent;JavaArgumentUnboxer::do_type;c2v_registerNativeMethods;[libjvm.so];[libjvm.so];SystemDictionary::link_method_handle_constant 40000
+VM_Thread;send_vc;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_clone3;__do_sys_clone3;kernel_clone;wake_up_new_task;__lock_text_start 80000
+swapper;secondary_startup_64_no_verify;start_secondary;cpu_startup_entry;do_idle;cpuidle_idle_call;default_idle_call;arch_cpu_idle;native_safe_halt 1920000
+swapper;secondary_startup_64_no_verify;x86_64_start_kernel;x86_64_start_reservations;start_kernel;arch_call_rest_init;rest_init;cpu_startup_entry;do_idle;cpuidle_idle_call;default_idle_call;arch_cpu_idle;native_safe_halt 320000

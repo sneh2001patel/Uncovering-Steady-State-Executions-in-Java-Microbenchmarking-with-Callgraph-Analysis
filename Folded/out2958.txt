@@ -1,0 +1,13 @@
+gnome-shell;[unknown];[unknown];[unknown];[unknown];clutter_frame_clock_schedule_update 40000
+gnome-shell;[unknown];[unknown];[unknown];cairo_region_copy 80000
+gnome-terminal-;[libgtk-3.so.0.2404.29] 80000
+gnome-terminal-;[unknown];[libcairo.so.2.11600.0] 80000
+gnome-terminal-;[unknown];[libgtk-3.so.0.2404.29] 80000
+gnome-terminal-;[unknown];[libgtk-3.so.0.2404.29];[libvte-2.91.so.0.6800.0];[libvte-2.91.so.0.6800.0] 40000
+gnome-terminal-;[unknown];[libgtk-3.so.0.2404.29];[unknown];[libgtk-3.so.0.2404.29] 80000
+gnome-terminal-;[unknown];[libgtk-3.so.0.2404.29];[unknown];[unknown];[libgtk-3.so.0.2404.29] 40000
+gnome-terminal-;[unknown];[unknown];[unknown];[libgtk-3.so.0.2404.29] 40000
+gnome-terminal-;[unknown];[unknown];[unknown];[unknown];[libglib-2.0.so.0.7200.1] 40000
+gnome-terminal-;[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[libgtk-3.so.0.2404.29] 40000
+swapper;secondary_startup_64_no_verify;start_secondary;cpu_startup_entry;do_idle;cpuidle_idle_call;default_idle_call;arch_cpu_idle;native_safe_halt 1000000
+swapper;secondary_startup_64_no_verify;start_secondary;cpu_startup_entry;do_idle;cpuidle_idle_call;default_idle_call;arch_cpu_idle;native_safe_halt;asm_sysvec_apic_timer_interrupt;sysvec_apic_timer_interrupt;irq_exit_rcu;__softirqentry_text_start;run_timer_softirq;__run_timers.part.0;call_timer_fn;vbg_heartbeat_timer;vbg_req_perform 40000

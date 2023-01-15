@@ -1,0 +1,37 @@
+Thread-16;[unknown];[unknown];void java.io.FileOutputStream.writeBytes 80000
+Thread-16;[unknown];[unknown];void java.io.PrintStream.write;void java.io.FileOutputStream.writeBytes;jexpm1;[libjava.so];rcmd_af;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_write;ksys_write;vfs_write;new_sync_write;ext4_file_write_iter;ext4_buffered_write_iter;generic_perform_write;ext4_da_write_begin;wait_for_stable_page 120000
+Thread-16;int java.net.Socket$SocketInputStream.read;int sun.nio.ch.SocketDispatcher.read0 40000
+Thread-16;int java.net.Socket$SocketInputStream.read;int sun.nio.ch.SocketDispatcher.read0;rcmd_af;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_read;ksys_read;vfs_read 80000
+Thread-16;int java.net.Socket$SocketInputStream.read;int sun.nio.ch.SocketDispatcher.read0;rcmd_af;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_read;ksys_read;vfs_read;new_sync_read;sock_read_iter;sock_recvmsg;inet6_recvmsg;tcp_recvmsg;tcp_recvmsg_locked;tcp_cleanup_rbuf;tcp_send_ack;__tcp_send_ack.part.0;__tcp_transmit_skb;ip_queue_xmit;__ip_queue_xmit;ip_local_out;ip_output;ip_finish_output;__ip_finish_output;ip_finish_output2;__local_bh_enable_ip;do_softirq;__softirqentry_text_start;net_rx_action;__napi_poll;process_backlog;__netif_receive_skb;__netif_receive_skb_one_core;ip_rcv;ip_local_deliver;ip_local_deliver_finish;ip_protocol_deliver_rcu 80000
+Thread-16;vtable chunks 40000
+gnome-shell;[libmozjs-91.so.91.7.0] 120000
+gnome-shell;[unknown];[libc.so.6] 40000
+gnome-shell;[unknown];[libgjs.so.0.0.0];____wcstof_l_internal 120000
+gnome-shell;[unknown];[libinput.so.10.13.0] 40000
+gnome-shell;[unknown];[libmozjs-91.so.91.7.0];[perf-1594.map];[perf-1594.map] 80000
+gnome-shell;[unknown];[libmozjs-91.so.91.7.0];[perf-1594.map];[unknown];[perf-1594.map];[unknown];[perf-1594.map];[perf-1594.map] 40000
+gnome-shell;[unknown];[libmozjs-91.so.91.7.0];[perf-1594.map];[unknown];[perf-1594.map];[unknown];[perf-1594.map];[unknown];[perf-1594.map];[libmozjs-91.so.91.7.0] 80000
+gnome-shell;[unknown];[unknown];[libmozjs-91.so.91.7.0] 400000
+gnome-shell;[unknown];[unknown];__dynamic_cast 40000
+gnome-shell;[unknown];g_private_get 40000
+gnome-shell;[unknown];g_registered_type_info_get_type_init 280000
+gnome-shell;[unknown];rcmd_af;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_write;ksys_write;vfs_write 40000
+gnome-shell;g_hash_table_lookup 40000
+gnome-shell;g_quark_to_string 40000
+gnome-shell;memcmp 40000
+gnome-shell;std::ios_base::_M_call_callbacks 40000
+java;__strncat_ssse3;inflate_file.part.0;JLI_Launch;MacroAssembler::cmp_narrow_klass;MacroAssembler::check_klass_subtype_fast_path;LibraryCallKit::inline_fp_conversions;StubRoutines ;Interpreter;Interpreter;Interpreter;Interpreter;Interpreter;java.lang.Object java.util.concurrent.LinkedBlockingQueue.poll 120000
+java;void java.io.ObjectOutputStream.writeObject0 120000
+org.sample.MyBe;[unknown];void java.io.ObjectOutputStream.writeObject0;JNU_GetStringPlatformChars 40000
+org.sample.MyBe;__strcat_ssse3;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_futex;do_futex;futex_wake;wake_up_q;try_to_wake_up;__lock_text_start 40000
+org.sample.MyBe;__strncat_ssse3;SystemDictionary::find_method_handle_type;[libjvm.so];[libjvm.so];MacroAssembler::fast_md5;LibraryCallKit::inline_string_copy;LibraryCallKit::inline_fp_conversions;StubRoutines ;Interpreter;Interpreter;int java.nio.CharBuffer.arrayOffset 80000
+org.sample.MyBe;__strncat_ssse3;SystemDictionary::find_method_handle_type;[libjvm.so];[libjvm.so];MacroAssembler::fast_md5;LibraryCallKit::inline_string_copy;LibraryCallKit::inline_fp_conversions;StubRoutines ;Interpreter;Interpreter;int sun.nio.ch.NioSocketImpl.tryWrite;int sun.nio.ch.FileDispatcherImpl.write0;rcmd_af;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_write;ksys_write;vfs_write;new_sync_write;sock_write_iter;sock_sendmsg;inet6_sendmsg;tcp_sendmsg;tcp_sendmsg_locked;tcp_push;__tcp_push_pending_frames;tcp_write_xmit;__tcp_transmit_skb 80000
+org.sample.MyBe;__strncat_ssse3;SystemDictionary::find_method_handle_type;[libjvm.so];[libjvm.so];MacroAssembler::fast_md5;LibraryCallKit::inline_string_copy;LibraryCallKit::inline_fp_conversions;StubRoutines ;Interpreter;Interpreter;int sun.nio.ch.NioSocketImpl.tryWrite;int sun.nio.ch.FileDispatcherImpl.write0;rcmd_af;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_write;ksys_write;vfs_write;new_sync_write;sock_write_iter;sock_sendmsg;inet6_sendmsg;tcp_sendmsg;tcp_sendmsg_locked;tcp_push;__tcp_push_pending_frames;tcp_write_xmit;__tcp_transmit_skb;ip_queue_xmit;__ip_queue_xmit;ip_local_out;ip_output;ip_finish_output;__ip_finish_output;ip_finish_output2;__local_bh_enable_ip;do_softirq;__softirqentry_text_start;net_rx_action;__napi_poll;process_backlog;__netif_receive_skb;__netif_receive_skb_one_core;ip_rcv;ip_local_deliver;ip_local_deliver_finish;ip_protocol_deliver_rcu;tcp_v4_rcv;tcp_filter;__cgroup_bpf_run_filter_skb 80000
+org.sample.MyBe;__strncat_ssse3;SystemDictionary::find_method_handle_type;[libjvm.so];[libjvm.so];MacroAssembler::fast_md5;LibraryCallKit::inline_string_copy;LibraryCallKit::inline_fp_conversions;StubRoutines ;Interpreter;Interpreter;int[] org.sample.MyBenchmark.getArray 440000
+org.sample.MyBe;__strncat_ssse3;SystemDictionary::find_method_handle_type;[libjvm.so];[libjvm.so];MacroAssembler::fast_md5;LibraryCallKit::inline_string_copy;LibraryCallKit::inline_fp_conversions;StubRoutines ;Interpreter;Interpreter;void java.io.BufferedOutputStream.flush 80000
+org.sample.MyBe;__strncat_ssse3;SystemDictionary::find_method_handle_type;[libjvm.so];[libjvm.so];MacroAssembler::fast_md5;LibraryCallKit::inline_string_copy;LibraryCallKit::inline_fp_conversions;StubRoutines ;Interpreter;Interpreter;void java.util.concurrent.FutureTask.run 40000
+org.sample.MyBe;__strncat_ssse3;SystemDictionary::find_method_handle_type;[libjvm.so];[libjvm.so];MacroAssembler::fast_md5;LibraryCallKit::inline_string_copy;LibraryCallKit::inline_fp_conversions;StubRoutines ;Interpreter;Interpreter;void org.apache.logging.log4j.core.time.MutableInstant.initFromEpochMilli 80000
+org.sample.MyBe;void org.apache.logging.log4j.core.pattern.MessagePatternConverter.format 40000
+swapper;secondary_startup_64_no_verify;start_secondary;cpu_startup_entry;do_idle;cpuidle_idle_call;default_idle_call;arch_cpu_idle;native_safe_halt 6440000
+swapper;secondary_startup_64_no_verify;start_secondary;cpu_startup_entry;do_idle;cpuidle_idle_call;default_idle_call;arch_cpu_idle;native_safe_halt;asm_sysvec_apic_timer_interrupt;sysvec_apic_timer_interrupt;irq_exit_rcu;__softirqentry_text_start;run_timer_softirq;__run_timers.part.0;call_timer_fn;vbg_heartbeat_timer;vbg_req_perform 80000
+swapper;secondary_startup_64_no_verify;start_secondary;cpu_startup_entry;do_idle;tick_nohz_idle_exit 40000

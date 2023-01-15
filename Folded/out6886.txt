@@ -1,0 +1,17 @@
+gedit;[unknown];[unknown];[libglib-2.0.so.0.7200.1] 40000
+gedit;[unknown];[unknown];[unknown];[libglib-2.0.so.0.7200.1] 40000
+gedit;[unknown];[unknown];[unknown];g_signal_emit;g_object_ref 40000
+gedit;[unknown];__res_context_send;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_sendmsg;__sys_sendmsg;___sys_sendmsg;____sys_sendmsg;sock_sendmsg;unix_stream_sendmsg;sock_alloc_send_pskb;alloc_skb_with_frags;__alloc_skb;should_failslab 80000
+gedit;g_slice_alloc 80000
+gedit;gdk_window_coords_to_parent 40000
+gnome-shell;[libgudev-1.0.so.0.3.0];[unknown];[libglib-2.0.so.0.7200.1] 40000
+gnome-shell;[unknown];[libmutter-10.so.0.0.0] 40000
+gnome-shell;[unknown];[unknown];[unknown];[libmutter-clutter-10.so.0.0.0] 160000
+gnome-shell;[unknown];[unknown];[unknown];clutter_backend_get_type 120000
+gnome-shell;[unknown];[unknown];[unknown];g_signal_emit;g_signal_emit_valist 40000
+gnome-shell;[unknown];__res_context_send;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_sendmsg;__sys_sendmsg;___sys_sendmsg;____sys_sendmsg;sock_sendmsg;unix_stream_sendmsg;sock_def_readable;__wake_up_sync_key;__wake_up_common_lock;__lock_text_start 40000
+gnome-shell;[unknown];cogl_graphene_matrix_transform_points 40000
+gnome-shell;____wcstof_l_internal 80000
+org.sample.MyBe;__strncat_ssse3;SystemDictionary::find_method_handle_type;[libjvm.so];[libjvm.so];MacroAssembler::fast_md5;LibraryCallKit::inline_string_copy;LibraryCallKit::inline_fp_conversions;StubRoutines ;Interpreter;Interpreter;_new_array_Java;ErrorContext::stackmap_details;[libjvm.so];ShenandoahSATBMarkQueueSet::ShenandoahSATBMarkQueueSet;[libc.so.6] 520000
+swapper;secondary_startup_64_no_verify;start_secondary;cpu_startup_entry;do_idle;cpuidle_idle_call;default_idle_call;arch_cpu_idle;native_safe_halt 2480000
+swapper;secondary_startup_64_no_verify;start_secondary;cpu_startup_entry;do_idle;schedule_idle;__schedule;finish_task_switch.isra.0 80000

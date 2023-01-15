@@ -1,0 +1,10 @@
+gedit;[unknown];[unknown];[unknown];__res_context_send;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_recvmsg;__sys_recvmsg;___sys_recvmsg;____sys_recvmsg;sock_recvmsg;unix_stream_recvmsg;unix_stream_read_generic;unix_stream_read_actor;skb_copy_datagram_iter;__skb_datagram_iter;simple_copy_to_iter;__check_object_size;__check_object_size.part.0 40000
+gedit;[unknown];[unknown];[unknown];cairo_region_contains_point 40000
+gnome-shell;[unknown];[unknown];[unknown];clutter_get_default_backend 40000
+gnome-shell;[unknown];[unknown];g_slice_free1 40000
+gnome-shell;[unknown];g_io_channel_get_buffer_condition 80000
+gnome-shell;____wcstof_l_internal 40000
+java;__strncat_ssse3;inflate_file.part.0;JLI_Launch;MacroAssembler::cmp_narrow_klass;MacroAssembler::check_klass_subtype_fast_path;LibraryCallKit::inline_fp_conversions;StubRoutines ;Interpreter;Interpreter;Interpreter;Interpreter;Interpreter;Interpreter;Interpreter 120000
+java;__strncat_ssse3;inflate_file.part.0;JLI_Launch;MacroAssembler::cmp_narrow_klass;MacroAssembler::check_klass_subtype_fast_path;LibraryCallKit::inline_fp_conversions;StubRoutines ;Interpreter;Interpreter;Interpreter;Interpreter;Interpreter;Interpreter;Interpreter;Interpreter;java.lang.Object java.lang.ClassValue.get 80000
+swapper;secondary_startup_64_no_verify;start_secondary;cpu_startup_entry;do_idle;cpuidle_idle_call;default_idle_call;arch_cpu_idle;native_safe_halt 1400000
+swapper;secondary_startup_64_no_verify;x86_64_start_kernel;x86_64_start_reservations;start_kernel;arch_call_rest_init;rest_init;cpu_startup_entry;do_idle;cpuidle_idle_call;default_idle_call;arch_cpu_idle;native_safe_halt 120000

@@ -1,0 +1,20 @@
+gnome-shell;[libmutter-10.so.0.0.0] 40000
+gnome-shell;[unknown];[libatspi.so.0.0.1];[unknown];[libglib-2.0.so.0.7200.1] 40000
+gnome-shell;[unknown];[unknown];[unknown];[libmutter-10.so.0.0.0] 40000
+gnome-shell;[unknown];[unknown];[unknown];clutter_backend_get_default_seat 120000
+gnome-shell;[unknown];[unknown];[unknown];clutter_input_device_get_device_mode 40000
+gnome-shell;[unknown];__netlink_request;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_poll;do_poll.constprop.0 40000
+gnome-shell;[unknown];__netlink_request;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_poll;do_sys_poll;do_poll.constprop.0 40000
+gnome-shell;[unknown];__res_context_send;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_sendmsg;__sys_sendmsg;___sys_sendmsg;import_iovec 40000
+gnome-shell;[unknown];_dbus_message_loader_get_is_corrupted 40000
+gnome-shell;[unknown];clutter_event_get_position 40000
+gnome-shell;[unknown];g_closure_unref 40000
+gnome-shell;[unknown];g_io_channel_get_buffer_condition 80000
+gnome-shell;[unknown];g_main_context_dispatch 40000
+gnome-shell;[unknown];rcmd_af;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_write;ksys_write;vfs_write;eventfd_write 40000
+gnome-shell;g_hash_table_iter_next 80000
+org.sample.MyBe;__strncat_ssse3;SystemDictionary::find_method_handle_type;[libjvm.so];[libjvm.so];MacroAssembler::fast_md5;LibraryCallKit::inline_string_copy;LibraryCallKit::inline_fp_conversions;StubRoutines ;Interpreter;Interpreter;int[] org.sample.MyBenchmark.getArray 960000
+swapper;secondary_startup_64_no_verify;start_secondary;cpu_startup_entry;do_idle;cpuidle_idle_call;default_idle_call;arch_cpu_idle;native_safe_halt 4000000
+swapper;secondary_startup_64_no_verify;start_secondary;cpu_startup_entry;do_idle;cpuidle_idle_call;default_idle_call;arch_cpu_idle;native_safe_halt;asm_sysvec_apic_timer_interrupt;sysvec_apic_timer_interrupt;irq_exit_rcu;__softirqentry_text_start 40000
+swapper;secondary_startup_64_no_verify;start_secondary;cpu_startup_entry;do_idle;cpuidle_idle_call;default_idle_call;arch_cpu_idle;native_safe_halt;asm_sysvec_apic_timer_interrupt;sysvec_apic_timer_interrupt;irq_exit_rcu;__softirqentry_text_start;run_timer_softirq;__run_timers.part.0;call_timer_fn;vbg_heartbeat_timer;vbg_req_perform 40000
+swapper;secondary_startup_64_no_verify;x86_64_start_kernel;x86_64_start_reservations;start_kernel;arch_call_rest_init;rest_init;cpu_startup_entry;do_idle;cpuidle_idle_call;default_idle_call;arch_cpu_idle;native_safe_halt 240000

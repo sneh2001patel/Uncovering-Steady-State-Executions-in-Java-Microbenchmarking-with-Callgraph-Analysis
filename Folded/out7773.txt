@@ -1,0 +1,175 @@
+Thread-28;[unknown];[unknown];void java.io.PrintStream.write;void java.io.FileOutputStream.writeBytes;jexpm1;[libjava.so];rcmd_af;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_write;ksys_write;vfs_write;__fsnotify_parent;fsnotify;send_to_group;fsnotify_handle_inode_event.isra.0;inotify_handle_inode_event;__kmalloc;obj_cgroup_charge;obj_cgroup_charge_pages;try_charge_memcg;refill_stock 240000
+Thread-28;int java.net.Socket$SocketInputStream.read;int sun.nio.ch.SocketDispatcher.read0;rcmd_af;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_read;ksys_read;vfs_read;new_sync_read;sock_read_iter;sock_recvmsg 40000
+Thread-28;int java.net.Socket$SocketInputStream.read;int sun.nio.ch.SocketDispatcher.read0;rcmd_af;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_read;ksys_read;vfs_read;new_sync_read;sock_read_iter;sock_recvmsg;inet6_recvmsg;tcp_recvmsg;tcp_recvmsg_locked;sk_wait_data;_raw_spin_lock_bh;__pv_queued_spin_lock_slowpath 40000
+VM_Periodic_Tas;[unknown];__GI___strncasecmp_l_sse2;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_futex;do_futex;futex_wait;futex_wait_queue_me;schedule;__schedule;finish_task_switch.isra.0 120000
+dbus-daemon;[unknown];[libdbus-1.so.3.19.13];__res_context_send;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_sendmsg;__sys_sendmsg;___sys_sendmsg;____sys_sendmsg;sock_sendmsg;unix_stream_sendmsg;sock_def_readable;__wake_up_sync_key;__wake_up_common_lock;__lock_text_start 80000
+dbus-daemon;[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[dbus-daemon] 40000
+dbus-daemon;[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];__res_context_search;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_epoll_wait;do_epoll_wait;ep_poll;schedule_hrtimeout_range;schedule_hrtimeout_range_clock;schedule;__schedule;finish_task_switch.isra.0 40000
+dbus-daemon;[unknown];__strncpy_sse2_unaligned 40000
+dbus-daemon;[unknown];_dbus_list_find_last 40000
+dbus-daemon;[unknown];dbus_connection_get_outgoing_size 40000
+dbus-daemon;_dbus_hash_table_lookup_int 40000
+dconf_worker 40000
+dconf_worker;[unknown];__netlink_request;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_poll;do_sys_poll;do_poll.constprop.0 240000
+dconf_worker;[unknown];__netlink_request;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_poll;do_sys_poll;do_poll.constprop.0;schedule_hrtimeout_range;schedule_hrtimeout_range_clock;schedule;__schedule;finish_task_switch.isra.0;asm_sysvec_apic_timer_interrupt;sysvec_apic_timer_interrupt;irq_exit_rcu;__softirqentry_text_start 40000
+gdbus 40000
+gdbus;[libgio-2.0.so.0.7200.1];[unknown];[libglib-2.0.so.0.7200.1] 40000
+gdbus;[unknown];[libglib-2.0.so.0.7200.1] 40000
+gdbus;[unknown];[unknown];[unknown];[libgio-2.0.so.0.7200.1] 120000
+gdbus;[unknown];[unknown];[unknown];g_socket_receive_message;__res_context_send;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_recvmsg;__sys_recvmsg;___sys_recvmsg;____sys_recvmsg;sock_recvmsg;unix_stream_recvmsg;unix_stream_read_generic;consume_skb;skb_release_data;skb_free_head;kfree;memcg_slab_free_hook 40000
+gdbus;[unknown];[unknown];g_atomic_ref_count_dec 40000
+gdbus;[unknown];[unknown];g_main_context_prepare 80000
+gdbus;[unknown];_nss_dns_gethostbyaddr2_r;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_futex;do_futex;futex_wake;wake_up_q;try_to_wake_up;__lock_text_start 40000
+gdbus;[unknown];g_atomic_ref_count_dec 40000
+gdbus;[unknown];g_pointer_bit_unlock 40000
+gdbus;[unknown];g_socket_send_message;__res_context_send;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_sendmsg;__sys_sendmsg;___sys_sendmsg;____sys_sendmsg;sock_sendmsg;unix_stream_sendmsg;skb_copy_datagram_from_iter;__check_object_size;__check_object_size.part.0;__virt_addr_valid 40000
+gdbus;[unknown];g_socket_send_message;__res_context_send;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_sendmsg;__sys_sendmsg;___sys_sendmsg;____sys_sendmsg;sock_sendmsg;unix_stream_sendmsg;sock_def_readable;__wake_up_sync_key;__wake_up_common_lock;__lock_text_start 40000
+gdbus;[unknown];g_socket_send_message;g_socket_send_message_with_timeout 40000
+gdbus;[unknown];rcmd_af;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_write;ksys_write;vfs_write;eventfd_write 40000
+gdbus;[unknown];round_and_return 40000
+gdbus;g_bit_lock 120000
+gedit;[libgdk-3.so.0.2404.29] 40000
+gedit;[libglib-2.0.so.0.7200.1] 160000
+gedit;[libgobject-2.0.so.0.7200.1] 40000
+gedit;[libgtk-3.so.0.2404.29] 280000
+gedit;[libgtk-3.so.0.2404.29];[unknown];g_slice_free1 40000
+gedit;[libgtk-3.so.0.2404.29];g_datalist_id_set_data_full 40000
+gedit;[libpango-1.0.so.0.5000.6] 80000
+gedit;[unknown];[libc.so.6] 40000
+gedit;[unknown];[libcairo.so.2.11600.0] 80000
+gedit;[unknown];[libcairo.so.2.11600.0];asm_sysvec_apic_timer_interrupt;sysvec_apic_timer_interrupt;irq_exit_rcu;__softirqentry_text_start 80000
+gedit;[unknown];[libfilebrowser.so] 40000
+gedit;[unknown];[libglib-2.0.so.0.7200.1] 80000
+gedit;[unknown];[libgobject-2.0.so.0.7200.1] 280000
+gedit;[unknown];[libgtk-3.so.0.2404.29] 200000
+gedit;[unknown];[libgtk-3.so.0.2404.29];[unknown];[libgtk-3.so.0.2404.29] 160000
+gedit;[unknown];[libharfbuzz.so.0.20704.0] 40000
+gedit;[unknown];[unknown];[libgobject-2.0.so.0.7200.1] 40000
+gedit;[unknown];[unknown];[unknown];[libc.so.6] 80000
+gedit;[unknown];[unknown];[unknown];[libcairo.so.2.11600.0] 40000
+gedit;[unknown];[unknown];[unknown];[libgdk-3.so.0.2404.29] 40000
+gedit;[unknown];[unknown];[unknown];[libgtk-3.so.0.2404.29] 440000
+gedit;[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[libgtk-3.so.0.2404.29] 40000
+gedit;[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[libglib-2.0.so.0.7200.1] 40000
+gedit;[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];g_list_free_full 40000
+gedit;[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];g_slice_free1 40000
+gedit;[unknown];[unknown];[unknown];[unknown];____wcstof_l_internal 40000
+gedit;[unknown];[unknown];[unknown];____wcstold_l_internal 40000
+gedit;[unknown];[unknown];[unknown];g_mutex_lock 40000
+gedit;[unknown];[unknown];[unknown];g_object_ref 40000
+gedit;[unknown];[unknown];[unknown];g_object_unref 80000
+gedit;[unknown];[unknown];[unknown];g_param_spec_get_name_quark 160000
+gedit;[unknown];[unknown];[unknown];g_signal_emit;[libgobject-2.0.so.0.7200.1] 40000
+gedit;[unknown];[unknown];[unknown];g_signal_emit;g_object_ref 120000
+gedit;[unknown];[unknown];[unknown];g_signal_emit;g_signal_emit_valist 40000
+gedit;[unknown];[unknown];[unknown];g_type_check_instance_is_fundamentally_a 240000
+gedit;[unknown];[unknown];[unknown];g_type_interface_peek 40000
+gedit;[unknown];[unknown];[unknown];g_variant_iter_next 40000
+gedit;[unknown];[unknown];[unknown];gdk_device_get_seat 40000
+gedit;[unknown];[unknown];[unknown];gdk_display_manager_get 40000
+gedit;[unknown];[unknown];[unknown];gedit_window_activatable_deactivate 40000
+gedit;[unknown];[unknown];[unknown];gtk_container_remove 80000
+gedit;[unknown];[unknown];[unknown];gtk_entry_set_icon_tooltip_markup 40000
+gedit;[unknown];[unknown];[unknown];gtk_gesture_ungroup 80000
+gedit;[unknown];[unknown];[unknown];gtk_style_context_get_state 80000
+gedit;[unknown];[unknown];__strftime_internal 40000
+gedit;[unknown];[unknown];g_atomic_ref_count_dec 40000
+gedit;[unknown];[unknown];g_direct_hash 80000
+gedit;[unknown];[unknown];g_mutex_unlock 40000
+gedit;[unknown];[unknown];g_object_ref 80000
+gedit;[unknown];[unknown];g_pointer_bit_unlock 40000
+gedit;[unknown];[unknown];g_signal_emit;g_signal_emit_valist 80000
+gedit;[unknown];[unknown];g_signal_handlers_destroy 40000
+gedit;[unknown];[unknown];pango_font_description_free 40000
+gedit;[unknown];__GI___strncasecmp_l_sse2;entry_SYSCALL_64_after_hwframe;__x64_sys_futex 40000
+gedit;[unknown];__strftime_internal 40000
+gedit;[unknown];g_atomic_ref_count_dec 40000
+gedit;[unknown];g_closure_unref 80000
+gedit;[unknown];g_datalist_id_dup_data 40000
+gedit;[unknown];g_mutex_lock 40000
+gedit;[unknown];g_mutex_unlock 40000
+gedit;[unknown];g_param_spec_pool_lookup 40000
+gedit;[unknown];g_pointer_bit_unlock 240000
+gedit;[unknown];g_string_new 80000
+gedit;[unknown];g_type_class_peek 80000
+gedit;[unknown];g_type_parent 80000
+gedit;[unknown];g_variant_type_is_subtype_of 80000
+gedit;[unknown];rcmd_af;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_write;ksys_write;vfs_write;eventfd_write 40000
+gedit;[unknown];round_and_return 40000
+gedit;____wcstod_l_internal 200000
+gedit;____wcstof_l_internal 80000
+gedit;g_cclosure_marshal_VOID__STRING 40000
+gedit;g_cclosure_marshal_VOID__STRING;asm_sysvec_apic_timer_interrupt;sysvec_apic_timer_interrupt;irq_exit_rcu;__softirqentry_text_start 40000
+gedit;g_cclosure_marshal_VOID__VOID;g_closure_ref 40000
+gedit;g_cclosure_marshal_VOID__VOID;g_closure_ref;asm_sysvec_apic_timer_interrupt;sysvec_apic_timer_interrupt;irq_exit_rcu;__softirqentry_text_start 40000
+gedit;g_closure_invoke 320000
+gedit;g_hash_table_lookup 360000
+gedit;g_mutex_unlock 80000
+gedit;g_pointer_bit_lock 240000
+gedit;g_signal_emit;_nss_dns_gethostbyaddr2_r;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_futex;do_futex;futex_wake 40000
+gedit;g_signal_emit;g_mutex_lock 40000
+gedit;g_signal_emit;g_signal_emit_valist 80000
+gedit;g_slice_alloc 80000
+gedit;g_type_check_instance_is_fundamentally_a 40000
+gedit;g_type_create_instance 40000
+gedit;gtk_style_context_set_parent 80000
+kworker/0:1-eve;ret_from_fork;kthread;worker_thread;process_one_work;vmstat_shepherd;queue_delayed_work_on 80000
+kworker/0:1-eve;ret_from_fork;kthread;worker_thread;process_one_work;vmstat_update;refresh_cpu_vm_stats;_find_next_bit 40000
+kworker/1:1-mm_;ret_from_fork;kthread;worker_thread;schedule;__schedule;finish_task_switch.isra.0 40000
+org.sample.MyBe;__strcat_ssse3;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_futex;do_futex;futex_wake;wake_up_q;try_to_wake_up;__lock_text_start 80000
+org.sample.MyBe;__strncat_ssse3;SystemDictionary::find_method_handle_type;[libjvm.so];[libjvm.so];MacroAssembler::fast_md5;LibraryCallKit::inline_string_copy;LibraryCallKit::inline_fp_conversions;StubRoutines ;Interpreter;Interpreter;void java.util.concurrent.FutureTask.run;Interpreter 80000
+org.sample.MyBe;__strncat_ssse3;SystemDictionary::find_method_handle_type;[libjvm.so];[libjvm.so];MacroAssembler::fast_md5;LibraryCallKit::inline_string_copy;LibraryCallKit::inline_fp_conversions;StubRoutines ;Interpreter;Interpreter;void java.util.concurrent.FutureTask.run;void java.util.concurrent.FutureTask.run;Interpreter;org.openjdk.jmh.results.BenchmarkTaskResult org.sample.jmh_generated.MyBenchmark_testMethod_jmhTest.testMethod_SingleShotTime;Interpreter;Interpreter 160000
+org.sample.MyBe;__strncat_ssse3;SystemDictionary::find_method_handle_type;[libjvm.so];[libjvm.so];MacroAssembler::fast_md5;LibraryCallKit::inline_string_copy;LibraryCallKit::inline_fp_conversions;StubRoutines ;Interpreter;Interpreter;void java.util.concurrent.FutureTask.run;void java.util.concurrent.FutureTask.run;Interpreter;org.openjdk.jmh.results.BenchmarkTaskResult org.sample.jmh_generated.MyBenchmark_testMethod_jmhTest.testMethod_SingleShotTime;Interpreter;_new_array_Java;ErrorContext::stackmap_details;[libjvm.so];ShenandoahSATBMarkQueueSet::ShenandoahSATBMarkQueueSet;[libc.so.6] 1320000
+org.sample.MyBe;__strncat_ssse3;SystemDictionary::find_method_handle_type;[libjvm.so];[libjvm.so];MacroAssembler::fast_md5;LibraryCallKit::inline_string_copy;LibraryCallKit::inline_fp_conversions;StubRoutines ;Interpreter;Interpreter;void java.util.concurrent.FutureTask.run;void java.util.concurrent.FutureTask.run;Interpreter;org.openjdk.jmh.results.BenchmarkTaskResult org.sample.jmh_generated.MyBenchmark_testMethod_jmhTest.testMethod_SingleShotTime;Interpreter;_new_array_Java;ErrorContext::stackmap_details;[libjvm.so];ShenandoahSATBMarkQueueSet::ShenandoahSATBMarkQueueSet;[libc.so.6];asm_sysvec_apic_timer_interrupt;sysvec_apic_timer_interrupt;irq_exit_rcu;__softirqentry_text_start 40000
+org.sample.MyBe;__strncat_ssse3;SystemDictionary::find_method_handle_type;[libjvm.so];[libjvm.so];MacroAssembler::fast_md5;LibraryCallKit::inline_string_copy;LibraryCallKit::inline_fp_conversions;StubRoutines ;Interpreter;Interpreter;void java.util.concurrent.FutureTask.run;void java.util.concurrent.FutureTask.run;Interpreter;org.openjdk.jmh.results.BenchmarkTaskResult org.sample.jmh_generated.MyBenchmark_testMethod_jmhTest.testMethod_SingleShotTime;Interpreter;_new_array_Java;ErrorContext::stackmap_details;[libjvm.so];ShenandoahSATBMarkQueueSet::filter;c2v_translate;c2v_asReflectionExecutable;c2v_asReflectionExecutable;InstanceKlass::initialize_impl;ShenandoahRuntime::load_reference_barrier_weak_narrow 40000
+org.sample.MyBe;__strncat_ssse3;SystemDictionary::find_method_handle_type;[libjvm.so];[libjvm.so];MacroAssembler::fast_md5;LibraryCallKit::inline_string_copy;LibraryCallKit::inline_fp_conversions;StubRoutines ;Interpreter;Interpreter;void java.util.concurrent.FutureTask.run;void java.util.concurrent.FutureTask.run;Interpreter;org.openjdk.jmh.results.BenchmarkTaskResult org.sample.jmh_generated.MyBenchmark_testMethod_jmhTest.testMethod_SingleShotTime;Interpreter;_new_array_Java;ErrorContext::stackmap_details;[libjvm.so];ShenandoahSATBMode::initialize_heuristics;PhaseIdealLoop::add_range_check_predicate 80000
+org.sample.MyBe;__strncat_ssse3;SystemDictionary::find_method_handle_type;[libjvm.so];[libjvm.so];MacroAssembler::fast_md5;LibraryCallKit::inline_string_copy;LibraryCallKit::inline_fp_conversions;StubRoutines ;Interpreter;Interpreter;void java.util.concurrent.FutureTask.run;void java.util.concurrent.FutureTask.run;Interpreter;org.openjdk.jmh.results.BenchmarkTaskResult org.sample.jmh_generated.MyBenchmark_testMethod_jmhTest.testMethod_SingleShotTime;Interpreter;int sun.nio.ch.NioSocketImpl.tryWrite;int sun.nio.ch.FileDispatcherImpl.write0;rcmd_af;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_write;ksys_write;vfs_write;new_sync_write;sock_write_iter;sock_sendmsg;inet6_sendmsg;tcp_sendmsg;tcp_sendmsg_locked;tcp_push;__tcp_push_pending_frames;tcp_write_xmit;__tcp_transmit_skb;ip_queue_xmit;__ip_queue_xmit;ip_local_out;ip_output;ip_finish_output;__ip_finish_output;ip_finish_output2;__local_bh_enable_ip;do_softirq;__softirqentry_text_start;net_rx_action;__napi_poll;process_backlog;__netif_receive_skb;__netif_receive_skb_one_core;ip_rcv;ip_local_deliver;ip_local_deliver_finish;ip_protocol_deliver_rcu;tcp_v4_rcv 120000
+org.sample.MyBe;__strncat_ssse3;SystemDictionary::find_method_handle_type;[libjvm.so];[libjvm.so];MacroAssembler::fast_md5;LibraryCallKit::inline_string_copy;LibraryCallKit::inline_fp_conversions;StubRoutines ;Interpreter;Interpreter;void java.util.concurrent.FutureTask.run;void java.util.concurrent.FutureTask.run;Interpreter;org.openjdk.jmh.results.BenchmarkTaskResult org.sample.jmh_generated.MyBenchmark_testMethod_jmhTest.testMethod_SingleShotTime;Interpreter;int sun.nio.ch.NioSocketImpl.tryWrite;int sun.nio.ch.FileDispatcherImpl.write0;rcmd_af;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_write;ksys_write;vfs_write;new_sync_write;sock_write_iter;sock_sendmsg;inet6_sendmsg;tcp_sendmsg;tcp_sendmsg_locked;tcp_push;__tcp_push_pending_frames;tcp_write_xmit;__tcp_transmit_skb;ip_queue_xmit;__ip_queue_xmit;ip_local_out;ip_output;ip_finish_output;__ip_finish_output;ip_finish_output2;__local_bh_enable_ip;do_softirq;__softirqentry_text_start;net_rx_action;__napi_poll;process_backlog;__netif_receive_skb;__netif_receive_skb_one_core;ip_rcv;ip_local_deliver;ip_local_deliver_finish;ip_protocol_deliver_rcu;tcp_v4_rcv;tcp_v4_do_rcv;tcp_rcv_established;tcp_data_ready;sock_def_readable;__wake_up_sync_key;__wake_up_common_lock;__lock_text_start 40000
+org.sample.MyBe;__strncat_ssse3;SystemDictionary::find_method_handle_type;[libjvm.so];[libjvm.so];MacroAssembler::fast_md5;LibraryCallKit::inline_string_copy;LibraryCallKit::inline_fp_conversions;StubRoutines ;Interpreter;Interpreter;void java.util.concurrent.FutureTask.run;void java.util.concurrent.FutureTask.run;Interpreter;org.openjdk.jmh.results.BenchmarkTaskResult org.sample.jmh_generated.MyBenchmark_testMethod_jmhTest.testMethod_SingleShotTime;Interpreter;int[] org.sample.MyBenchmark.getArray 1320000
+org.sample.MyBe;__strncat_ssse3;SystemDictionary::find_method_handle_type;[libjvm.so];[libjvm.so];MacroAssembler::fast_md5;LibraryCallKit::inline_string_copy;LibraryCallKit::inline_fp_conversions;StubRoutines ;Interpreter;Interpreter;void java.util.concurrent.FutureTask.run;void java.util.concurrent.FutureTask.run;Interpreter;org.openjdk.jmh.results.BenchmarkTaskResult org.sample.jmh_generated.MyBenchmark_testMethod_jmhTest.testMethod_SingleShotTime;Interpreter;int[] org.sample.MyBenchmark.getArray;asm_sysvec_apic_timer_interrupt;sysvec_apic_timer_interrupt;irq_exit_rcu;__softirqentry_text_start 80000
+org.sample.MyBe;__strncat_ssse3;SystemDictionary::find_method_handle_type;[libjvm.so];[libjvm.so];MacroAssembler::fast_md5;LibraryCallKit::inline_string_copy;LibraryCallKit::inline_fp_conversions;StubRoutines ;Interpreter;Interpreter;void java.util.concurrent.FutureTask.run;void java.util.concurrent.FutureTask.run;Interpreter;org.openjdk.jmh.results.BenchmarkTaskResult org.sample.jmh_generated.MyBenchmark_testMethod_jmhTest.testMethod_SingleShotTime;Interpreter;java.nio.Buffer java.nio.Buffer.limit;counter_overflow Runtime1 stub;G1PeriodicGCTask::should_start_periodic_gc;OopOopIterateDispatch<VerifyFieldClosure>::Table::oop_oop_iterate<InstanceRefKlass, oopDesc*>;AccessInternal::PostRuntimeDispatch<ZBarrierSet::AccessBarrier<282694ul, ZBarrierSet>, ;InstanceKlass::print_on 320000
+org.sample.MyBe;__strncat_ssse3;SystemDictionary::find_method_handle_type;[libjvm.so];[libjvm.so];MacroAssembler::fast_md5;LibraryCallKit::inline_string_copy;LibraryCallKit::inline_fp_conversions;StubRoutines ;Interpreter;Interpreter;void java.util.concurrent.FutureTask.run;void java.util.concurrent.FutureTask.run;Interpreter;org.openjdk.jmh.results.BenchmarkTaskResult org.sample.jmh_generated.MyBenchmark_testMethod_jmhTest.testMethod_SingleShotTime;Interpreter;void java.lang.ThreadLocal$ThreadLocalMap.set 80000
+org.sample.MyBe;__strncat_ssse3;SystemDictionary::find_method_handle_type;[libjvm.so];[libjvm.so];MacroAssembler::fast_md5;LibraryCallKit::inline_string_copy;LibraryCallKit::inline_fp_conversions;StubRoutines ;Interpreter;Interpreter;void java.util.concurrent.FutureTask.run;void java.util.concurrent.FutureTask.run;Interpreter;void org.openjdk.jmh.results.SingleShotResult.<init> 80000
+perf;__vstrfmon_l_internal;main;run_builtin;cmd_record;__netlink_request;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_poll;do_sys_poll;do_poll.constprop.0;perf_poll 40000
+perf;__vstrfmon_l_internal;main;run_builtin;cmd_record;__netlink_request;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_poll;do_sys_poll;do_poll.constprop.0;perf_poll;__pollwait;add_wait_queue;__lock_text_start 40000
+perf;__vstrfmon_l_internal;main;run_builtin;cmd_record;record__mmap_read_evlist.constprop.0;perf_mmap__push 40000
+perf;__vstrfmon_l_internal;main;run_builtin;cmd_record;record__mmap_read_evlist.constprop.0;perf_mmap__push;perf_mmap__read_head 40000
+perf;__vstrfmon_l_internal;main;run_builtin;cmd_record;record__mmap_read_evlist.constprop.0;perf_mmap__push;record__pushfn 40000
+perf;__vstrfmon_l_internal;main;run_builtin;cmd_record;record__mmap_read_evlist.constprop.0;perf_mmap__push;record__pushfn;rcmd_af 120000
+perf;__vstrfmon_l_internal;main;run_builtin;cmd_record;record__mmap_read_evlist.constprop.0;perf_mmap__push;record__pushfn;rcmd_af;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_write;ksys_write;__fdget_pos;__fget_light;__fget_files 80000
+perf;__vstrfmon_l_internal;main;run_builtin;cmd_record;record__mmap_read_evlist.constprop.0;perf_mmap__push;record__pushfn;rcmd_af;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_write;ksys_write;vfs_write;__fsnotify_parent;fsnotify;__srcu_read_unlock 80000
+perf;__vstrfmon_l_internal;main;run_builtin;cmd_record;record__mmap_read_evlist.constprop.0;perf_mmap__push;record__pushfn;rcmd_af;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_write;ksys_write;vfs_write;__fsnotify_parent;fsnotify;send_to_group;fsnotify_handle_inode_event.isra.0;inotify_handle_inode_event 80000
+perf;__vstrfmon_l_internal;main;run_builtin;cmd_record;record__mmap_read_evlist.constprop.0;perf_mmap__push;record__pushfn;rcmd_af;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_write;ksys_write;vfs_write;__fsnotify_parent;fsnotify;send_to_group;fsnotify_handle_inode_event.isra.0;inotify_handle_inode_event;__kmalloc 40000
+perf;__vstrfmon_l_internal;main;run_builtin;cmd_record;record__mmap_read_evlist.constprop.0;perf_mmap__push;record__pushfn;rcmd_af;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_write;ksys_write;vfs_write;__fsnotify_parent;fsnotify;send_to_group;fsnotify_handle_inode_event.isra.0;inotify_handle_inode_event;__kmalloc;get_obj_cgroup_from_current 80000
+perf;__vstrfmon_l_internal;main;run_builtin;cmd_record;record__mmap_read_evlist.constprop.0;perf_mmap__push;record__pushfn;rcmd_af;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_write;ksys_write;vfs_write;__fsnotify_parent;fsnotify;send_to_group;fsnotify_handle_inode_event.isra.0;inotify_handle_inode_event;__kmalloc;obj_cgroup_charge;obj_cgroup_charge_pages;try_charge_memcg;page_counter_try_charge 120000
+perf;__vstrfmon_l_internal;main;run_builtin;cmd_record;record__mmap_read_evlist.constprop.0;perf_mmap__push;record__pushfn;rcmd_af;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_write;ksys_write;vfs_write;__fsnotify_parent;fsnotify;send_to_group;fsnotify_handle_inode_event.isra.0;inotify_handle_inode_event;__kmalloc;obj_cgroup_charge;obj_cgroup_charge_pages;try_charge_memcg;refill_stock 40000
+perf;__vstrfmon_l_internal;main;run_builtin;cmd_record;record__mmap_read_evlist.constprop.0;perf_mmap__push;record__pushfn;rcmd_af;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_write;ksys_write;vfs_write;__fsnotify_parent;fsnotify;send_to_group;fsnotify_handle_inode_event.isra.0;inotify_handle_inode_event;fsnotify_add_event;strcmp 120000
+perf;__vstrfmon_l_internal;main;run_builtin;cmd_record;record__mmap_read_evlist.constprop.0;perf_mmap__push;record__pushfn;rcmd_af;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_write;ksys_write;vfs_write;__fsnotify_parent;fsnotify;send_to_group;fsnotify_handle_inode_event.isra.0;inotify_handle_inode_event;inotify_merge 40000
+perf;__vstrfmon_l_internal;main;run_builtin;cmd_record;record__mmap_read_evlist.constprop.0;perf_mmap__push;record__pushfn;rcmd_af;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_write;ksys_write;vfs_write;new_sync_write 40000
+perf;__vstrfmon_l_internal;main;run_builtin;cmd_record;record__mmap_read_evlist.constprop.0;perf_mmap__push;record__pushfn;rcmd_af;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_write;ksys_write;vfs_write;new_sync_write;ext4_file_write_iter;ext4_buffered_write_iter;generic_perform_write;copy_user_generic_string 40000
+perf;__vstrfmon_l_internal;main;run_builtin;cmd_record;record__mmap_read_evlist.constprop.0;perf_mmap__push;record__pushfn;rcmd_af;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_write;ksys_write;vfs_write;new_sync_write;ext4_file_write_iter;ext4_buffered_write_iter;generic_perform_write;ext4_da_write_begin;ext4_block_write_begin;ext4_da_get_block_prep;ext4_da_map_blocks.constprop.0;ext4_es_insert_delayed_block;__es_tree_search.isra.0 40000
+perf;__vstrfmon_l_internal;main;run_builtin;cmd_record;record__mmap_read_evlist.constprop.0;perf_mmap__push;record__pushfn;rcmd_af;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_write;ksys_write;vfs_write;new_sync_write;ext4_file_write_iter;ext4_buffered_write_iter;generic_perform_write;ext4_da_write_begin;ext4_block_write_begin;ext4_da_get_block_prep;ext4_da_map_blocks.constprop.0;ext4_es_lookup_extent 80000
+perf;__vstrfmon_l_internal;main;run_builtin;cmd_record;record__mmap_read_evlist.constprop.0;perf_mmap__push;record__pushfn;rcmd_af;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_write;ksys_write;vfs_write;new_sync_write;ext4_file_write_iter;ext4_buffered_write_iter;generic_perform_write;ext4_da_write_begin;grab_cache_page_write_begin;pagecache_get_page;add_to_page_cache_lru;__add_to_page_cache_locked 40000
+perf;__vstrfmon_l_internal;main;run_builtin;cmd_record;record__mmap_read_evlist.constprop.0;perf_mmap__push;record__pushfn;rcmd_af;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_write;ksys_write;vfs_write;new_sync_write;ext4_file_write_iter;ext4_buffered_write_iter;generic_perform_write;ext4_da_write_begin;grab_cache_page_write_begin;pagecache_get_page;xas_load 40000
+perf;__vstrfmon_l_internal;main;run_builtin;cmd_record;record__mmap_read_evlist.constprop.0;perf_mmap__push;record__pushfn;rcmd_af;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_write;ksys_write;vfs_write;new_sync_write;ext4_file_write_iter;ext4_buffered_write_iter;generic_perform_write;ext4_da_write_begin;wait_for_stable_page 40000
+perf;__vstrfmon_l_internal;main;run_builtin;cmd_record;record__mmap_read_evlist.constprop.0;perf_mmap__push;record__pushfn;rcmd_af;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_write;ksys_write;vfs_write;new_sync_write;ext4_file_write_iter;ext4_buffered_write_iter;generic_perform_write;ext4_da_write_end;generic_write_end;__mark_inode_dirty;ext4_dirty_inode;__ext4_journal_stop;jbd2_journal_stop;stop_this_handle;__wake_up;__wake_up_common_lock;__lock_text_start 40000
+perf;__vstrfmon_l_internal;main;run_builtin;cmd_record;record__mmap_read_evlist.constprop.0;perf_mmap__push;record__pushfn;rcmd_af;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_write;ksys_write;vfs_write;new_sync_write;ext4_file_write_iter;ext4_buffered_write_iter;generic_perform_write;ext4_da_write_end;generic_write_end;__mark_inode_dirty;ext4_dirty_inode;__ext4_mark_inode_dirty;ext4_mark_iloc_dirty;__raw_callee_save___pv_queued_spin_unlock 40000
+perf;__vstrfmon_l_internal;main;run_builtin;cmd_record;record__mmap_read_evlist.constprop.0;perf_mmap__push;record__pushfn;rcmd_af;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_write;ksys_write;vfs_write;new_sync_write;ext4_file_write_iter;ext4_buffered_write_iter;generic_perform_write;ext4_da_write_end;generic_write_end;__mark_inode_dirty;ext4_dirty_inode;__ext4_mark_inode_dirty;ext4_mark_iloc_dirty;ext4_do_update_inode.isra.0;ext4_inode_csum_set;ext4_inode_csum;crc32c_pcl_intel_update 40000
+perf;__vstrfmon_l_internal;main;run_builtin;cmd_record;record__mmap_read_evlist.constprop.0;perf_mmap__push;record__pushfn;rcmd_af;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_write;ksys_write;vfs_write;new_sync_write;ext4_file_write_iter;ext4_buffered_write_iter;generic_perform_write;ext4_da_write_end;generic_write_end;__mark_inode_dirty;ext4_dirty_inode;__ext4_mark_inode_dirty;ext4_mark_iloc_dirty;ext4_do_update_inode.isra.0;ext4_inode_csum_set;ext4_inode_csum;crypto_shash_update;crc32c_pcl_intel_update 40000
+perf;__vstrfmon_l_internal;main;run_builtin;cmd_record;record__mmap_read_evlist.constprop.0;perf_mmap__push;record__pushfn;rcmd_af;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_write;ksys_write;vfs_write;new_sync_write;ext4_file_write_iter;ext4_buffered_write_iter;generic_perform_write;ext4_da_write_end;generic_write_end;__mark_inode_dirty;ext4_dirty_inode;__ext4_mark_inode_dirty;ext4_reserve_inode_write;ext4_get_inode_loc;__ext4_get_inode_loc;__getblk_gfp;__find_get_block 40000
+perf;__vstrfmon_l_internal;main;run_builtin;cmd_record;record__mmap_read_evlist.constprop.0;perf_mmap__push;record__pushfn;rcmd_af;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_write;ksys_write;vfs_write;new_sync_write;ext4_file_write_iter;ext4_buffered_write_iter;generic_perform_write;fault_in_iov_iter_readable;__get_user_nocheck_1 80000
+perf;__vstrfmon_l_internal;main;run_builtin;cmd_record;record__mmap_read_evlist.constprop.0;record__write.constprop.0;ion 40000
+perf;__vstrfmon_l_internal;main;run_builtin;cmd_record;record__mmap_read_evlist.constprop.0;record__write.constprop.0;rcmd_af;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_write;ksys_write;vfs_write;__fsnotify_parent;fsnotify;send_to_group;fsnotify_handle_inode_event.isra.0;inotify_handle_inode_event;__kmalloc;get_obj_cgroup_from_current 80000
+perf;__vstrfmon_l_internal;main;run_builtin;cmd_record;record__mmap_read_evlist.constprop.0;record__write.constprop.0;rcmd_af;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_write;ksys_write;vfs_write;__fsnotify_parent;fsnotify;send_to_group;fsnotify_handle_inode_event.isra.0;inotify_handle_inode_event;__kmalloc;obj_cgroup_charge;refill_obj_stock;obj_cgroup_uncharge_pages;refill_stock 80000
+perf;__vstrfmon_l_internal;main;run_builtin;cmd_record;record__mmap_read_evlist.constprop.0;record__write.constprop.0;rcmd_af;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_write;ksys_write;vfs_write;__fsnotify_parent;fsnotify;send_to_group;fsnotify_handle_inode_event.isra.0;inotify_handle_inode_event;__kmalloc;rcu_read_unlock_strict 40000
+perf;__vstrfmon_l_internal;main;run_builtin;cmd_record;record__mmap_read_evlist.constprop.0;record__write.constprop.0;rcmd_af;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_write;ksys_write;vfs_write;new_sync_write;ext4_file_write_iter;ext4_buffered_write_iter;generic_perform_write;ext4_da_write_begin;grab_cache_page_write_begin;pagecache_get_page 200000
+perf;__vstrfmon_l_internal;main;run_builtin;cmd_record;record__mmap_read_evlist.constprop.0;record__write.constprop.0;rcmd_af;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_write;ksys_write;vfs_write;new_sync_write;ext4_file_write_iter;ext4_buffered_write_iter;generic_perform_write;ext4_da_write_end;generic_write_end;__mark_inode_dirty;ext4_dirty_inode;__ext4_mark_inode_dirty;ext4_mark_iloc_dirty;ext4_do_update_inode.isra.0;ext4_inode_csum_set;ext4_inode_csum 40000
+rcu_sched;ret_from_fork;kthread;rcu_gp_kthread;schedule;__schedule;finish_task_switch.isra.0 40000
+swapper;secondary_startup_64_no_verify;start_secondary;cpu_startup_entry;do_idle;cpuidle_idle_call;default_idle_call 40000
+swapper;secondary_startup_64_no_verify;start_secondary;cpu_startup_entry;do_idle;cpuidle_idle_call;default_idle_call;arch_cpu_idle;native_safe_halt 24960000
+swapper;secondary_startup_64_no_verify;start_secondary;cpu_startup_entry;do_idle;cpuidle_idle_call;default_idle_call;arch_cpu_idle;native_safe_halt;asm_sysvec_apic_timer_interrupt;sysvec_apic_timer_interrupt;irq_exit_rcu;__softirqentry_text_start 160000
+swapper;secondary_startup_64_no_verify;start_secondary;cpu_startup_entry;do_idle;cpuidle_idle_call;default_idle_call;arch_cpu_idle;native_safe_halt;asm_sysvec_apic_timer_interrupt;sysvec_apic_timer_interrupt;irq_exit_rcu;__softirqentry_text_start;run_timer_softirq;__run_timers.part.0;call_timer_fn;vbg_heartbeat_timer;vbg_req_perform 200000
+swapper;secondary_startup_64_no_verify;start_secondary;cpu_startup_entry;do_idle;nohz_run_idle_balance;_nohz_idle_balance.constprop.0.isra.0;update_blocked_averages 40000
+swapper;secondary_startup_64_no_verify;start_secondary;cpu_startup_entry;do_idle;schedule_idle;__schedule;finish_task_switch.isra.0 80000
+swapper;secondary_startup_64_no_verify;start_secondary;cpu_startup_entry;do_idle;tick_nohz_idle_exit 40000
+swapper;secondary_startup_64_no_verify;x86_64_start_kernel;x86_64_start_reservations;start_kernel;arch_call_rest_init;rest_init;cpu_startup_entry;do_idle;cpuidle_idle_call;default_idle_call;arch_cpu_idle;native_safe_halt 40000

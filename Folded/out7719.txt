@@ -1,0 +1,53 @@
+gedit;[unknown];[libgdk-3.so.0.2404.29] 40000
+gedit;[unknown];[unknown];gdk_frame_clock_request_phase 40000
+gedit;[unknown];__res_context_send;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_sendmsg;__sys_sendmsg;___sys_sendmsg;____sys_sendmsg;sock_sendmsg;unix_stream_sendmsg;sock_alloc_send_pskb;alloc_skb_with_frags;__alloc_skb;kmem_cache_alloc_node;get_obj_cgroup_from_current 80000
+gedit;[unknown];__stpncpy_sse2_unaligned 40000
+gedit;[unknown];__vstrfmon_l_internal 80000
+gedit;[unknown];__vstrfmon_l_internal;asm_sysvec_apic_timer_interrupt;sysvec_apic_timer_interrupt;irq_exit_rcu;__softirqentry_text_start 320000
+gedit;[unknown];__vstrfmon_l_internal;asm_sysvec_apic_timer_interrupt;sysvec_apic_timer_interrupt;irq_exit_rcu;__softirqentry_text_start;run_timer_softirq;__run_timers.part.0;call_timer_fn;vbg_heartbeat_timer;vbg_req_perform 80000
+gedit;[unknown];g_type_check_instance_is_a 40000
+gedit;[unknown];parse_qtd_backslash 40000
+gedit;g_hash_table_lookup 40000
+gedit;gdk_window_get_root_coords 40000
+gnome-shell;[kms_swrast_dri.so] 80000
+gnome-shell;[libmutter-clutter-10.so.0.0.0] 80000
+gnome-shell;[libmutter-cogl-10.so.0.0.0] 80000
+gnome-shell;[unknown];[kms_swrast_dri.so] 80000
+gnome-shell;[unknown];[kms_swrast_dri.so];[kms_swrast_dri.so] 80000
+gnome-shell;[unknown];[libEGL_mesa.so.0.0.0] 40000
+gnome-shell;[unknown];[libc.so.6] 160000
+gnome-shell;[unknown];[libffi.so.8.1.0] 40000
+gnome-shell;[unknown];[libgobject-2.0.so.0.7200.1] 120000
+gnome-shell;[unknown];[libpulse-mainloop-glib.so.0.0.6] 80000
+gnome-shell;[unknown];[perf-1594.map] 40000
+gnome-shell;[unknown];[unknown];[kms_swrast_dri.so] 80000
+gnome-shell;[unknown];[unknown];[libc.so.6] 80000
+gnome-shell;[unknown];[unknown];[unknown];[libmutter-clutter-10.so.0.0.0] 160000
+gnome-shell;[unknown];[unknown];[unknown];clutter_actor_paint 40000
+gnome-shell;[unknown];[unknown];[unknown];g_type_check_instance_cast 40000
+gnome-shell;[unknown];[unknown];[unknown];g_type_check_instance_is_a 40000
+gnome-shell;[unknown];[unknown];cogl_is_buffer 40000
+gnome-shell;[unknown];meta_shaped_texture_get_type 40000
+gnome-shell;____wcstod_l_internal 40000
+gnome-shell;____wcstold_l_internal 40000
+gnome-shell;g_hash_table_lookup 40000
+java;[unknown];void java.io.ObjectOutputStream.writeObject0;Interpreter 40000
+java;[unknown];void java.io.ObjectOutputStream.writeObject0;_fini 40000
+java;__strncat_ssse3;inflate_file.part.0;JLI_Launch;MacroAssembler::cmp_narrow_klass;MacroAssembler::check_klass_subtype_fast_path;LibraryCallKit::inline_fp_conversions;StubRoutines ;Interpreter;Interpreter;Interpreter;Interpreter;Interpreter;org.openjdk.jmh.results.IterationResult org.openjdk.jmh.runner.BenchmarkHandler.runIteration;I2C/C2I adapters 240000
+java;__strncat_ssse3;inflate_file.part.0;JLI_Launch;MacroAssembler::cmp_narrow_klass;MacroAssembler::check_klass_subtype_fast_path;LibraryCallKit::inline_fp_conversions;StubRoutines ;Interpreter;Interpreter;Interpreter;Interpreter;Interpreter;org.openjdk.jmh.results.IterationResult org.openjdk.jmh.runner.BenchmarkHandler.runIteration;I2C/C2I adapters;asm_sysvec_call_function_single;sysvec_call_function_single;irqentry_exit;irqentry_exit_to_user_mode;exit_to_user_mode_prepare;exit_to_user_mode_loop 160000
+java;__strncat_ssse3;inflate_file.part.0;JLI_Launch;MacroAssembler::cmp_narrow_klass;MacroAssembler::check_klass_subtype_fast_path;LibraryCallKit::inline_fp_conversions;StubRoutines ;Interpreter;Interpreter;Interpreter;Interpreter;Interpreter;org.openjdk.jmh.results.IterationResult org.openjdk.jmh.runner.BenchmarkHandler.runIteration;java.lang.Object java.util.concurrent.LinkedBlockingQueue.dequeue 40000
+java;__strncat_ssse3;inflate_file.part.0;JLI_Launch;MacroAssembler::cmp_narrow_klass;MacroAssembler::check_klass_subtype_fast_path;LibraryCallKit::inline_fp_conversions;StubRoutines ;Interpreter;Interpreter;Interpreter;Interpreter;Interpreter;void org.openjdk.jmh.runner.InfraControlL2.<init> 40000
+java;long java.io.ObjectOutputStream$BlockDataOutputStream.getUTFLength 40000
+java;void java.io.ObjectOutputStream.writeArray 40000
+java;void java.io.ObjectOutputStream.writeObject0 200000
+java;void java.io.ObjectOutputStream.writeObject0;Interpreter 40000
+java;void java.io.ObjectOutputStream.writeObject0;java.lang.Object jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke;Interpreter 40000
+java;void java.io.ObjectOutputStream.writeObject0;java.lang.Object jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke;Interpreter;Interpreter 40000
+java;void java.io.ObjectOutputStream.writeObject0;java.lang.Object jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke;Interpreter;Interpreter;Interpreter 40000
+java;void java.io.ObjectOutputStream.writeObject0;java.lang.Object jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke;Interpreter;Interpreter;Interpreter;Interpreter;Interpreter 80000
+java;void java.io.ObjectOutputStream.writeObject0;java.lang.Object jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke;Interpreter;Interpreter;void java.io.ObjectOutputStream.defaultWriteFields;resolve_opt_virtual_call;vframe::vframe;interpretedVFrame::set_locals;create_stack_value_from_oop_map;ClassVerifier::verify_class;NTarjan::DFS;JfrEvent<EventReservedStackActivation>::write_sized_event;SharedRuntime::generate_stubs;SharedRuntime::throw_IncompatibleClassChangeError;VM_HeapWalkOperation::doit;VM_HeapWalkOperation::doit 40000
+java;void java.io.ObjectStreamClass$FieldReflector.getPrimFieldValues 40000
+java;void java.io.ObjectStreamClass.writeNonProxy 200000
+swapper;secondary_startup_64_no_verify;start_secondary;cpu_startup_entry;do_idle;cpuidle_idle_call;default_idle_call;arch_cpu_idle;native_safe_halt 5360000
+swapper;secondary_startup_64_no_verify;start_secondary;cpu_startup_entry;do_idle;cpuidle_idle_call;default_idle_call;arch_cpu_idle;native_safe_halt;asm_sysvec_apic_timer_interrupt;sysvec_apic_timer_interrupt;irq_exit_rcu;__softirqentry_text_start;run_timer_softirq;__run_timers.part.0;call_timer_fn;vbg_heartbeat_timer;vbg_req_perform 240000
+swapper;secondary_startup_64_no_verify;x86_64_start_kernel;x86_64_start_reservations;start_kernel;arch_call_rest_init;rest_init;cpu_startup_entry;do_idle;cpuidle_idle_call;default_idle_call;arch_cpu_idle;native_safe_halt 1760000

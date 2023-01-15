@@ -1,0 +1,22 @@
+G1_Conc#0;__strncat_ssse3;SystemDictionary::find_method_handle_type;[libjvm.so];[libjvm.so];[libjvm.so];CompilerToVM::initialize_intrinsics;JvmtiExport::post_thread_start;CompilerToVM::initialize_intrinsics;ShenandoahMark::mark_loop_work<ShenandoahMarkRefsClosure<;[libc.so.6] 40000
+G1_Conc#0;__strncat_ssse3;SystemDictionary::find_method_handle_type;[libjvm.so];[libjvm.so];[libjvm.so];CompilerToVM::initialize_intrinsics;JvmtiExport::post_thread_start;CompilerToVM::initialize_intrinsics;ShenandoahMark::mark_loop_work<ShenandoahMarkRefsClosure<;[libc.so.6];asm_sysvec_apic_timer_interrupt;sysvec_apic_timer_interrupt;irq_exit_rcu;__softirqentry_text_start 40000
+G1_Conc#0;__strncat_ssse3;SystemDictionary::find_method_handle_type;[libjvm.so];[libjvm.so];[libjvm.so];CompilerToVM::initialize_intrinsics;JvmtiExport::post_thread_start;CompilerToVM::initialize_intrinsics;ShenandoahMark::mark_loop_work<ShenandoahMarkRefsClosure<;[libc.so.6];asm_sysvec_apic_timer_interrupt;sysvec_apic_timer_interrupt;irq_exit_rcu;__softirqentry_text_start;run_timer_softirq;__run_timers.part.0;call_timer_fn;vbg_heartbeat_timer;vbg_req_perform 40000
+G1_Service;[unknown];__GI___strncasecmp_l_sse2 120000
+gnome-shell;[unknown];[libinput.so.10.13.0];rcmd_af;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_read;ksys_read;vfs_read;rw_verify_area;security_file_permission;apparmor_file_permission 160000
+gnome-shell;[unknown];[libmutter-10.so.0.0.0] 40000
+gnome-shell;[unknown];[unknown];[unknown];[libc.so.6] 40000
+gnome-shell;[unknown];[unknown];[unknown];[libglib-2.0.so.0.7200.1] 40000
+gnome-shell;[unknown];[unknown];[unknown];clutter_input_device_get_type 80000
+gnome-shell;[unknown];[unknown];g_main_context_prepare 40000
+gnome-shell;[unknown];__netlink_request;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_poll;do_sys_poll;do_poll.constprop.0;sock_poll 40000
+gnome-shell;[unknown];__netlink_request;entry_SYSCALL_64_after_hwframe;do_syscall_64;syscall_exit_to_user_mode;exit_to_user_mode_prepare;exit_to_user_mode_loop;mem_cgroup_handle_over_high 40000
+gnome-shell;[unknown];g_async_queue_try_pop 40000
+gnome-shell;[unknown];g_source_ref 80000
+gnome-shell;[unknown];rcmd_af;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_write;ksys_write;vfs_write;eventfd_write 40000
+gnome-shell;[unknown];rcmd_af;entry_SYSCALL_64_after_hwframe;do_syscall_64;syscall_enter_from_user_mode 40000
+gnome-shell;g_hash_table_iter_init 40000
+gnome-shell;g_slice_alloc 120000
+org.sample.MyBe;__strncat_ssse3;SystemDictionary::find_method_handle_type;[libjvm.so];[libjvm.so];MacroAssembler::fast_md5;LibraryCallKit::inline_string_copy;LibraryCallKit::inline_fp_conversions;StubRoutines ;Interpreter;Interpreter;_new_array_Java;ErrorContext::stackmap_details;[libjvm.so];ShenandoahSATBMarkQueueSet::ShenandoahSATBMarkQueueSet;[libc.so.6] 200000
+org.sample.MyBe;__strncat_ssse3;SystemDictionary::find_method_handle_type;[libjvm.so];[libjvm.so];MacroAssembler::fast_md5;LibraryCallKit::inline_string_copy;LibraryCallKit::inline_fp_conversions;StubRoutines ;Interpreter;Interpreter;int[] org.sample.MyBenchmark.getArray 720000
+swapper;secondary_startup_64_no_verify;start_secondary;cpu_startup_entry;do_idle;cpuidle_idle_call;default_idle_call;arch_cpu_idle;native_safe_halt 3200000
+swapper;secondary_startup_64_no_verify;start_secondary;cpu_startup_entry;do_idle;cpuidle_idle_call;default_idle_call;arch_cpu_idle;native_safe_halt;asm_sysvec_apic_timer_interrupt;sysvec_apic_timer_interrupt;irq_exit_rcu;__softirqentry_text_start;run_timer_softirq;__run_timers.part.0;call_timer_fn;vbg_heartbeat_timer;vbg_req_perform 80000

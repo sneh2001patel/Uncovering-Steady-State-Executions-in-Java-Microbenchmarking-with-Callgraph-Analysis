@@ -1,0 +1,9 @@
+C2_CompilerThre;__strncat_ssse3;SystemDictionary::find_method_handle_type;[libjvm.so];[libjvm.so];java_lang_String::char_converter;java_lang_String::create_from_str;JfrEvent<EventG1AdaptiveIHOP>::write_sized_event;InterpreterRuntime::frequency_counter_overflow;InterpreterRuntime::register_finalizer;TemplateInterpreterGenerator::generate_deopt_entry_for;SystemDictionaryShared::add_lambda_proxy_class;TemplateInterpreterGenerator::generate_all;RangeCheckEliminator::update_bound;DependencyContext::remove_all_dependents 120000
+Thread-34;__strncat_ssse3;SystemDictionary::find_method_handle_type;[libjvm.so];[libjvm.so];MacroAssembler::fast_md5;LibraryCallKit::inline_string_copy;LibraryCallKit::inline_fp_conversions;StubRoutines ;Interpreter 40000
+gnome-shell;[unknown];[unknown];[unknown];[libmutter-10.so.0.0.0] 80000
+gnome-shell;[unknown];[unknown];[unknown];[libmutter-10.so.0.0.0];asm_sysvec_apic_timer_interrupt;sysvec_apic_timer_interrupt;irq_exit_rcu;__softirqentry_text_start 40000
+gnome-terminal-;[unknown];[libgobject-2.0.so.0.7200.1] 40000
+gnome-terminal-;____wcstof_l_internal 80000
+org.sample.MyBe;__strncat_ssse3;SystemDictionary::find_method_handle_type;[libjvm.so];[libjvm.so];MacroAssembler::fast_md5;LibraryCallKit::inline_string_copy;LibraryCallKit::inline_fp_conversions;StubRoutines ;Interpreter;Interpreter;_new_array_Java;ErrorContext::stackmap_details;[libjvm.so];ShenandoahSATBMarkQueueSet::ShenandoahSATBMarkQueueSet;[libc.so.6] 240000
+swapper;secondary_startup_64_no_verify;start_secondary;cpu_startup_entry;do_idle;cpuidle_idle_call;default_idle_call;arch_cpu_idle;native_safe_halt 480000
+swapper;secondary_startup_64_no_verify;x86_64_start_kernel;x86_64_start_reservations;start_kernel;arch_call_rest_init;rest_init;cpu_startup_entry;do_idle;cpuidle_idle_call;default_idle_call;arch_cpu_idle;native_safe_halt 80000

@@ -1,0 +1,20 @@
+Thread-28;[unknown];[unknown];void java.io.PrintStream.write;void java.io.FileOutputStream.writeBytes;jexpm1;[libjava.so];rcmd_af;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_write;ksys_write;vfs_write;new_sync_write;ext4_file_write_iter;ext4_buffered_write_iter;file_modified;file_update_time;generic_update_time;__mark_inode_dirty;ext4_dirty_inode;__ext4_mark_inode_dirty;ext4_mark_iloc_dirty;ext4_do_update_inode.isra.0;ext4_inode_csum_set;ext4_inode_csum;crypto_shash_update;crc32c_pcl_intel_update 40000
+Thread-28;[unknown];boolean java.util.regex.Pattern$Branch.match 40000
+Thread-28;[unknown];vtable chunks 40000
+Thread-28;__strncat_ssse3;SystemDictionary::find_method_handle_type;[libjvm.so];[libjvm.so];MacroAssembler::fast_md5;LibraryCallKit::inline_string_copy;LibraryCallKit::inline_fp_conversions;StubRoutines ;Interpreter 80000
+Thread-28;java.lang.Object java.io.ObjectInputStream.readHandle 40000
+gdbus 40000
+gdbus;[libgobject-2.0.so.0.7200.1] 120000
+gdbus;[unknown];[libgio-2.0.so.0.7200.1] 120000
+gdbus;[unknown];[unknown];[unknown];g_socket_receive_message;[libgio-2.0.so.0.7200.1] 40000
+gdbus;[unknown];[unknown];[unknown];g_socket_receive_message;__res_context_send;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_recvmsg;__sys_recvmsg;___sys_recvmsg;____sys_recvmsg;sock_recvmsg;unix_stream_recvmsg;unix_stream_read_generic;consume_skb;skb_release_head_state;unix_destruct_scm;sock_wfree 40000
+gdbus;[unknown];g_dbus_message_get_type 40000
+gdbus;[unknown];rcmd_af;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_write;ksys_write;vfs_write;eventfd_write 40000
+gmain;[unknown];__netlink_request;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_poll;do_sys_poll;do_poll.constprop.0;__fget_light 40000
+gnome-shell;[unknown];[libgjs.so.0.0.0];ffi_call 40000
+gnome-shell;[unknown];[libmozjs-91.so.91.7.0] 80000
+gnome-shell;[unknown];[libmozjs-91.so.91.7.0];[libmozjs-91.so.91.7.0] 120000
+snap-store;[unknown];__poll;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_poll;do_sys_poll;do_poll.constprop.0;schedule_hrtimeout_range;schedule_hrtimeout_range_clock;schedule;__schedule;finish_task_switch.isra.0;asm_sysvec_apic_timer_interrupt;sysvec_apic_timer_interrupt;irq_exit_rcu;__softirqentry_text_start 80000
+swapper;secondary_startup_64_no_verify;start_secondary;cpu_startup_entry;do_idle;cpuidle_idle_call;default_idle_call;arch_cpu_idle;native_safe_halt 200000
+swapper;secondary_startup_64_no_verify;x86_64_start_kernel;x86_64_start_reservations;start_kernel;arch_call_rest_init;rest_init;cpu_startup_entry;do_idle;cpuidle_idle_call;default_idle_call;arch_cpu_idle;native_safe_halt 160000
+xdg-document-po;[unknown];[xdg-document-portal] 40000

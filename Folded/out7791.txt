@@ -1,0 +1,28 @@
+dconf_worker;entry_SYSCALL_64_after_hwframe;do_syscall_64;syscall_exit_to_user_mode;exit_to_user_mode_prepare;exit_to_user_mode_loop;arch_do_signal_or_restart;get_signal;do_group_exit;do_exit;exit_mm;mmput;exit_mmap;unmap_vmas;unmap_single_vma;unmap_page_range;zap_pmd_range.isra.0;zap_pte_range 360000
+dconf_worker;entry_SYSCALL_64_after_hwframe;do_syscall_64;syscall_exit_to_user_mode;exit_to_user_mode_prepare;exit_to_user_mode_loop;arch_do_signal_or_restart;get_signal;do_group_exit;do_exit;exit_mm;mmput;exit_mmap;unmap_vmas;unmap_single_vma;unmap_page_range;zap_pmd_range.isra.0;zap_pte_range;mark_page_accessed 80000
+dconf_worker;entry_SYSCALL_64_after_hwframe;do_syscall_64;syscall_exit_to_user_mode;exit_to_user_mode_prepare;exit_to_user_mode_loop;arch_do_signal_or_restart;get_signal;do_group_exit;do_exit;exit_mm;mmput;exit_mmap;unmap_vmas;unmap_single_vma;unmap_page_range;zap_pmd_range.isra.0;zap_pte_range;mark_page_accessed;workingset_activation 80000
+dconf_worker;entry_SYSCALL_64_after_hwframe;do_syscall_64;syscall_exit_to_user_mode;exit_to_user_mode_prepare;exit_to_user_mode_loop;arch_do_signal_or_restart;get_signal;do_group_exit;do_exit;exit_mm;mmput;exit_mmap;unmap_vmas;unmap_single_vma;unmap_page_range;zap_pmd_range.isra.0;zap_pte_range;page_remove_rmap;page_remove_file_rmap 80000
+gdbus;[unknown];[libglib-2.0.so.0.7200.1] 40000
+gdbus;[unknown];[unknown];[unknown];g_socket_receive_message;__res_context_send;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_recvmsg;__sys_recvmsg;___sys_recvmsg;____sys_recvmsg;sock_recvmsg;unix_stream_recvmsg;unix_stream_read_generic;consume_skb;kfree_skbmem;kmem_cache_free;memcg_slab_free_hook 80000
+gdbus;[unknown];[unknown];[unknown];g_str_hash 40000
+gdbus;[unknown];__netlink_request;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_poll;do_sys_poll;do_poll.constprop.0;fput_many 40000
+gdbus;[unknown];__netlink_request;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_poll;do_sys_poll;do_poll.constprop.0;sock_poll;unix_poll 40000
+gdbus;[unknown];__vdso_clock_gettime 80000
+gdbus;[unknown];rcmd_af 40000
+gdbus;[unknown];rcmd_af;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_read;ksys_read;new_sync_read 80000
+gdbus;____wcstold_l_internal 40000
+gnome-shell;[unknown];[unknown];[unknown];[libgjs.so.0.0.0] 80000
+gnome-shell;[unknown];[unknown];[unknown];_nss_dns_gethostbyaddr2_r;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_futex;do_futex;futex_wake;wake_up_q;try_to_wake_up;__lock_text_start 80000
+gnome-shell;[unknown];[unknown];[unknown];clutter_actor_iter_next 40000
+gnome-shell;[unknown];[unknown];[unknown];clutter_fixed_layout_get_type 40000
+gnome-shell;[unknown];[unknown];[unknown];g_icon_get_type 160000
+gnome-shell;[unknown];[unknown];[unknown];g_object_new;g_object_new_with_properties 40000
+gnome-shell;[unknown];[unknown];[unknown];g_object_unref 40000
+gnome-shell;[unknown];g_type_value_table_peek 160000
+gnome-shell;____wcstold_l_internal 40000
+java;__strncat_ssse3;inflate_file.part.0;JLI_Launch;MacroAssembler::cmp_narrow_klass;MacroAssembler::check_klass_subtype_fast_path;LibraryCallKit::inline_fp_conversions;StubRoutines ;Interpreter;Interpreter;Interpreter;Interpreter;Interpreter;Interpreter;asm_sysvec_call_function_single;sysvec_call_function_single;irqentry_exit;irqentry_exit_to_user_mode;exit_to_user_mode_prepare;exit_to_user_mode_loop 80000
+java;__strncat_ssse3;inflate_file.part.0;JLI_Launch;MacroAssembler::cmp_narrow_klass;MacroAssembler::check_klass_subtype_fast_path;LibraryCallKit::inline_fp_conversions;StubRoutines ;Interpreter;Interpreter;Interpreter;Interpreter;Interpreter;boolean java.util.concurrent.locks.ReentrantLock$Sync.isHeldExclusively 40000
+swapper;secondary_startup_64_no_verify;start_secondary;cpu_startup_entry;do_idle;cpuidle_idle_call;default_idle_call;arch_cpu_idle;native_safe_halt 2000000
+swapper;secondary_startup_64_no_verify;start_secondary;cpu_startup_entry;do_idle;cpuidle_idle_call;default_idle_call;arch_cpu_idle;native_safe_halt;asm_sysvec_apic_timer_interrupt;sysvec_apic_timer_interrupt;irq_exit_rcu;__softirqentry_text_start 40000
+swapper;secondary_startup_64_no_verify;start_secondary;cpu_startup_entry;do_idle;cpuidle_idle_call;default_idle_call;arch_cpu_idle;native_safe_halt;asm_sysvec_apic_timer_interrupt;sysvec_apic_timer_interrupt;irq_exit_rcu;__softirqentry_text_start;rcu_core_si;rcu_core;rcu_do_batch;delayed_put_pid;put_pid.part.0;kmem_cache_free;memcg_slab_free_hook 40000
+swapper;secondary_startup_64_no_verify;x86_64_start_kernel;x86_64_start_reservations;start_kernel;arch_call_rest_init;rest_init;cpu_startup_entry;do_idle;cpuidle_idle_call;default_idle_call;arch_cpu_idle;native_safe_halt 320000

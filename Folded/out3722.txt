@@ -1,0 +1,35 @@
+Thread-16;[unknown];[unknown];void java.io.PrintStream.write;void java.io.FileOutputStream.writeBytes;jexpm1;[libjava.so];rcmd_af;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_write;ksys_write;vfs_write 40000
+Thread-16;[unknown];[unknown];void java.io.PrintStream.write;void java.io.FileOutputStream.writeBytes;jexpm1;[libjava.so];rcmd_af;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_write;ksys_write;vfs_write;new_sync_write;ext4_file_write_iter;ext4_buffered_write_iter;file_modified;file_update_time;generic_update_time;__mark_inode_dirty;ext4_dirty_inode;__ext4_mark_inode_dirty;ext4_mark_iloc_dirty;ext4_do_update_inode.isra.0 40000
+Thread-16;[unknown];int java.lang.Integer.stringSize 120000
+Thread-16;[unknown];java.lang.StringBuilder java.util.Formatter$FormatSpecifier.localizedMagnitude 40000
+Thread-16;java.lang.Object java.io.ObjectInputStream.readObject0 200000
+Thread-16;java.lang.Object java.util.stream.AbstractPipeline.evaluate 40000
+Thread-16;java.lang.Object jdk.internal.reflect.GeneratedSerializationConstructorAccessor30.newInstance 80000
+Thread-16;java.util.Formatter java.util.Formatter.format 120000
+Thread-16;void java.io.ObjectInputStream.readSerialData 80000
+VM_Periodic_Tas;[unknown];__GI___strncasecmp_l_sse2;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_futex;do_futex;futex_wait;futex_wait_queue_me;schedule;__schedule;finish_task_switch.isra.0 40000
+gnome-shell;[libmutter-clutter-10.so.0.0.0] 40000
+gnome-shell;[unknown];[libmutter-10.so.0.0.0] 40000
+gnome-shell;[unknown];[unknown];[unknown];[libmutter-clutter-10.so.0.0.0] 200000
+gnome-shell;[unknown];[unknown];[unknown];clutter_actor_get_paint_volume 160000
+gnome-shell;[unknown];[unknown];wl_display_flush_clients 80000
+gnome-shell;[unknown];__res_context_send;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_sendmsg;__sys_sendmsg;___sys_sendmsg;____sys_sendmsg;sock_sendmsg;unix_stream_sendmsg;sock_def_readable;__wake_up_sync_key;__wake_up_common_lock;__lock_text_start 40000
+gnome-shell;[unknown];g_mutex_unlock 40000
+gnome-shell;cogl_graphene_matrix_transform_points 80000
+java;__strncat_ssse3;inflate_file.part.0;JLI_Launch;MacroAssembler::cmp_narrow_klass;MacroAssembler::check_klass_subtype_fast_path;LibraryCallKit::inline_fp_conversions;StubRoutines ;Interpreter;Interpreter;Interpreter;Interpreter;Interpreter;int sun.nio.ch.NioSocketImpl.tryWrite;int sun.nio.ch.FileDispatcherImpl.write0;rcmd_af;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_write;ksys_write;__fget_light 360000
+java;__strncat_ssse3;inflate_file.part.0;JLI_Launch;MacroAssembler::cmp_narrow_klass;MacroAssembler::check_klass_subtype_fast_path;LibraryCallKit::inline_fp_conversions;StubRoutines ;Interpreter;Interpreter;Interpreter;Interpreter;Interpreter;java.io.FileDescriptor sun.nio.ch.NioSocketImpl.beginWrite 120000
+java;void java.io.ObjectOutputStream.writeArray 320000
+nautilus;[libglib-2.0.so.0.7200.1] 80000
+nautilus;[libglib-2.0.so.0.7200.1];asm_sysvec_apic_timer_interrupt;sysvec_apic_timer_interrupt;irq_exit_rcu;__softirqentry_text_start 40000
+nautilus;[unknown];[libdbus-1.so.3.19.13] 40000
+nautilus;[unknown];[unknown];[unknown];[unknown];ffi_prep_cif 40000
+nautilus;[unknown];[unknown];[unknown];g_signal_emit;g_direct_hash 40000
+nautilus;[unknown];[unknown];[unknown];g_signal_emit;g_signal_emit_valist 40000
+nautilus;[unknown];[unknown];[unknown];g_signal_emit;g_value_unset 160000
+nautilus;[unknown];[unknown];[unknown];g_type_check_instance_is_fundamentally_a 80000
+nautilus;[unknown];__netlink_request;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_poll;do_sys_poll;do_poll.constprop.0 40000
+nautilus;[unknown];g_private_get 80000
+nautilus;[unknown];g_quark_to_string 40000
+nautilus;[unknown];g_type_check_instance_is_a 80000
+nautilus;g_type_check_instance_is_a 40000
+swapper;secondary_startup_64_no_verify;start_secondary;cpu_startup_entry;do_idle;cpuidle_idle_call;default_idle_call;arch_cpu_idle;native_safe_halt 3680000

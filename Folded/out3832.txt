@@ -1,0 +1,47 @@
+G1_Service;__strncat_ssse3;SystemDictionary::find_method_handle_type;[libjvm.so];MutexedWriteOp<CheckpointWriteOp<JfrBuffer> >::process;JNIJVMCI::JavaKind::set_typeChar;LogImpl< 40000
+gnome-shell;[kms_swrast_dri.so] 800000
+gnome-shell;[libc.so.6] 120000
+gnome-shell;[libglib-2.0.so.0.7200.1] 40000
+gnome-shell;[libmutter-cogl-10.so.0.0.0] 240000
+gnome-shell;[unknown];[kms_swrast_dri.so] 560000
+gnome-shell;[unknown];[kms_swrast_dri.so];[kms_swrast_dri.so] 80000
+gnome-shell;[unknown];[libc.so.6] 240000
+gnome-shell;[unknown];[perf-1594.map] 80000
+gnome-shell;[unknown];[unknown];[kms_swrast_dri.so] 280000
+gnome-shell;[unknown];[unknown];[unknown];[kms_swrast_dri.so] 240000
+gnome-shell;[unknown];[unknown];[unknown];[libc.so.6] 40000
+gnome-shell;[unknown];[unknown];[unknown];[libglapi.so.0.0.0] 40000
+gnome-shell;[unknown];[unknown];[unknown];[libmutter-10.so.0.0.0];[kms_swrast_dri.so] 40000
+gnome-shell;[unknown];[unknown];[unknown];[libmutter-10.so.0.0.0];[libglapi.so.0.0.0] 40000
+gnome-shell;[unknown];[unknown];[unknown];[libmutter-cogl-10.so.0.0.0] 80000
+gnome-shell;[unknown];[unknown];[unknown];[libmutter-cogl-10.so.0.0.0];[libglapi.so.0.0.0] 40000
+gnome-shell;[unknown];[unknown];[unknown];[libmutter-cogl-10.so.0.0.0];glClearStencil 40000
+gnome-shell;[unknown];[unknown];[unknown];[unknown];[libmutter-cogl-10.so.0.0.0] 40000
+gnome-shell;[unknown];[unknown];[unknown];[unknown];[libmutter-cogl-10.so.0.0.0];cogl_pipeline_get_user_program 40000
+gnome-shell;[unknown];[unknown];[unknown];____wcstold_l_internal 40000
+gnome-shell;[unknown];[unknown];[unknown];clutter_seat_get_type 40000
+gnome-shell;[unknown];[unknown];[unknown];cogl_object_unref 40000
+gnome-shell;[unknown];__netlink_request;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_poll;do_sys_poll;do_poll.constprop.0 40000
+gnome-shell;[unknown];libinput_dispatch 80000
+gnome-shell;____wcstof_l_internal 40000
+gnome-shell;____wcstold_l_internal 40000
+gnome-shell;__popcountdi2 80000
+gnome-shell;__strcat_ssse3;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_futex;do_futex;futex_wake;wake_up_q;try_to_wake_up;__lock_text_start 120000
+gnome-shell;__strcat_ssse3;entry_SYSCALL_64_after_hwframe;do_syscall_64;syscall_exit_to_user_mode;exit_to_user_mode_prepare;exit_to_user_mode_loop;schedule;__schedule;finish_task_switch.isra.0 40000
+java;[unknown];__GI___strncasecmp_l_sse2;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_futex;do_futex;futex_wait;hash_futex 40000
+java;__strncat_ssse3;inflate_file.part.0;JLI_Launch;MacroAssembler::cmp_narrow_klass;MacroAssembler::check_klass_subtype_fast_path;LibraryCallKit::inline_fp_conversions;StubRoutines ;Interpreter;Interpreter;Interpreter;Interpreter;Interpreter;int sun.nio.ch.NioSocketImpl.tryWrite;int sun.nio.ch.FileDispatcherImpl.write0;rcmd_af;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_write;ksys_write;vfs_write;rw_verify_area;security_file_permission 40000
+java;__strncat_ssse3;inflate_file.part.0;JLI_Launch;MacroAssembler::cmp_narrow_klass;MacroAssembler::check_klass_subtype_fast_path;LibraryCallKit::inline_fp_conversions;StubRoutines ;Interpreter;Interpreter;Interpreter;Interpreter;Interpreter;void org.openjdk.jmh.runner.InfraControlL2.<init> 40000
+llvmpipe-0;[unknown];_nss_dns_gethostbyaddr2_r;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_mmap;ksys_mmap_pgoff;vm_mmap_pgoff;do_mmap;get_unmapped_area;cap_mmap_addr 40000
+org.sample.MyBe;__strncat_ssse3;SystemDictionary::find_method_handle_type;[libjvm.so];[libjvm.so];MacroAssembler::fast_md5;LibraryCallKit::inline_string_copy;LibraryCallKit::inline_fp_conversions;StubRoutines ;Interpreter;Interpreter;Interpreter 80000
+org.sample.MyBe;__strncat_ssse3;SystemDictionary::find_method_handle_type;[libjvm.so];[libjvm.so];MacroAssembler::fast_md5;LibraryCallKit::inline_string_copy;LibraryCallKit::inline_fp_conversions;StubRoutines ;Interpreter;Interpreter;_new_array_Java;ErrorContext::stackmap_details;[libjvm.so];ElfDecoder::~ElfDecoder 40000
+org.sample.MyBe;__strncat_ssse3;SystemDictionary::find_method_handle_type;[libjvm.so];[libjvm.so];MacroAssembler::fast_md5;LibraryCallKit::inline_string_copy;LibraryCallKit::inline_fp_conversions;StubRoutines ;Interpreter;Interpreter;_new_array_Java;ErrorContext::stackmap_details;[libjvm.so];ShenandoahSATBMarkQueueSet::ShenandoahSATBMarkQueueSet;[libc.so.6] 1640000
+org.sample.MyBe;__strncat_ssse3;SystemDictionary::find_method_handle_type;[libjvm.so];[libjvm.so];MacroAssembler::fast_md5;LibraryCallKit::inline_string_copy;LibraryCallKit::inline_fp_conversions;StubRoutines ;Interpreter;Interpreter;_new_array_Java;ErrorContext::stackmap_details;[libjvm.so];ShenandoahSATBMarkQueueSet::filter;c2v_translate;c2v_asReflectionExecutable;c2v_getBytecode 80000
+org.sample.MyBe;__strncat_ssse3;SystemDictionary::find_method_handle_type;[libjvm.so];[libjvm.so];MacroAssembler::fast_md5;LibraryCallKit::inline_string_copy;LibraryCallKit::inline_fp_conversions;StubRoutines ;Interpreter;Interpreter;boolean java.lang.reflect.AccessibleObject.verifyAccess 40000
+org.sample.MyBe;__strncat_ssse3;SystemDictionary::find_method_handle_type;[libjvm.so];[libjvm.so];MacroAssembler::fast_md5;LibraryCallKit::inline_string_copy;LibraryCallKit::inline_fp_conversions;StubRoutines ;Interpreter;Interpreter;int[] org.sample.MyBenchmark.getArray 1440000
+org.sample.MyBe;__strncat_ssse3;SystemDictionary::find_method_handle_type;[libjvm.so];[libjvm.so];MacroAssembler::fast_md5;LibraryCallKit::inline_string_copy;LibraryCallKit::inline_fp_conversions;StubRoutines ;Interpreter;Interpreter;org.apache.logging.log4j.core.LogEvent org.apache.logging.log4j.core.impl.ReusableLogEventFactory.createEvent 40000
+org.sample.MyBe;__strncat_ssse3;SystemDictionary::find_method_handle_type;[libjvm.so];[libjvm.so];MacroAssembler::fast_md5;LibraryCallKit::inline_string_copy;LibraryCallKit::inline_fp_conversions;StubRoutines ;Interpreter;Interpreter;void java.io.ObjectOutputStream.writeObject0 80000
+org.sample.MyBe;__strncat_ssse3;SystemDictionary::find_method_handle_type;[libjvm.so];[libjvm.so];MacroAssembler::fast_md5;LibraryCallKit::inline_string_copy;LibraryCallKit::inline_fp_conversions;StubRoutines ;Interpreter;Interpreter;void org.apache.logging.log4j.core.pattern.ThreadNamePatternConverter.format 80000
+org.sample.MyBe;void org.apache.logging.log4j.core.impl.MutableLogEvent.clear 40000
+swapper;secondary_startup_64_no_verify;start_secondary;cpu_startup_entry;do_idle;cpuidle_idle_call;default_idle_call;arch_cpu_idle;native_safe_halt 15280000
+swapper;secondary_startup_64_no_verify;start_secondary;cpu_startup_entry;do_idle;schedule_idle;__schedule;finish_task_switch.isra.0 120000
+swapper;secondary_startup_64_no_verify;start_secondary;cpu_startup_entry;do_idle;tick_nohz_idle_exit 40000

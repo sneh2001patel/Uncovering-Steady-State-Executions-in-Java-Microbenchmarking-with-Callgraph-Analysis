@@ -1,0 +1,114 @@
+Thread-28;[unknown];[unknown];void java.io.PrintStream.write;void java.io.FileOutputStream.writeBytes;jexpm1;PhaseMacroExpand::generate_block_arraycopy 40000
+Thread-28;[unknown];[unknown];void java.io.PrintStream.write;void java.io.FileOutputStream.writeBytes;jexpm1;[libjava.so];PhaseMacroExpand::generate_arraycopy 120000
+Thread-28;[unknown];[unknown];void java.io.PrintStream.write;void java.io.FileOutputStream.writeBytes;jexpm1;[libjava.so];rcmd_af;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_write;ksys_write;vfs_write;__fsnotify_parent;fsnotify;send_to_group;fsnotify_handle_inode_event.isra.0;inotify_handle_inode_event;fsnotify_add_event;__wake_up;__wake_up_common_lock;__lock_text_start 40000
+Thread-28;[unknown];[unknown];void java.io.PrintStream.write;void java.io.FileOutputStream.writeBytes;jexpm1;[libjava.so];rcmd_af;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_write;ksys_write;vfs_write;new_sync_write;ext4_file_write_iter;ext4_buffered_write_iter;file_modified;file_update_time;generic_update_time;__mark_inode_dirty;ext4_dirty_inode;__ext4_journal_start_sb;jbd2__journal_start;kmem_cache_alloc 40000
+Thread-28;[unknown];[unknown];void java.io.PrintStream.write;void java.io.FileOutputStream.writeBytes;jexpm1;[libjava.so];rcmd_af;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_write;ksys_write;vfs_write;new_sync_write;ext4_file_write_iter;ext4_buffered_write_iter;generic_perform_write;ext4_da_write_end;generic_write_end;__mark_inode_dirty;ext4_dirty_inode;__ext4_journal_start_sb;jbd2__journal_start;start_this_handle 40000
+Thread-28;[unknown];void java.text.DecimalFormatSymbols.initialize 40000
+Thread-28;int java.net.Socket$SocketInputStream.read;int sun.nio.ch.SocketDispatcher.read0;_fini 40000
+Thread-28;int java.net.Socket$SocketInputStream.read;int sun.nio.ch.SocketDispatcher.read0;rcmd_af;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_read;ksys_read;vfs_read;new_sync_read;sock_read_iter;sock_recvmsg;inet6_recvmsg;tcp_recvmsg;tcp_recvmsg_locked 40000
+Thread-28;int java.net.Socket$SocketInputStream.read;int sun.nio.ch.SocketDispatcher.read0;rcmd_af;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_read;ksys_read;vfs_read;new_sync_read;sock_read_iter;sock_recvmsg;inet6_recvmsg;tcp_recvmsg;tcp_recvmsg_locked;tcp_cleanup_rbuf;tcp_send_ack;__tcp_send_ack.part.0;__tcp_transmit_skb;ip_queue_xmit;__ip_queue_xmit;ip_local_out;ip_output;ip_finish_output;__ip_finish_output 40000
+Thread-28;int java.net.Socket$SocketInputStream.read;int sun.nio.ch.SocketDispatcher.read0;rcmd_af;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_read;ksys_read;vfs_read;new_sync_read;sock_read_iter;sock_recvmsg;inet6_recvmsg;tcp_recvmsg;tcp_recvmsg_locked;tcp_cleanup_rbuf;tcp_send_ack;__tcp_send_ack.part.0;__tcp_transmit_skb;ip_queue_xmit;__ip_queue_xmit;ip_local_out;ip_output;ip_finish_output;__ip_finish_output;ip_finish_output2;__local_bh_enable_ip;do_softirq;__softirqentry_text_start;net_rx_action;__napi_poll;process_backlog;__netif_receive_skb;__netif_receive_skb_one_core;ip_rcv;ip_local_deliver;ip_local_deliver_finish;ip_protocol_deliver_rcu;tcp_v4_rcv;tcp_v4_do_rcv;tcp_rcv_established;__tcp_push_pending_frames;tcp_write_xmit;__tcp_transmit_skb;__skb_clone 40000
+Thread-28;int java.net.Socket$SocketInputStream.read;int sun.nio.ch.SocketDispatcher.read0;rcmd_af;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_read;ksys_read;vfs_read;new_sync_read;sock_read_iter;sock_recvmsg;inet6_recvmsg;tcp_recvmsg;tcp_recvmsg_locked;tcp_cleanup_rbuf;tcp_send_ack;__tcp_send_ack.part.0;__tcp_transmit_skb;ip_queue_xmit;__ip_queue_xmit;ip_local_out;ip_output;ip_finish_output;__ip_finish_output;ip_finish_output2;neigh_hh_output;dev_queue_xmit;__dev_queue_xmit;xmit_one.constprop.0 120000
+Thread-28;java.io.ObjectStreamClass java.io.ObjectInputStream.readClassDesc 40000
+Thread-28;java.lang.Object java.io.ObjectInputStream.readHandle;[unknown];void java.io.ObjectInputStream.readSerialData;StubRoutines  40000
+Thread-28;java.util.Formatter java.util.Formatter.format 120000
+Thread-28;void java.io.ObjectInputStream.readSerialData;asm_exc_page_fault;exc_page_fault;do_user_addr_fault;handle_mm_fault;__handle_mm_fault 40000
+Thread-28;void java.util.Formatter$FormatSpecifier.print;asm_exc_page_fault;exc_page_fault;do_user_addr_fault;handle_mm_fault;__handle_mm_fault 40000
+Thread-28;void java.util.Formatter$FormatSpecifier.printFloat 40000
+gmain;[unknown];__netlink_request;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_poll;do_sys_poll;do_poll.constprop.0;schedule_hrtimeout_range;schedule_hrtimeout_range_clock;schedule;__schedule;finish_task_switch.isra.0 120000
+gnome-shell;[libglib-2.0.so.0.7200.1] 40000
+gnome-shell;[libmutter-10.so.0.0.0] 40000
+gnome-shell;[unknown];[libgjs.so.0.0.0] 80000
+gnome-shell;[unknown];[libglib-2.0.so.0.7200.1] 40000
+gnome-shell;[unknown];[libgobject-2.0.so.0.7200.1] 40000
+gnome-shell;[unknown];[libmozjs-91.so.91.7.0];[libmozjs-91.so.91.7.0] 40000
+gnome-shell;[unknown];[libpixman-1.so.0.40.0] 80000
+gnome-shell;[unknown];[unknown];[libmozjs-91.so.91.7.0] 40000
+gnome-shell;[unknown];[unknown];[libpulse-mainloop-glib.so.0.0.6] 40000
+gnome-shell;[unknown];[unknown];[unknown];[libmutter-clutter-10.so.0.0.0] 80000
+gnome-shell;[unknown];[unknown];[unknown];g_object_weak_unref 40000
+gnome-shell;[unknown];[unknown];[unknown];g_signal_emit;g_signal_emit;g_signal_emit;g_signal_emit_valist 40000
+gnome-shell;[unknown];[unknown];[unknown];g_signal_emit;g_signal_emit_valist 40000
+gnome-shell;[unknown];[unknown];[unknown];g_type_check_value 40000
+gnome-shell;[unknown];[unknown];wl_display_flush_clients 40000
+gnome-shell;[unknown];____wcstold_l_internal 40000
+gnome-shell;[unknown];__netlink_request;entry_SYSCALL_64_after_hwframe;do_syscall_64 40000
+gnome-shell;[unknown];__res_context_send;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_sendmsg;__sys_sendmsg;___sys_sendmsg;____sys_sendmsg;sock_sendmsg;unix_stream_sendmsg;sock_alloc_send_pskb;alloc_skb_with_frags;__alloc_skb;kmem_cache_alloc_node;memcg_slab_post_alloc_hook 40000
+gnome-shell;[unknown];__stpncpy_sse2_unaligned 40000
+gnome-shell;[unknown];__vdso_clock_gettime 40000
+gnome-shell;[unknown];clutter_actor_get_z_position 40000
+gnome-shell;[unknown];g_main_context_check 40000
+gnome-shell;[unknown];g_mutex_lock 40000
+gnome-shell;[unknown];g_mutex_unlock 40000
+gnome-shell;[unknown];g_object_weak_ref 40000
+gnome-shell;____wcstof_l_internal 120000
+gnome-shell;__res_context_send;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_recvmsg;__sys_recvmsg;___sys_recvmsg;____sys_recvmsg 40000
+gnome-shell;g_hash_table_lookup 40000
+gnome-shell;g_slice_alloc 80000
+gnome-shell;g_type_check_instance_is_fundamentally_a 120000
+gnome-shell;meta_monitor_logical_to_crtc_transform 40000
+kworker/5:0-eve;ret_from_fork;kthread;worker_thread;process_one_work;vmw_fence_work_func;vmw_goal_waiter_remove;vmw_generic_waiter_remove 160000
+kworker/u16:0-e;ret_from_fork;kthread;worker_thread;process_one_work;wb_workfn;wb_do_writeback;wb_writeback;__writeback_inodes_wb;writeback_sb_inodes;__writeback_single_inode;do_writepages;ext4_writepages;mpage_map_and_submit_extent;ext4_map_blocks;ext4_ext_map_blocks;ext4_mb_new_blocks;ext4_mb_mark_diskspace_used;ext4_block_bitmap_csum_set;crypto_shash_update;crc_1 40000
+kworker/u16:0-e;ret_from_fork;kthread;worker_thread;process_one_work;wb_workfn;wb_do_writeback;wb_writeback;__writeback_inodes_wb;writeback_sb_inodes;__writeback_single_inode;do_writepages;ext4_writepages;mpage_map_and_submit_extent;ext4_map_blocks;ext4_ext_map_blocks;ext4_mb_new_blocks;ext4_mb_regular_allocator;ext4_mb_find_by_goal;ext4_mb_use_best_found;mb_mark_used 40000
+kworker/u16:0-e;ret_from_fork;kthread;worker_thread;process_one_work;wb_workfn;wb_do_writeback;wb_writeback;__writeback_inodes_wb;writeback_sb_inodes;__writeback_single_inode;do_writepages;ext4_writepages;mpage_map_and_submit_extent;mpage_map_and_submit_buffers;mpage_process_page 320000
+kworker/u16:0-e;ret_from_fork;kthread;worker_thread;process_one_work;wb_workfn;wb_do_writeback;wb_writeback;__writeback_inodes_wb;writeback_sb_inodes;__writeback_single_inode;do_writepages;ext4_writepages;mpage_map_and_submit_extent;mpage_map_and_submit_buffers;mpage_submit_page;clear_page_dirty_for_io 80000
+kworker/u16:0-e;ret_from_fork;kthread;worker_thread;process_one_work;wb_workfn;wb_do_writeback;wb_writeback;__writeback_inodes_wb;writeback_sb_inodes;__writeback_single_inode;do_writepages;ext4_writepages;mpage_map_and_submit_extent;mpage_map_and_submit_buffers;mpage_submit_page;clear_page_dirty_for_io;mod_lruvec_page_state 320000
+kworker/u16:0-e;ret_from_fork;kthread;worker_thread;process_one_work;wb_workfn;wb_do_writeback;wb_writeback;__writeback_inodes_wb;writeback_sb_inodes;__writeback_single_inode;do_writepages;ext4_writepages;mpage_map_and_submit_extent;mpage_map_and_submit_buffers;mpage_submit_page;clear_page_dirty_for_io;page_mkclean 40000
+kworker/u16:0-e;ret_from_fork;kthread;worker_thread;process_one_work;wb_workfn;wb_do_writeback;wb_writeback;__writeback_inodes_wb;writeback_sb_inodes;__writeback_single_inode;do_writepages;ext4_writepages;mpage_map_and_submit_extent;mpage_map_and_submit_buffers;mpage_submit_page;ext4_bio_write_page 360000
+kworker/u16:0-e;ret_from_fork;kthread;worker_thread;process_one_work;wb_workfn;wb_do_writeback;wb_writeback;__writeback_inodes_wb;writeback_sb_inodes;__writeback_single_inode;do_writepages;ext4_writepages;mpage_map_and_submit_extent;mpage_map_and_submit_buffers;mpage_submit_page;ext4_bio_write_page;__test_set_page_writeback 160000
+kworker/u16:0-e;ret_from_fork;kthread;worker_thread;process_one_work;wb_workfn;wb_do_writeback;wb_writeback;__writeback_inodes_wb;writeback_sb_inodes;__writeback_single_inode;do_writepages;ext4_writepages;mpage_map_and_submit_extent;mpage_map_and_submit_buffers;mpage_submit_page;ext4_bio_write_page;__test_set_page_writeback;__lock_text_start 240000
+kworker/u16:0-e;ret_from_fork;kthread;worker_thread;process_one_work;wb_workfn;wb_do_writeback;wb_writeback;__writeback_inodes_wb;writeback_sb_inodes;__writeback_single_inode;do_writepages;ext4_writepages;mpage_map_and_submit_extent;mpage_map_and_submit_buffers;mpage_submit_page;ext4_bio_write_page;asm_sysvec_call_function_single;sysvec_call_function_single;irq_exit_rcu;__softirqentry_text_start 120000
+kworker/u16:0-e;ret_from_fork;kthread;worker_thread;process_one_work;wb_workfn;wb_do_writeback;wb_writeback;__writeback_inodes_wb;writeback_sb_inodes;__writeback_single_inode;do_writepages;ext4_writepages;mpage_map_and_submit_extent;mpage_map_and_submit_buffers;mpage_submit_page;ext4_bio_write_page;asm_sysvec_call_function_single;sysvec_call_function_single;irq_exit_rcu;__softirqentry_text_start;blk_done_softirq;blk_complete_reqs;scsi_complete;scsi_finish_command;scsi_io_completion;scsi_end_request;blk_update_request;bio_endio 40000
+kworker/u16:0-e;ret_from_fork;kthread;worker_thread;process_one_work;wb_workfn;wb_do_writeback;wb_writeback;__writeback_inodes_wb;writeback_sb_inodes;__writeback_single_inode;do_writepages;ext4_writepages;mpage_map_and_submit_extent;mpage_map_and_submit_buffers;mpage_submit_page;ext4_bio_write_page;fscrypt_mergeable_bio_bh;fscrypt_mergeable_bio 40000
+kworker/u16:0-e;ret_from_fork;kthread;worker_thread;process_one_work;wb_workfn;wb_do_writeback;wb_writeback;__writeback_inodes_wb;writeback_sb_inodes;__writeback_single_inode;do_writepages;ext4_writepages;mpage_map_and_submit_extent;mpage_map_and_submit_buffers;mpage_submit_page;unlock_page 40000
+kworker/u16:0-e;ret_from_fork;kthread;worker_thread;process_one_work;wb_workfn;wb_do_writeback;wb_writeback;__writeback_inodes_wb;writeback_sb_inodes;__writeback_single_inode;do_writepages;ext4_writepages;mpage_map_and_submit_extent;mpage_map_and_submit_buffers;pagevec_lookup_range;find_get_pages_range 40000
+kworker/u16:0-e;ret_from_fork;kthread;worker_thread;process_one_work;wb_workfn;wb_do_writeback;wb_writeback;__writeback_inodes_wb;writeback_sb_inodes;__writeback_single_inode;do_writepages;ext4_writepages;mpage_prepare_extent_to_map 40000
+kworker/u16:0-e;ret_from_fork;kthread;worker_thread;process_one_work;wb_workfn;wb_do_writeback;wb_writeback;__writeback_inodes_wb;writeback_sb_inodes;__writeback_single_inode;do_writepages;ext4_writepages;mpage_prepare_extent_to_map;asm_sysvec_call_function_single;sysvec_call_function_single;irq_exit_rcu;__softirqentry_text_start 80000
+kworker/u16:0-e;ret_from_fork;kthread;worker_thread;process_one_work;wb_workfn;wb_do_writeback;wb_writeback;__writeback_inodes_wb;writeback_sb_inodes;__writeback_single_inode;do_writepages;ext4_writepages;mpage_prepare_extent_to_map;mpage_process_page_bufs 40000
+kworker/u16:1-e;ret_from_fork;kthread;worker_thread 40000
+kworker/u16:1-e;ret_from_fork;kthread;worker_thread;process_one_work;ext4_end_io_rsv_work;ext4_release_io_end;ext4_finish_bio;__lock_text_start 200000
+kworker/u16:1-e;ret_from_fork;kthread;worker_thread;process_one_work;ext4_end_io_rsv_work;ext4_release_io_end;ext4_finish_bio;end_page_writeback;test_clear_page_writeback 400000
+kworker/u16:1-e;ret_from_fork;kthread;worker_thread;process_one_work;ext4_end_io_rsv_work;ext4_release_io_end;ext4_finish_bio;end_page_writeback;test_clear_page_writeback;__lock_text_start 80000
+nautilus 120000
+nautilus;[libgdk-3.so.0.2404.29] 40000
+nautilus;[libgtk-3.so.0.2404.29] 160000
+nautilus;[unknown];[libglib-2.0.so.0.7200.1] 80000
+nautilus;[unknown];[libgtk-3.so.0.2404.29] 360000
+nautilus;[unknown];[libgtk-3.so.0.2404.29];[unknown];[libgtk-3.so.0.2404.29] 560000
+nautilus;[unknown];[libgtk-3.so.0.2404.29];[unknown];____wcstof_l_internal 40000
+nautilus;[unknown];[unknown];[libgtk-3.so.0.2404.29] 40000
+nautilus;[unknown];[unknown];[unknown];[libgtk-3.so.0.2404.29] 160000
+nautilus;[unknown];[unknown];[unknown];[unknown];[libgtk-3.so.0.2404.29] 40000
+nautilus;[unknown];[unknown];[unknown];g_signal_emit;g_signal_emit_valist 160000
+nautilus;[unknown];[unknown];[unknown];g_signal_handlers_destroy 40000
+nautilus;[unknown];[unknown];[unknown];gdk_display_manager_get 120000
+nautilus;[unknown];[unknown];[unknown];gtk_container_get_type 40000
+nautilus;[unknown];[unknown];[unknown];gtk_widget_queue_draw_region 40000
+nautilus;[unknown];[unknown];g_str_hash 40000
+nautilus;[unknown];____wcstold_l_internal 80000
+nautilus;[unknown];g_strdup 40000
+nautilus;g_hash_table_lookup 80000
+nautilus;g_pointer_bit_lock 40000
+nautilus;g_slice_alloc 80000
+org.sample.MyBe;__strncat_ssse3;SystemDictionary::find_method_handle_type;[libjvm.so];[libjvm.so];MacroAssembler::fast_md5;LibraryCallKit::inline_string_copy;LibraryCallKit::inline_fp_conversions;StubRoutines ;Interpreter;Interpreter;_new_array_Java;ErrorContext::stackmap_details;[libjvm.so];ShenandoahSATBMarkQueueSet::ShenandoahSATBMarkQueueSet;[libc.so.6] 1000000
+org.sample.MyBe;__strncat_ssse3;SystemDictionary::find_method_handle_type;[libjvm.so];[libjvm.so];MacroAssembler::fast_md5;LibraryCallKit::inline_string_copy;LibraryCallKit::inline_fp_conversions;StubRoutines ;Interpreter;Interpreter;_new_array_Java;ErrorContext::stackmap_details;[libjvm.so];ShenandoahSATBMarkQueueSet::ShenandoahSATBMarkQueueSet;[libc.so.6];asm_sysvec_call_function_single;sysvec_call_function_single;irqentry_exit;irqentry_exit_to_user_mode;exit_to_user_mode_prepare;exit_to_user_mode_loop 40000
+org.sample.MyBe;__strncat_ssse3;SystemDictionary::find_method_handle_type;[libjvm.so];[libjvm.so];MacroAssembler::fast_md5;LibraryCallKit::inline_string_copy;LibraryCallKit::inline_fp_conversions;StubRoutines ;Interpreter;Interpreter;_new_array_Java;ErrorContext::stackmap_details;[libjvm.so];ShenandoahSATBMarkQueueSet::filter;c2v_translate;c2v_asReflectionExecutable;JvmtiExport::post_class_unload_internal;JvmtiExport::post_class_unload_internal 40000
+org.sample.MyBe;__strncat_ssse3;SystemDictionary::find_method_handle_type;[libjvm.so];[libjvm.so];MacroAssembler::fast_md5;LibraryCallKit::inline_string_copy;LibraryCallKit::inline_fp_conversions;StubRoutines ;Interpreter;Interpreter;_new_array_Java;SuperWord::find_adjacent_refs 40000
+org.sample.MyBe;__strncat_ssse3;SystemDictionary::find_method_handle_type;[libjvm.so];[libjvm.so];MacroAssembler::fast_md5;LibraryCallKit::inline_string_copy;LibraryCallKit::inline_fp_conversions;StubRoutines ;Interpreter;Interpreter;int[] org.sample.MyBenchmark.getArray 720000
+org.sample.MyBe;__strncat_ssse3;SystemDictionary::find_method_handle_type;[libjvm.so];[libjvm.so];MacroAssembler::fast_md5;LibraryCallKit::inline_string_copy;LibraryCallKit::inline_fp_conversions;StubRoutines ;Interpreter;Interpreter;int[] org.sample.MyBenchmark.getArray;asm_sysvec_call_function_single;sysvec_call_function_single;irqentry_exit;irqentry_exit_to_user_mode;exit_to_user_mode_prepare;exit_to_user_mode_loop 40000
+org.sample.MyBe;__strncat_ssse3;SystemDictionary::find_method_handle_type;[libjvm.so];[libjvm.so];MacroAssembler::fast_md5;LibraryCallKit::inline_string_copy;LibraryCallKit::inline_fp_conversions;StubRoutines ;Interpreter;Interpreter;void org.apache.logging.log4j.core.appender.OutputStreamManager.flushBuffer 40000
+perf;__vstrfmon_l_internal;main;run_builtin;cmd_record;__netlink_request;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_poll;do_sys_poll;do_poll.constprop.0;schedule_hrtimeout_range;schedule_hrtimeout_range_clock 40000
+perf;__vstrfmon_l_internal;main;run_builtin;cmd_record;record__mmap_read_evlist.constprop.0 40000
+perf;__vstrfmon_l_internal;main;run_builtin;cmd_record;record__mmap_read_evlist.constprop.0;perf_mmap__push;record__pushfn;rcmd_af;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_write;ksys_write;vfs_write;__fsnotify_parent;fsnotify;send_to_group;fsnotify_handle_inode_event.isra.0;inotify_handle_inode_event;__kmalloc;get_obj_cgroup_from_current 40000
+perf;__vstrfmon_l_internal;main;run_builtin;cmd_record;record__mmap_read_evlist.constprop.0;perf_mmap__push;record__pushfn;rcmd_af;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_write;ksys_write;vfs_write;__fsnotify_parent;fsnotify;send_to_group;fsnotify_handle_inode_event.isra.0;inotify_handle_inode_event;__kmalloc;obj_cgroup_charge;obj_cgroup_charge_pages;try_charge_memcg;refill_stock 40000
+perf;__vstrfmon_l_internal;main;run_builtin;cmd_record;record__mmap_read_evlist.constprop.0;perf_mmap__push;record__pushfn;rcmd_af;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_write;ksys_write;vfs_write;__fsnotify_parent;fsnotify;send_to_group;fsnotify_handle_inode_event.isra.0;inotify_handle_inode_event;fsnotify_add_event;__wake_up;__wake_up_common_lock;__lock_text_start 240000
+perf;__vstrfmon_l_internal;main;run_builtin;cmd_record;record__mmap_read_evlist.constprop.0;perf_mmap__push;record__pushfn;rcmd_af;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_write;ksys_write;vfs_write;__fsnotify_parent;rcu_read_unlock_strict 200000
+perf;__vstrfmon_l_internal;main;run_builtin;cmd_record;record__mmap_read_evlist.constprop.0;perf_mmap__push;record__pushfn;rcmd_af;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_write;ksys_write;vfs_write;new_sync_write;ext4_file_write_iter;ext4_buffered_write_iter;generic_perform_write;copy_user_generic_string 280000
+perf;__vstrfmon_l_internal;main;run_builtin;cmd_record;record__mmap_read_evlist.constprop.0;perf_mmap__push;record__pushfn;rcmd_af;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_write;ksys_write;vfs_write;new_sync_write;ext4_file_write_iter;ext4_buffered_write_iter;generic_perform_write;ext4_da_write_begin;ext4_block_write_begin;create_empty_buffers;alloc_buffer_head 40000
+perf;__vstrfmon_l_internal;main;run_builtin;cmd_record;record__mmap_read_evlist.constprop.0;perf_mmap__push;record__pushfn;rcmd_af;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_write;ksys_write;vfs_write;new_sync_write;ext4_file_write_iter;ext4_buffered_write_iter;generic_perform_write;ext4_da_write_begin;ext4_block_write_begin;create_empty_buffers;alloc_page_buffers;alloc_buffer_head;kmem_cache_alloc;___slab_alloc 40000
+perf;__vstrfmon_l_internal;main;run_builtin;cmd_record;record__mmap_read_evlist.constprop.0;perf_mmap__push;record__pushfn;rcmd_af;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_write;ksys_write;vfs_write;new_sync_write;ext4_file_write_iter;ext4_buffered_write_iter;generic_perform_write;ext4_da_write_begin;ext4_block_write_begin;ext4_da_get_block_prep;ext4_da_map_blocks.constprop.0 40000
+perf;__vstrfmon_l_internal;main;run_builtin;cmd_record;record__mmap_read_evlist.constprop.0;perf_mmap__push;record__pushfn;rcmd_af;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_write;ksys_write;vfs_write;new_sync_write;ext4_file_write_iter;ext4_buffered_write_iter;generic_perform_write;ext4_da_write_begin;grab_cache_page_write_begin;pagecache_get_page;add_to_page_cache_lru;__add_to_page_cache_locked 120000
+perf;__vstrfmon_l_internal;main;run_builtin;cmd_record;record__mmap_read_evlist.constprop.0;perf_mmap__push;record__pushfn;rcmd_af;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_write;ksys_write;vfs_write;new_sync_write;ext4_file_write_iter;ext4_buffered_write_iter;generic_perform_write;ext4_da_write_begin;grab_cache_page_write_begin;pagecache_get_page;add_to_page_cache_lru;__add_to_page_cache_locked;__mem_cgroup_charge;charge_memcg;try_charge_memcg;page_counter_try_charge 40000
+perf;__vstrfmon_l_internal;main;run_builtin;cmd_record;record__mmap_read_evlist.constprop.0;perf_mmap__push;record__pushfn;rcmd_af;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_write;ksys_write;vfs_write;new_sync_write;ext4_file_write_iter;ext4_buffered_write_iter;generic_perform_write;ext4_da_write_end;generic_write_end;__mark_inode_dirty;ext4_dirty_inode;__ext4_mark_inode_dirty;ext4_mark_iloc_dirty;ext4_do_update_inode.isra.0 40000
+perf;__vstrfmon_l_internal;main;run_builtin;cmd_record;record__mmap_read_evlist.constprop.0;perf_mmap__push;record__pushfn;rcmd_af;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_write;ksys_write;vfs_write;new_sync_write;ext4_file_write_iter;ext4_buffered_write_iter;generic_perform_write;fault_in_iov_iter_readable;__get_user_nocheck_1 80000
+swapper;secondary_startup_64_no_verify;start_secondary;cpu_startup_entry;do_idle;cpuidle_idle_call;default_idle_call;arch_cpu_idle;native_safe_halt 640000

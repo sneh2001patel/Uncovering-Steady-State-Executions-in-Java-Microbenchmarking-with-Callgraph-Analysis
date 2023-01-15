@@ -1,0 +1,57 @@
+Monitor_thread;[unknown];[libglib-2.0.so.0.7200.1] 40000
+Monitor_thread;[unknown];g_source_ref 80000
+Thread-28;[unknown];[unknown];void java.io.PrintStream.write;void java.io.FileOutputStream.writeBytes;jexpm1;[libjava.so] 120000
+Thread-28;[unknown];[unknown];void java.io.PrintStream.write;void java.io.FileOutputStream.writeBytes;jexpm1;[libjava.so];rcmd_af;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_write;ksys_write;vfs_write;__fsnotify_parent;take_dentry_name_snapshot;__raw_callee_save___pv_queued_spin_unlock 40000
+Thread-28;[unknown];[unknown];void java.io.PrintStream.write;void java.io.FileOutputStream.writeBytes;jexpm1;[libjava.so];rcmd_af;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_write;ksys_write;vfs_write;new_sync_write;ext4_file_write_iter;ext4_buffered_write_iter;generic_perform_write;ext4_da_write_end;generic_write_end;__mark_inode_dirty;ext4_dirty_inode;__ext4_journal_start_sb;jbd2__journal_start;start_this_handle;add_transaction_credits 40000
+Thread-28;boolean java.util.Formatter$Conversion.isValid 40000
+dbus-daemon;[unknown];[libdbus-1.so.3.19.13];__res_context_send;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_sendmsg;__sys_sendmsg;___sys_sendmsg;____sys_sendmsg;sock_sendmsg;unix_stream_sendmsg;sock_alloc_send_pskb;alloc_skb_with_frags;__alloc_skb;kmalloc_reserve;__kmalloc_node_track_caller;kmalloc_slab 80000
+dbus-daemon;[unknown];[libdbus-1.so.3.19.13];__res_context_send;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_sendmsg;__sys_sendmsg;___sys_sendmsg;____sys_sendmsg;sock_sendmsg;unix_stream_sendmsg;sock_def_readable;__wake_up_sync_key;__wake_up_common_lock;__lock_text_start 200000
+dbus-daemon;[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[dbus-daemon] 40000
+gdbus;[libgio-2.0.so.0.7200.1];[unknown];g_mutex_lock 40000
+gdbus;[unknown];[libglib-2.0.so.0.7200.1] 120000
+gdbus;[unknown];[unknown];[libc.so.6] 40000
+gdbus;[unknown];[unknown];[unknown];[libc.so.6] 120000
+gdbus;[unknown];[unknown];[unknown];g_dbus_message_get_path 40000
+gdbus;[unknown];[unknown];[unknown];g_hash_table_remove 160000
+gdbus;[unknown];[unknown];[unknown];g_mutex_unlock 40000
+gdbus;[unknown];[unknown];[unknown];g_task_new 40000
+gdbus;[unknown];[unknown];[unknown];pmap_rmtcall@GLIBC_2.2.5 40000
+gdbus;[unknown];[unknown];g_pointer_bit_unlock 120000
+gdbus;[unknown];__netlink_request;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_poll;do_sys_poll;do_poll.constprop.0;schedule_hrtimeout_range;schedule_hrtimeout_range_clock;schedule;__schedule;finish_task_switch.isra.0 80000
+gdbus;[unknown];__netlink_request;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_poll;do_sys_poll;do_poll.constprop.0;sock_poll 40000
+gdbus;[unknown];__netlink_request;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_poll;do_sys_poll;poll_freewait;remove_wait_queue;__lock_text_start 40000
+gdbus;[unknown];__strftime_internal 40000
+gdbus;[unknown];g_private_get 120000
+gdbus;[unknown];g_source_set_priority 80000
+gdbus;[unknown];g_variant_type_get_string_length 40000
+gdbus;[unknown];rcmd_af;entry_SYSCALL_64_after_hwframe;__x64_sys_write 40000
+gdbus;____wcstof_l_internal 40000
+gdbus;____wcstold_l_internal 80000
+gdbus;g_hash_table_lookup 40000
+gnome-shell;[unknown];[libmozjs-91.so.91.7.0];[libmozjs-91.so.91.7.0] 200000
+gnome-shell;[unknown];[libmozjs-91.so.91.7.0];[perf-1594.map];[perf-1594.map] 40000
+gnome-shell;[unknown];[libmozjs-91.so.91.7.0];asm_sysvec_call_function_single;sysvec_call_function_single;irqentry_exit;irqentry_exit_to_user_mode;exit_to_user_mode_prepare;exit_to_user_mode_loop 40000
+gvfs-afc-volume;[unknown];____wcstof_l_internal 40000
+gvfs-afc-volume;_nss_dns_gethostbyaddr2_r 40000
+pool-/usr/libex;____wcstod_l_internal 120000
+pool-/usr/libex;g_slice_alloc 40000
+rcu_sched;ret_from_fork;kthread;rcu_gp_kthread;rcu_gp_fqs_loop;schedule_timeout;schedule;__schedule;finish_task_switch.isra.0 120000
+snap-store;[unknown];g_main_context_check 40000
+snap-store;[unknown];g_main_context_check;asm_sysvec_apic_timer_interrupt;sysvec_apic_timer_interrupt;irq_exit_rcu;__softirqentry_text_start 240000
+swapper;secondary_startup_64_no_verify;start_secondary;cpu_startup_entry;do_idle;cpuidle_idle_call;default_idle_call;arch_cpu_idle;native_safe_halt 640000
+swapper;secondary_startup_64_no_verify;start_secondary;cpu_startup_entry;do_idle;cpuidle_idle_call;default_idle_call;arch_cpu_idle;native_safe_halt;asm_sysvec_apic_timer_interrupt;sysvec_apic_timer_interrupt;irq_exit_rcu;__softirqentry_text_start;run_timer_softirq;__run_timers.part.0;call_timer_fn;vbg_heartbeat_timer;vbg_req_perform 160000
+swapper;secondary_startup_64_no_verify;x86_64_start_kernel;x86_64_start_reservations;start_kernel;arch_call_rest_init;rest_init;cpu_startup_entry;do_idle;cpuidle_idle_call;default_idle_call;arch_cpu_idle;native_safe_halt 240000
+swapper;secondary_startup_64_no_verify;x86_64_start_kernel;x86_64_start_reservations;start_kernel;arch_call_rest_init;rest_init;cpu_startup_entry;do_idle;cpuidle_idle_call;default_idle_call;arch_cpu_idle;native_safe_halt;asm_sysvec_apic_timer_interrupt;sysvec_apic_timer_interrupt;irq_exit_rcu;__softirqentry_text_start 40000
+xdg-desktop-por;[libglib-2.0.so.0.7200.1] 40000
+xdg-desktop-por;[unknown];g_hash_table_iter_next 40000
+xdg-desktop-por;[unknown];g_slice_free1 40000
+xdg-desktop-por;[unknown];res_querydomain@@GLIBC_2.34;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_prctl;__do_sys_prctl;__set_task_comm;perf_event_comm;perf_iterate_sb 160000
+xdg-desktop-por;send_vc;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_clone3;__do_sys_clone3;kernel_clone;copy_process;alloc_pid;kmem_cache_alloc;memcg_slab_post_alloc_hook 40000
+xdg-desktop-por;send_vc;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_clone3;__do_sys_clone3;kernel_clone;copy_process;dup_task_struct;alloc_thread_stack_node;__vmalloc_node_range;__get_vm_area_node.constprop.0;alloc_vmap_area 40000
+xdg-desktop-por;send_vc;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_clone3;__do_sys_clone3;kernel_clone;copy_process;dup_task_struct;alloc_thread_stack_node;__vmalloc_node_range;__get_vm_area_node.constprop.0;alloc_vmap_area;insert_vmap_area.constprop.0 40000
+xdg-desktop-por;send_vc;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_clone3;__do_sys_clone3;kernel_clone;copy_process;dup_task_struct;alloc_thread_stack_node;__vmalloc_node_range;__get_vm_area_node.constprop.0;alloc_vmap_area;kmem_cache_alloc_node 80000
+xdg-desktop-por;send_vc;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_clone3;__do_sys_clone3;kernel_clone;copy_process;freezer_fork 40000
+xdg-desktop-por;send_vc;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_clone3;__do_sys_clone3;kernel_clone;dup_task_struct 40000
+xdg-desktop-por;send_vc;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_clone3;__do_sys_clone3;kernel_clone;wake_up_new_task;__lock_text_start 40000
+xdg-document-po;send_vc;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_clone3;__do_sys_clone3;kernel_clone;copy_process;dup_task_struct;get_random_u64 80000
+xdg-document-po;send_vc;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_clone3;__do_sys_clone3;kernel_clone;wake_up_new_task;__lock_text_start 40000

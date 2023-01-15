@@ -1,0 +1,63 @@
+Thread-28;[unknown];[unknown];void java.io.PrintStream.write;void java.io.FileOutputStream.writeBytes;jexpm1;[libjava.so];rcmd_af;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_write;ksys_write;vfs_write;new_sync_write;ext4_file_write_iter;ext4_buffered_write_iter;generic_perform_write;ext4_da_write_begin;grab_cache_page_write_begin;pagecache_get_page;xas_load;xas_start 80000
+Thread-28;[unknown];[unknown];void java.io.PrintStream.write;void java.io.FileOutputStream.writeBytes;jexpm1;[libjava.so];rcmd_af;entry_SYSCALL_64_after_hwframe;do_syscall_64;syscall_enter_from_user_mode 40000
+Thread-28;java.lang.Object jdk.internal.reflect.GeneratedSerializationConstructorAccessor34.newInstance;asm_sysvec_apic_timer_interrupt;sysvec_apic_timer_interrupt;irq_exit_rcu;__softirqentry_text_start 400000
+Thread-28;void java.text.DecimalFormatSymbols.initialize;asm_exc_page_fault;exc_page_fault;do_user_addr_fault;handle_mm_fault;__handle_mm_fault;handle_pte_fault;do_anonymous_page;__mem_cgroup_charge;charge_memcg;try_charge_memcg;refill_stock 120000
+Thread-28;void java.util.Formatter$FormatSpecifier.print 240000
+Thread-28;vtable chunks 200000
+VM_Periodic_Tas;__strncat_ssse3;SystemDictionary::find_method_handle_type;[libjvm.so];StubRoutines::initialize2;StubRoutines::arrayof_oop_copy_uninit 40000
+gnome-shell;[kms_swrast_dri.so] 160000
+gnome-shell;[libc.so.6] 600000
+gnome-shell;[libmutter-10.so.0.0.0] 80000
+gnome-shell;[libmutter-cogl-10.so.0.0.0] 40000
+gnome-shell;[unknown];[libffi.so.8.1.0] 40000
+gnome-shell;[unknown];[libglib-2.0.so.0.7200.1] 40000
+gnome-shell;[unknown];[libwayland-server.so.0.20.0] 120000
+gnome-shell;[unknown];[unknown];[libgdk-3.so.0.2404.29] 320000
+gnome-shell;[unknown];[unknown];[unknown];[libgobject-2.0.so.0.7200.1] 80000
+gnome-shell;[unknown];[unknown];[unknown];[unknown];[libmutter-10.so.0.0.0] 160000
+gnome-shell;[unknown];[unknown];[unknown];g_signal_emit;[libgobject-2.0.so.0.7200.1] 40000
+gnome-shell;[unknown];[unknown];[unknown];parse_qtd_backslash 40000
+gnome-shell;[unknown];[unknown];g_main_context_prepare 120000
+gnome-shell;[unknown];[unknown];g_main_loop_run 40000
+gnome-shell;[unknown];[unknown];g_private_get 40000
+gnome-shell;[unknown];__netlink_request;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_poll;do_sys_poll;do_poll.constprop.0 40000
+gnome-shell;[unknown];__netlink_request;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_poll;do_sys_poll;do_poll.constprop.0;sock_poll 80000
+gnome-shell;[unknown];cairo_region_destroy 40000
+gnome-shell;[unknown];clutter_seat_get_pointer 40000
+gnome-shell;[unknown];g_io_channel_get_buffer_condition 40000
+gnome-shell;[unknown];g_mutex_lock 40000
+gnome-shell;[unknown];g_private_get 40000
+gnome-shell;[unknown];pixman_region32_fini 40000
+gnome-shell;[unknown];rcmd_af;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_read;ksys_read;vfs_read;new_sync_read;_raw_spin_lock_irq 40000
+gnome-shell;__res_context_send;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_recvmsg;__sys_recvmsg;___sys_recvmsg 40000
+gnome-shell;g_type_check_instance_is_a 40000
+nautilus;[libglib-2.0.so.0.7200.1] 80000
+nautilus;[unknown];[libc.so.6] 240000
+nautilus;[unknown];[libglib-2.0.so.0.7200.1] 280000
+nautilus;[unknown];[libglib-2.0.so.0.7200.1];[unknown];[libglib-2.0.so.0.7200.1] 120000
+nautilus;[unknown];[unknown];[unknown];[libglib-2.0.so.0.7200.1] 40000
+nautilus;[unknown];[unknown];[unknown];g_slist_remove_link 40000
+nautilus;[unknown];[unknown];__vfwscanf_internal 120000
+nautilus;[unknown];[unknown];g_date_time_new_from_iso8601 120000
+nautilus;[unknown];g_markup_parse_context_parse 240000
+nautilus;[unknown];g_slist_concat 40000
+nautilus;[unknown];g_slist_remove_link 40000
+nautilus;[unknown];g_str_hash 40000
+nautilus;[unknown];g_string_insert_len 120000
+nautilus;[unknown];g_strndup 40000
+nautilus;[unknown];round_and_return 200000
+nautilus;____wcstod_l_internal 600000
+nautilus;____wcstof_l_internal 80000
+nautilus;____wcstold_l_internal 40000
+nautilus;g_hash_table_lookup 80000
+nautilus;g_slice_alloc 40000
+nautilus;g_time_zone_ref 40000
+org.sample.MyBe;__strncat_ssse3;SystemDictionary::find_method_handle_type;[libjvm.so];[libjvm.so];MacroAssembler::fast_md5;LibraryCallKit::inline_string_copy;LibraryCallKit::inline_fp_conversions;StubRoutines ;Interpreter;Interpreter;_new_array_Java;ErrorContext::stackmap_details;[libjvm.so];ShenandoahSATBMarkQueueSet::ShenandoahSATBMarkQueueSet;[libc.so.6] 680000
+org.sample.MyBe;__strncat_ssse3;SystemDictionary::find_method_handle_type;[libjvm.so];[libjvm.so];MacroAssembler::fast_md5;LibraryCallKit::inline_string_copy;LibraryCallKit::inline_fp_conversions;StubRoutines ;Interpreter;Interpreter;int[] org.sample.MyBenchmark.getArray 1720000
+swapper;secondary_startup_64_no_verify;start_secondary;cpu_startup_entry;do_idle;cpuidle_idle_call 80000
+swapper;secondary_startup_64_no_verify;start_secondary;cpu_startup_entry;do_idle;cpuidle_idle_call;default_idle_call;arch_cpu_idle;native_safe_halt 7680000
+swapper;secondary_startup_64_no_verify;start_secondary;cpu_startup_entry;do_idle;cpuidle_idle_call;default_idle_call;arch_cpu_idle;native_safe_halt;asm_sysvec_apic_timer_interrupt;sysvec_apic_timer_interrupt;irq_exit_rcu;__softirqentry_text_start 80000
+swapper;secondary_startup_64_no_verify;start_secondary;cpu_startup_entry;do_idle;cpuidle_idle_call;default_idle_call;arch_cpu_idle;native_safe_halt;asm_sysvec_apic_timer_interrupt;sysvec_apic_timer_interrupt;irq_exit_rcu;__softirqentry_text_start;rcu_core_si;rcu_core;rcu_report_qs_rnp;rcu_gp_kthread_wake;swake_up_one;__lock_text_start 80000
+swapper;secondary_startup_64_no_verify;start_secondary;cpu_startup_entry;do_idle;cpuidle_idle_call;default_idle_call;arch_cpu_idle;native_safe_halt;asm_sysvec_apic_timer_interrupt;sysvec_apic_timer_interrupt;irq_exit_rcu;__softirqentry_text_start;run_timer_softirq;__run_timers.part.0;call_timer_fn;vbg_heartbeat_timer;vbg_req_perform 120000
+swapper;secondary_startup_64_no_verify;start_secondary;cpu_startup_entry;do_idle;nohz_run_idle_balance;_nohz_idle_balance.constprop.0.isra.0;update_blocked_averages 80000
+swapper;secondary_startup_64_no_verify;start_secondary;cpu_startup_entry;do_idle;schedule_idle;__schedule;finish_task_switch.isra.0 120000

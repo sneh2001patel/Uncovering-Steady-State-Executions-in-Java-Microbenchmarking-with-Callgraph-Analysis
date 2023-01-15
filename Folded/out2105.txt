@@ -1,0 +1,19 @@
+gnome-shell;[kms_swrast_dri.so] 80000
+gnome-shell;[unknown];[kms_swrast_dri.so] 80000
+gnome-shell;[unknown];[kms_swrast_dri.so];[perf-1594.map] 40000
+gnome-shell;[unknown];[kms_swrast_dri.so];[unknown];[kms_swrast_dri.so] 40000
+gnome-shell;[unknown];[unknown];[libc.so.6] 40000
+gnome-shell;[unknown];[unknown];[unknown];[libmutter-10.so.0.0.0] 40000
+gnome-shell;[unknown];[unknown];[unknown];[libmutter-10.so.0.0.0];[libmutter-cogl-10.so.0.0.0] 40000
+gnome-shell;__GI___strncasecmp_l_sse2;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_futex;do_futex;futex_wake;wake_up_q;try_to_wake_up;__lock_text_start 40000
+gnome-shell;__GI___strncasecmp_l_sse2;entry_SYSCALL_64_after_hwframe;do_syscall_64;syscall_exit_to_user_mode;exit_to_user_mode_prepare;exit_to_user_mode_loop;schedule;__schedule;finish_task_switch.isra.0 80000
+gnome-shell;____wcstod_l_internal 40000
+gnome-shell;____wcstold_l_internal 40000
+gnome-shell;__popcountdi2 40000
+gnome-shell;__strcat_ssse3;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_futex;do_futex;futex_wake;wake_up_q;try_to_wake_up;__lock_text_start 40000
+llvmpipe-0;[unknown];[kms_swrast_dri.so] 40000
+llvmpipe-0;[unknown];_nss_dns_gethostbyaddr2_r;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_mmap;ksys_mmap_pgoff;vm_mmap_pgoff;do_mmap;get_unmapped_area;vmw_get_unmapped_area;drm_get_unmapped_area;arch_get_unmapped_area_topdown;vm_unmapped_area;unmapped_area_topdown 120000
+llvmpipe-0;[unknown];_nss_dns_gethostbyaddr2_r;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_mmap;ksys_mmap_pgoff;vm_mmap_pgoff;do_mmap;mmap_region;vmw_mmap;vmw_user_bo_verify_access;ttm_ref_object_exists;drm_ht_find_item 40000
+llvmpipe-0;[unknown];_nss_dns_gethostbyaddr2_r;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_mmap;ksys_mmap_pgoff;vm_mmap_pgoff;security_mmap_file;apparmor_mmap_file 40000
+org.sample.MyBe;__strncat_ssse3;SystemDictionary::find_method_handle_type;[libjvm.so];[libjvm.so];MacroAssembler::fast_md5;LibraryCallKit::inline_string_copy;LibraryCallKit::inline_fp_conversions;StubRoutines ;Interpreter;Interpreter;Interpreter;Interpreter;Interpreter;Interpreter;Interpreter;Interpreter;Interpreter;Interpreter;Interpreter;Interpreter;Interpreter;_new_array_Java;ErrorContext::stackmap_details;[libjvm.so];ShenandoahSATBMarkQueueSet::ShenandoahSATBMarkQueueSet;[libc.so.6] 720000
+swapper;secondary_startup_64_no_verify;start_secondary;cpu_startup_entry;do_idle;cpuidle_idle_call;default_idle_call;arch_cpu_idle;native_safe_halt 3320000

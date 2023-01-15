@@ -1,0 +1,18 @@
+Thread-31;[unknown];[unknown];java.lang.String java.io.ObjectInputStream$BlockDataInputStream.readUTFBody 80000
+Thread-31;[unknown];byte java.io.ObjectInputStream$BlockDataInputStream.readByte 40000
+Thread-31;[unknown];java.lang.Object[] java.util.ArrayList.toArray 40000
+Thread-31;[unknown];void java.io.ObjectStreamClass.readNonProxy 80000
+Thread-31;[unknown];void java.io.ObjectStreamClass.readNonProxy;asm_exc_page_fault;exc_page_fault;do_user_addr_fault 40000
+Thread-31;[unknown];void java.io.ObjectStreamClass.readNonProxy;asm_exc_page_fault;exc_page_fault;do_user_addr_fault;handle_mm_fault;__handle_mm_fault;handle_pte_fault;do_anonymous_page;lru_cache_add_inactive_or_unevictable;lru_cache_add;__pagevec_lru_add;__lock_text_start 80000
+Thread-31;java.lang.Class java.io.ObjectInputStream.resolveClass;java.lang.ClassLoader jdk.internal.misc.VM.latestUserDefinedLoader0 80000
+Thread-31;java.lang.Class java.io.ObjectInputStream.resolveClass;java.lang.ClassLoader jdk.internal.misc.VM.latestUserDefinedLoader0;MacroAssembler::fast_sha256 40000
+Thread-31;java.lang.Class java.io.ObjectInputStream.resolveClass;java.lang.ClassLoader jdk.internal.misc.VM.latestUserDefinedLoader0;MacroAssembler::fast_sha256;G1Policy::calculate_young_list_target_length;[libjvm.so];jvmtiTrace_ResumeThread 200000
+Thread-31;void java.io.ObjectStreamClass.initNonProxy 40000
+java;__strncat_ssse3;inflate_file.part.0;JLI_Launch;MacroAssembler::cmp_narrow_klass;MacroAssembler::check_klass_subtype_fast_path;LibraryCallKit::inline_fp_conversions;StubRoutines ;Interpreter;Interpreter;Interpreter;Interpreter;Interpreter;int sun.nio.ch.NioSocketImpl.tryWrite;int sun.nio.ch.FileDispatcherImpl.write0;rcmd_af;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_write;ksys_write;vfs_write;new_sync_write;sock_write_iter;sock_sendmsg;inet6_sendmsg;tcp_sendmsg;tcp_sendmsg_locked;sk_stream_alloc_skb;__alloc_skb;kmalloc_reserve;memset 40000
+java;__strncat_ssse3;inflate_file.part.0;JLI_Launch;MacroAssembler::cmp_narrow_klass;MacroAssembler::check_klass_subtype_fast_path;LibraryCallKit::inline_fp_conversions;StubRoutines ;Interpreter;Interpreter;Interpreter;Interpreter;Interpreter;long java.util.concurrent.TimeUnit.toNanos 80000
+org.sample.MyBe;__strncat_ssse3;SystemDictionary::find_method_handle_type;[libjvm.so];[libjvm.so];MacroAssembler::fast_md5;LibraryCallKit::inline_string_copy;LibraryCallKit::inline_fp_conversions;StubRoutines ;Interpreter;Interpreter;_new_array_Java;ErrorContext::stackmap_details;[libjvm.so];ShenandoahSATBMarkQueueSet::ShenandoahSATBMarkQueueSet;[libc.so.6] 440000
+org.sample.MyBe;__strncat_ssse3;SystemDictionary::find_method_handle_type;[libjvm.so];[libjvm.so];MacroAssembler::fast_md5;LibraryCallKit::inline_string_copy;LibraryCallKit::inline_fp_conversions;StubRoutines ;Interpreter;Interpreter;_new_array_Java;ErrorContext::stackmap_details;[libjvm.so];ShenandoahSATBMarkQueueSet::filter;c2v_translate;ContiguousSpaceDCTOC::walk_mem_region_with_cl 80000
+org.sample.MyBe;void jdk.internal.misc.Unsafe.copyMemory 40000
+swapper;secondary_startup_64_no_verify;start_secondary;cpu_startup_entry;do_idle;cpuidle_idle_call;default_idle_call;arch_cpu_idle;native_safe_halt 4520000
+swapper;secondary_startup_64_no_verify;start_secondary;cpu_startup_entry;do_idle;cpuidle_idle_call;default_idle_call;arch_cpu_idle;native_safe_halt;asm_sysvec_apic_timer_interrupt;sysvec_apic_timer_interrupt;irq_exit_rcu;__softirqentry_text_start 120000
+swapper;secondary_startup_64_no_verify;x86_64_start_kernel;x86_64_start_reservations;start_kernel;arch_call_rest_init;rest_init;cpu_startup_entry;do_idle;cpuidle_idle_call;default_idle_call;arch_cpu_idle;native_safe_halt 600000

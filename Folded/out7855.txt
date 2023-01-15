@@ -1,0 +1,29 @@
+Thread-28;__strncat_ssse3;SystemDictionary::find_method_handle_type;[libjvm.so];[libjvm.so];MacroAssembler::fast_md5;LibraryCallKit::inline_string_copy;LibraryCallKit::inline_fp_conversions;StubRoutines ;Interpreter 320000
+Thread-28;__strncat_ssse3;SystemDictionary::find_method_handle_type;[libjvm.so];[libjvm.so];MacroAssembler::fast_md5;LibraryCallKit::inline_string_copy;LibraryCallKit::inline_fp_conversions;StubRoutines ;Interpreter;asm_sysvec_apic_timer_interrupt;sysvec_apic_timer_interrupt;irq_exit_rcu;__softirqentry_text_start 80000
+Thread-28;void java.io.BufferedWriter.flushBuffer 40000
+Thread-28;void java.io.ObjectStreamClass$FieldReflector.setPrimFieldValues 40000
+kworker/u16:1-e;ret_from_fork;kthread;worker_thread;process_one_work;ext4_end_io_rsv_work;ext4_release_io_end;ext4_finish_bio 200000
+kworker/u16:1-e;ret_from_fork;kthread;worker_thread;process_one_work;ext4_end_io_rsv_work;ext4_release_io_end;ext4_finish_bio;asm_sysvec_apic_timer_interrupt;sysvec_apic_timer_interrupt;irq_exit_rcu;__softirqentry_text_start 80000
+kworker/u16:1-e;ret_from_fork;kthread;worker_thread;process_one_work;ext4_end_io_rsv_work;ext4_release_io_end;ext4_finish_bio;end_page_writeback 40000
+kworker/u16:1-e;ret_from_fork;kthread;worker_thread;process_one_work;ext4_end_io_rsv_work;ext4_release_io_end;ext4_finish_bio;end_page_writeback;test_clear_page_writeback;dec_zone_page_state 120000
+llvmpipe-1;[kms_swrast_dri.so] 120000
+llvmpipe-1;[unknown];[kms_swrast_dri.so];[perf-1594.map] 120000
+llvmpipe-1;[unknown];[kms_swrast_dri.so];[perf-1594.map];asm_exc_page_fault;exc_page_fault;do_user_addr_fault;handle_mm_fault;__handle_mm_fault 40000
+llvmpipe-1;[unknown];[unknown];[kms_swrast_dri.so];[perf-1594.map] 160000
+llvmpipe-3;[unknown];[kms_swrast_dri.so];[perf-1594.map] 240000
+llvmpipe-3;[unknown];[kms_swrast_dri.so];[perf-1594.map];asm_sysvec_apic_timer_interrupt;sysvec_apic_timer_interrupt;irq_exit_rcu;__softirqentry_text_start 40000
+llvmpipe-3;[unknown];[unknown];[kms_swrast_dri.so];[perf-1594.map] 240000
+llvmpipe-4;[unknown];[kms_swrast_dri.so] 80000
+llvmpipe-4;[unknown];[kms_swrast_dri.so];[perf-1594.map] 200000
+llvmpipe-4;[unknown];[kms_swrast_dri.so];[perf-1594.map];asm_exc_page_fault;exc_page_fault;do_user_addr_fault;handle_mm_fault;__handle_mm_fault;handle_pte_fault;do_fault;do_read_fault;__do_fault;ttm_bo_vm_reserve 80000
+llvmpipe-4;[unknown];[unknown];[kms_swrast_dri.so];[perf-1594.map] 160000
+llvmpipe-4;[unknown];[unknown];[unknown];[unknown];[kms_swrast_dri.so] 80000
+llvmpipe-4;[unknown];[unknown];[unknown];[unknown];[kms_swrast_dri.so];asm_sysvec_apic_timer_interrupt;sysvec_apic_timer_interrupt;irq_exit_rcu;__softirqentry_text_start 80000
+llvmpipe-5;[unknown];[kms_swrast_dri.so];[perf-1594.map] 40000
+llvmpipe-5;[unknown];[unknown];[kms_swrast_dri.so];[perf-1594.map] 520000
+llvmpipe-6;[unknown];[kms_swrast_dri.so];[perf-1594.map];asm_sysvec_call_function_single;sysvec_call_function_single;irqentry_exit;irqentry_exit_to_user_mode;exit_to_user_mode_prepare;exit_to_user_mode_loop 40000
+org.sample.MyBe;__strncat_ssse3;SystemDictionary::find_method_handle_type;[libjvm.so];[libjvm.so];MacroAssembler::fast_md5;LibraryCallKit::inline_string_copy;LibraryCallKit::inline_fp_conversions;StubRoutines ;Interpreter;Interpreter;_new_array_Java;ErrorContext::stackmap_details;[libjvm.so];ShenandoahSATBMarkQueueSet::ShenandoahSATBMarkQueueSet;[libc.so.6] 320000
+org.sample.MyBe;__strncat_ssse3;SystemDictionary::find_method_handle_type;[libjvm.so];[libjvm.so];MacroAssembler::fast_md5;LibraryCallKit::inline_string_copy;LibraryCallKit::inline_fp_conversions;StubRoutines ;Interpreter;Interpreter;_new_array_Java;ErrorContext::stackmap_details;[libjvm.so];ShenandoahSATBMarkQueueSet::ShenandoahSATBMarkQueueSet;[libc.so.6];asm_sysvec_apic_timer_interrupt;sysvec_apic_timer_interrupt;irq_exit_rcu;__softirqentry_text_start 120000
+org.sample.MyBe;__strncat_ssse3;SystemDictionary::find_method_handle_type;[libjvm.so];[libjvm.so];MacroAssembler::fast_md5;LibraryCallKit::inline_string_copy;LibraryCallKit::inline_fp_conversions;StubRoutines ;Interpreter;Interpreter;_new_array_Java;ErrorContext::stackmap_details;[libjvm.so];ShenandoahSATBMarkQueueSet::filter;c2v_translate;c2v_asReflectionExecutable;JvmtiExport::post_class_unload_internal;JvmtiExport::post_class_unload_internal 40000
+swapper;secondary_startup_64_no_verify;start_secondary;cpu_startup_entry;do_idle;cpuidle_idle_call;default_idle_call;arch_cpu_idle;native_safe_halt 280000
+swapper;secondary_startup_64_no_verify;start_secondary;cpu_startup_entry;do_idle;cpuidle_idle_call;default_idle_call;arch_cpu_idle;native_safe_halt;asm_sysvec_apic_timer_interrupt;sysvec_apic_timer_interrupt;irq_exit_rcu;__softirqentry_text_start 120000

@@ -1,0 +1,20 @@
+gnome-shell;[kms_swrast_dri.so] 80000
+gnome-shell;[libc.so.6] 120000
+gnome-shell;[libmozjs-91.so.91.7.0] 40000
+gnome-shell;[libmutter-10.so.0.0.0] 40000
+gnome-shell;[unknown];[unknown];[libgobject-2.0.so.0.7200.1] 40000
+gnome-shell;[unknown];[unknown];[unknown];[libmutter-10.so.0.0.0] 40000
+gnome-shell;[unknown];[unknown];[unknown];graphene_point3d_init_from_point 40000
+gnome-shell;[unknown];[unknown];[unknown];meta_window_get_type 40000
+gnome-shell;[unknown];[unknown];_nss_dns_gethostbyaddr2_r;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_mmap;ksys_mmap_pgoff;vm_mmap_pgoff;do_mmap;uprobe_mmap 40000
+gnome-shell;[unknown];_XcursorGetDisplayInfo 40000
+gnome-shell;[unknown];g_type_check_instance_cast 40000
+gnome-shell;[unknown];pixman_region32_n_rects 40000
+gnome-shell;g_cclosure_marshal_generic;[unknown];[libglib-2.0.so.0.7200.1] 40000
+gnome-shell;g_slice_alloc 120000
+gnome-shell;setsourcefilter;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_ioctl;__fget_light 120000
+org.sample.MyBe;__strncat_ssse3;SystemDictionary::find_method_handle_type;[libjvm.so];[libjvm.so];MacroAssembler::fast_md5;LibraryCallKit::inline_string_copy;LibraryCallKit::inline_fp_conversions;StubRoutines ;Interpreter;Interpreter;_new_array_Java;ErrorContext::stackmap_details;[libjvm.so];ShenandoahSATBMarkQueueSet::ShenandoahSATBMarkQueueSet;[libc.so.6] 440000
+org.sample.MyBe;__strncat_ssse3;SystemDictionary::find_method_handle_type;[libjvm.so];[libjvm.so];MacroAssembler::fast_md5;LibraryCallKit::inline_string_copy;LibraryCallKit::inline_fp_conversions;StubRoutines ;Interpreter;Interpreter;_new_array_Java;ErrorContext::stackmap_details;[libjvm.so];ShenandoahSATBMarkQueueSet::filter;c2v_translate;JNIJVMCI::initialize_ids 40000
+org.sample.MyBe;__strncat_ssse3;SystemDictionary::find_method_handle_type;[libjvm.so];[libjvm.so];MacroAssembler::fast_md5;LibraryCallKit::inline_string_copy;LibraryCallKit::inline_fp_conversions;StubRoutines ;Interpreter;Interpreter;_new_array_Java;ErrorContext::stackmap_details;[libjvm.so];ShenandoahSATBMarkQueueSet::filter;c2v_translate;c2v_asReflectionExecutable;__stpncpy_sse2_unaligned 80000
+org.sample.MyBe;__strncat_ssse3;SystemDictionary::find_method_handle_type;[libjvm.so];[libjvm.so];MacroAssembler::fast_md5;LibraryCallKit::inline_string_copy;LibraryCallKit::inline_fp_conversions;StubRoutines ;Interpreter;Interpreter;_new_array_Java;ErrorContext::stackmap_details;[libjvm.so];ShenandoahSATBMarkQueueSet::filter;c2v_translate;c2v_asReflectionExecutable;c2v_getBytecode;c2v_resetCompilationStatistics 160000
+swapper;secondary_startup_64_no_verify;start_secondary;cpu_startup_entry;do_idle;cpuidle_idle_call;default_idle_call;arch_cpu_idle;native_safe_halt 4400000

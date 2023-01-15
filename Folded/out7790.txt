@@ -1,0 +1,12 @@
+dconf_worker;entry_SYSCALL_64_after_hwframe;do_syscall_64;syscall_exit_to_user_mode;exit_to_user_mode_prepare;exit_to_user_mode_loop;arch_do_signal_or_restart;get_signal;do_group_exit;do_exit;exit_mm;mmput;exit_mmap;unmap_vmas;unmap_single_vma;unmap_page_range;zap_pmd_range.isra.0;__tlb_remove_page_size 40000
+dconf_worker;entry_SYSCALL_64_after_hwframe;do_syscall_64;syscall_exit_to_user_mode;exit_to_user_mode_prepare;exit_to_user_mode_loop;arch_do_signal_or_restart;get_signal;do_group_exit;do_exit;exit_mm;mmput;exit_mmap;unmap_vmas;unmap_single_vma;unmap_page_range;zap_pmd_range.isra.0;zap_pte_range 80000
+dconf_worker;entry_SYSCALL_64_after_hwframe;do_syscall_64;syscall_exit_to_user_mode;exit_to_user_mode_prepare;exit_to_user_mode_loop;arch_do_signal_or_restart;get_signal;do_group_exit;do_exit;exit_mm;mmput;exit_mmap;unmap_vmas;unmap_single_vma;unmap_page_range;zap_pmd_range.isra.0;zap_pte_range;vm_normal_page 80000
+gdbus;[libglib-2.0.so.0.7200.1] 40000
+gdbus;[unknown];[libglib-2.0.so.0.7200.1] 40000
+gdbus;[unknown];[libglib-2.0.so.0.7200.1];__strncat_ssse3 80000
+gdbus;g_hash_table_remove 40000
+gnome-shell;[unknown];[libgjs.so.0.0.0];[libgjs.so.0.0.0] 40000
+gnome-shell;[unknown];[unknown];[unknown];g_closure_ref 120000
+gnome-shell;____wcstod_l_internal 40000
+swapper;secondary_startup_64_no_verify;start_secondary;cpu_startup_entry;do_idle;cpuidle_idle_call;default_idle_call;arch_cpu_idle;native_safe_halt 360000
+swapper;secondary_startup_64_no_verify;x86_64_start_kernel;x86_64_start_reservations;start_kernel;arch_call_rest_init;rest_init;cpu_startup_entry;do_idle;cpuidle_idle_call;default_idle_call;arch_cpu_idle;native_safe_halt 160000

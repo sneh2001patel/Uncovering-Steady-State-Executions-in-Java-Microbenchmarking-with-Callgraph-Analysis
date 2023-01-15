@@ -1,0 +1,19 @@
+gnome-terminal-;[libgobject-2.0.so.0.7200.1] 160000
+gnome-terminal-;[libvte-2.91.so.0.6800.0];[unknown];[unknown];[unknown];[libglib-2.0.so.0.7200.1] 40000
+gnome-terminal-;[unknown];[libc.so.6] 80000
+gnome-terminal-;[unknown];[libgdk-3.so.0.2404.29] 80000
+gnome-terminal-;[unknown];[unknown];[unknown];[unknown];[libgtk-3.so.0.2404.29] 160000
+gnome-terminal-;[unknown];[unknown];[unknown];[unknown];____wcstof_l_internal 80000
+gnome-terminal-;[unknown];[unknown];[unknown];g_signal_emit;[libgobject-2.0.so.0.7200.1] 40000
+gnome-terminal-;[unknown];[unknown];[unknown];gdk_screen_get_display 40000
+gnome-terminal-;[unknown];[unknown];[unknown];gtk_window_get_type 40000
+gnome-terminal-;[unknown];[unknown];[unknown];gtk_window_group_add_window 40000
+gnome-terminal-;[unknown];__netlink_request;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_poll;do_sys_poll;do_poll.constprop.0;sock_poll 40000
+gnome-terminal-;g_hash_table_lookup 40000
+org.sample.MyBe;__strncat_ssse3;SystemDictionary::find_method_handle_type;[libjvm.so];[libjvm.so];MacroAssembler::fast_md5;LibraryCallKit::inline_string_copy;LibraryCallKit::inline_fp_conversions;StubRoutines ;Interpreter;Interpreter;int[] org.sample.MyBenchmark.getArray 720000
+swapper;secondary_startup_64_no_verify;start_secondary;cpu_startup_entry;do_idle;cpuidle_idle_call;default_idle_call;arch_cpu_idle;native_safe_halt 4480000
+swapper;secondary_startup_64_no_verify;start_secondary;cpu_startup_entry;do_idle;cpuidle_idle_call;default_idle_call;arch_cpu_idle;native_safe_halt;asm_sysvec_apic_timer_interrupt;sysvec_apic_timer_interrupt;irq_exit_rcu;__softirqentry_text_start 40000
+swapper;secondary_startup_64_no_verify;start_secondary;cpu_startup_entry;do_idle;cpuidle_idle_call;default_idle_call;arch_cpu_idle;native_safe_halt;asm_sysvec_apic_timer_interrupt;sysvec_apic_timer_interrupt;irq_exit_rcu;__softirqentry_text_start;run_timer_softirq;__run_timers.part.0;call_timer_fn;vbg_heartbeat_timer;vbg_req_perform 40000
+swapper;secondary_startup_64_no_verify;start_secondary;cpu_startup_entry;do_idle;schedule_idle;__schedule;finish_task_switch.isra.0 40000
+swapper;secondary_startup_64_no_verify;x86_64_start_kernel;x86_64_start_reservations;start_kernel;arch_call_rest_init;rest_init;cpu_startup_entry;do_idle;cpuidle_idle_call;default_idle_call;arch_cpu_idle;native_safe_halt 880000
+swapper;secondary_startup_64_no_verify;x86_64_start_kernel;x86_64_start_reservations;start_kernel;arch_call_rest_init;rest_init;cpu_startup_entry;do_idle;cpuidle_idle_call;default_idle_call;arch_cpu_idle;native_safe_halt;asm_sysvec_call_function_single;sysvec_call_function_single;irq_exit_rcu;__softirqentry_text_start 40000

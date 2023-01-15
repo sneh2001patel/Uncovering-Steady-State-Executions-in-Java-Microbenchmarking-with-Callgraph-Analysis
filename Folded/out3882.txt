@@ -1,0 +1,20 @@
+GC_Thread#2;__strncat_ssse3;SystemDictionary::find_method_handle_type;[libjvm.so];[libjvm.so];[libjvm.so];CompilerToVM::initialize_intrinsics;CompilerToVM::initialize_intrinsics;JNIJVMCI::HotSpotResolvedJavaFieldImpl::set_modifiers;JNIJVMCI::Assumptions_CallSiteTargetValue::set_callSite 40000
+GC_Thread#2;__strncat_ssse3;SystemDictionary::find_method_handle_type;[libjvm.so];[libjvm.so];[libjvm.so];CompilerToVM::initialize_intrinsics;CompilerToVM::initialize_intrinsics;JNIJVMCI::HotSpotResolvedJavaFieldImpl::set_modifiers;JNIJVMCI::InstalledCode::set_address 160000
+GC_Thread#2;__strncat_ssse3;SystemDictionary::find_method_handle_type;[libjvm.so];[libjvm.so];[libjvm.so];CompilerToVM::initialize_intrinsics;CompilerToVM::initialize_intrinsics;JNIJVMCI::HotSpotResolvedJavaFieldImpl::set_modifiers;JNIJVMCI::site_Site::get_pcOffset;JNIJVMCI::HotSpotCompiledNmethod::set_hasUnsafeAccess;JNIJVMCI::HotSpotCompiledNmethod::set_id 40000
+GC_Thread#2;__strncat_ssse3;SystemDictionary::find_method_handle_type;[libjvm.so];[libjvm.so];[libjvm.so];CompilerToVM::initialize_intrinsics;CompilerToVM::initialize_intrinsics;JNIJVMCI::IndirectHotSpotObjectConstantImpl::get_objectHandle;JNIJVMCI::HotSpotObjectConstantImpl::get_compressed;HeapRegionManager::next_region_in_heap;HotSpotJVMCI::compute_offsets;VerifyLiveClosure::verify_liveness<oopDesc*>;JNIJVMCI::PrimitiveConstant::get_kind 40000
+GC_Thread#2;__strncat_ssse3;SystemDictionary::find_method_handle_type;[libjvm.so];[libjvm.so];[libjvm.so];CompilerToVM::initialize_intrinsics;CompilerToVM::initialize_intrinsics;JNIJVMCI::IndirectHotSpotObjectConstantImpl::get_objectHandle;JNIJVMCI::HotSpotObjectConstantImpl::get_compressed;HeapRegionManager::next_region_in_heap;HotSpotJVMCI::compute_offsets;VerifyLiveClosure::verify_liveness<oopDesc*>;JNIJVMCI::PrimitiveConstant::set_kind 120000
+GC_Thread#2;__strncat_ssse3;SystemDictionary::find_method_handle_type;[libjvm.so];[libjvm.so];[libjvm.so];CompilerToVM::initialize_intrinsics;CompilerToVM::initialize_intrinsics;ResourceHashtable<long, JVMCIObject, &;RegisterSaver::save_live_registers 40000
+GC_Thread#2;__strncat_ssse3;SystemDictionary::find_method_handle_type;[libjvm.so];[libjvm.so];[libjvm.so];CompilerToVM::initialize_intrinsics;CompilerToVM::initialize_intrinsics;ResourceHashtable<long, JVMCIObject, &;RegisterSaver::save_live_registers;asm_sysvec_apic_timer_interrupt;sysvec_apic_timer_interrupt;irq_exit_rcu;__softirqentry_text_start;run_timer_softirq;__run_timers.part.0;call_timer_fn;vbg_heartbeat_timer;vbg_req_perform 80000
+gnome-shell;[libc.so.6] 80000
+gnome-shell;[unknown];[libglib-2.0.so.0.7200.1];__strncat_ssse3 80000
+gnome-shell;[unknown];[libgobject-2.0.so.0.7200.1] 40000
+gnome-shell;[unknown];[libmutter-10.so.0.0.0] 40000
+gnome-shell;[unknown];[unknown];[libgjs.so.0.0.0] 120000
+gnome-shell;[unknown];[unknown];[unknown];[unknown];[libmutter-10.so.0.0.0] 40000
+gnome-shell;[unknown];[unknown];[unknown];meta_window_foreach_ancestor 40000
+gnome-shell;[unknown];g_type_check_instance_cast 40000
+gnome-shell;____wcstof_l_internal 120000
+gnome-shell;g_pointer_bit_lock 40000
+gnome-shell;meta_display_list_windows 40000
+swapper;secondary_startup_64_no_verify;start_secondary;cpu_startup_entry;do_idle;cpuidle_idle_call;default_idle_call;arch_cpu_idle;native_safe_halt 2720000
+swapper;secondary_startup_64_no_verify;x86_64_start_kernel;x86_64_start_reservations;start_kernel;arch_call_rest_init;rest_init;cpu_startup_entry;do_idle;cpuidle_idle_call;default_idle_call;arch_cpu_idle;native_safe_halt 640000

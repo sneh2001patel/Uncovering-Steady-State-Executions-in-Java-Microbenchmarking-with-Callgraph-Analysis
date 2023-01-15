@@ -1,0 +1,91 @@
+gdbus 40000
+gdbus;[unknown];[libglib-2.0.so.0.7200.1] 160000
+gdbus;[unknown];[libglib-2.0.so.0.7200.1];__strncat_ssse3 120000
+gdbus;[unknown];[unknown];[unknown];_nss_dns_gethostbyaddr2_r;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_futex;do_futex;futex_wake;wake_up_q;try_to_wake_up;__lock_text_start 160000
+gdbus;[unknown];g_variant_builder_init 40000
+gdbus;[unknown];g_variant_n_children 40000
+gdbus;[unknown];rcmd_af;entry_SYSCALL_64_after_hwframe;do_syscall_64;syscall_exit_to_user_mode;exit_to_user_mode_prepare;exit_to_user_mode_loop;schedule;__schedule;finish_task_switch.isra.0 40000
+gdbus;[xdg-document-portal];[unknown];[libglib-2.0.so.0.7200.1] 40000
+gdbus;g_closure_new_simple 80000
+gdbus;g_slice_alloc 40000
+gdbus;g_socket_family_get_type 80000
+gdbus;g_socket_get_type 40000
+gedit;[libgio-2.0.so.0.7200.1];[unknown];[libglib-2.0.so.0.7200.1] 40000
+gedit;[libgio-2.0.so.0.7200.1];g_closure_invalidate 40000
+gedit;[libglib-2.0.so.0.7200.1] 80000
+gedit;[libgobject-2.0.so.0.7200.1] 120000
+gedit;[unknown];[libglib-2.0.so.0.7200.1] 40000
+gedit;[unknown];[unknown];[unknown];[unknown];g_mutex_unlock 40000
+gedit;[unknown];[unknown];[unknown];__res_context_send;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_recvmsg;__sys_recvmsg;___sys_recvmsg;____sys_recvmsg;sock_recvmsg;unix_stream_recvmsg;unix_stream_read_generic;unix_stream_read_actor;skb_copy_datagram_iter;__skb_datagram_iter;simple_copy_to_iter;copy_user_generic_string 40000
+gedit;[unknown];[unknown];[unknown];g_type_check_instance_is_fundamentally_a 40000
+gedit;[unknown];[unknown];g_mutex_unlock 40000
+gedit;[unknown];____wcstod_l_internal 80000
+gedit;[unknown];__netlink_request;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_poll;do_sys_poll;do_poll.constprop.0;sock_poll;unix_poll 80000
+gedit;[unknown];__res_context_send;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_sendmsg;__sys_sendmsg;___sys_sendmsg;____sys_sendmsg;sock_sendmsg;unix_stream_sendmsg;sock_alloc_send_pskb;alloc_skb_with_frags;__alloc_skb;kmem_cache_alloc_node;get_obj_cgroup_from_current 160000
+gedit;[unknown];__res_context_send;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_sendmsg;__sys_sendmsg;__fdget 40000
+gedit;[unknown];_nss_dns_gethostbyaddr2_r;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_munmap;__vm_munmap;__do_munmap;unmap_region;tlb_finish_mmu;flush_tlb_mm_range;native_flush_tlb_multi;on_each_cpu_cond_mask;smp_call_function_many_cond 200000
+gedit;[unknown];_nss_dns_gethostbyaddr2_r;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_munmap;__vm_munmap;__do_munmap;unmap_region;tlb_finish_mmu;flush_tlb_mm_range;native_flush_tlb_multi;on_each_cpu_cond_mask;smp_call_function_many_cond;send_call_function_single_ipi;native_send_call_func_single_ipi;native_write_msr 40000
+gedit;[unknown];_nss_dns_gethostbyaddr2_r;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_munmap;__vm_munmap;__do_munmap;unmap_region;unmap_vmas;unmap_single_vma;unmap_page_range;zap_pmd_range.isra.0;zap_pte_range 240000
+gedit;[unknown];_nss_dns_gethostbyaddr2_r;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_munmap;__vm_munmap;__do_munmap;unmap_region;unmap_vmas;unmap_single_vma;unmap_page_range;zap_pmd_range.isra.0;zap_pte_range;page_remove_rmap;page_remove_file_rmap 40000
+gedit;[unknown];rcmd_af;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_write;ksys_write;vfs_write;eventfd_write 40000
+gedit;g_hash_table_lookup 80000
+gedit;g_hash_table_remove 40000
+gedit;g_pointer_bit_lock 80000
+gjs;[libgio-2.0.so.0.7200.1];[unknown];g_ptr_array_add 40000
+gjs;[libgjs.so.0.0.0] 120000
+gjs;[unknown];[libmozjs-91.so.91.7.0];[libmozjs-91.so.91.7.0] 40000
+gjs;[unknown];[unknown];[unknown];[unknown];[unknown];[libgjs.so.0.0.0] 80000
+gjs;[unknown];g_direct_hash 80000
+gjs;[unknown];g_main_context_check 40000
+gjs;____wcstof_l_internal 40000
+gjs;____wcstold_l_internal 80000
+gnome-shell;[libgio-2.0.so.0.7200.1];[unknown];g_dbus_message_get_body 40000
+gnome-shell;[libmozjs-91.so.91.7.0] 80000
+gnome-shell;[libmozjs-91.so.91.7.0];asm_exc_page_fault;exc_page_fault;do_user_addr_fault 40000
+gnome-shell;[libmozjs-91.so.91.7.0];asm_exc_page_fault;exc_page_fault;do_user_addr_fault;handle_mm_fault;__handle_mm_fault;handle_pte_fault;do_wp_page;wp_page_copy;__mem_cgroup_charge;charge_memcg;try_charge_memcg 40000
+gnome-shell;[libmozjs-91.so.91.7.0];asm_exc_page_fault;exc_page_fault;do_user_addr_fault;handle_mm_fault;__handle_mm_fault;handle_pte_fault;do_wp_page;wp_page_copy;lru_cache_add_inactive_or_unevictable;lru_cache_add;__pagevec_lru_add;__lock_text_start 40000
+gnome-shell;[libmozjs-91.so.91.7.0];asm_exc_page_fault;exc_page_fault;do_user_addr_fault;handle_mm_fault;__handle_mm_fault;handle_pte_fault;do_wp_page;wp_page_copy;page_add_new_anon_rmap;__mod_lruvec_page_state;__mod_lruvec_state;__mod_memcg_lruvec_state 40000
+gnome-shell;[unknown];JSAutoRealm::JSAutoRealm 40000
+gnome-shell;[unknown];[libc.so.6] 40000
+gnome-shell;[unknown];[libgjs.so.0.0.0];[libgjs.so.0.0.0];[libffi.so.8.1.0] 40000
+gnome-shell;[unknown];[libgjs.so.0.0.0];[libgjs.so.0.0.0];[libgjs.so.0.0.0] 160000
+gnome-shell;[unknown];[libmozjs-91.so.91.7.0] 280000
+gnome-shell;[unknown];[libmozjs-91.so.91.7.0];[libmozjs-91.so.91.7.0] 120000
+gnome-shell;[unknown];[libmozjs-91.so.91.7.0];[libmozjs-91.so.91.7.0];asm_sysvec_apic_timer_interrupt;sysvec_apic_timer_interrupt;irq_exit_rcu;__softirqentry_text_start 40000
+gnome-shell;[unknown];[unknown];[libmozjs-91.so.91.7.0] 280000
+gnome-shell;[unknown];[unknown];[unknown];[unknown];[unknown];[libmozjs-91.so.91.7.0] 40000
+gnome-shell;[unknown];[unknown];__strftime_internal 40000
+gnome-shell;[unknown];[unknown];init_cpu_features.constprop.0 160000
+gnome-shell;[unknown];____wcstof_l_internal 40000
+gnome-shell;[unknown];__strftime_internal 40000
+gnome-shell;[unknown];clutter_events_pending 40000
+gnome-shell;[unknown];g_main_context_check 40000
+gnome-shell;[unknown];g_slist_find 40000
+gnome-shell;____wcstod_l_internal 40000
+java;Interpreter 40000
+java;[unknown];void java.io.ObjectOutputStream$BlockDataOutputStream.drain 40000
+java;[unknown];void java.io.ObjectOutputStream.writeObject0 40000
+java;[unknown];void java.io.ObjectStreamClass.writeNonProxy 40000
+java;__strcat_ssse3;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_futex;do_futex;futex_wake;wake_up_q;try_to_wake_up;__lock_text_start 120000
+java;__strncat_ssse3;inflate_file.part.0;JLI_Launch;MacroAssembler::cmp_narrow_klass;MacroAssembler::check_klass_subtype_fast_path;LibraryCallKit::inline_fp_conversions;StubRoutines ;Interpreter;Interpreter;Interpreter;Interpreter;Interpreter;I2C/C2I adapters 40000
+java;__strncat_ssse3;inflate_file.part.0;JLI_Launch;MacroAssembler::cmp_narrow_klass;MacroAssembler::check_klass_subtype_fast_path;LibraryCallKit::inline_fp_conversions;StubRoutines ;Interpreter;Interpreter;Interpreter;Interpreter;Interpreter;I2C/C2I adapters;asm_sysvec_apic_timer_interrupt;sysvec_apic_timer_interrupt;irq_exit_rcu;__softirqentry_text_start;run_timer_softirq;__run_timers.part.0;call_timer_fn;vbg_heartbeat_timer;vbg_req_perform 40000
+java;__strncat_ssse3;inflate_file.part.0;JLI_Launch;MacroAssembler::cmp_narrow_klass;MacroAssembler::check_klass_subtype_fast_path;LibraryCallKit::inline_fp_conversions;StubRoutines ;Interpreter;Interpreter;Interpreter;Interpreter;Interpreter;Interpreter 40000
+java;__strncat_ssse3;inflate_file.part.0;JLI_Launch;MacroAssembler::cmp_narrow_klass;MacroAssembler::check_klass_subtype_fast_path;LibraryCallKit::inline_fp_conversions;StubRoutines ;Interpreter;Interpreter;Interpreter;Interpreter;Interpreter;Interpreter;Interpreter;LibraryCallKit::inline_number_methods;IterateThroughHeapObjectClosure::do_object;ShenandoahSATBMode::initialize_heuristics 160000
+java;__strncat_ssse3;inflate_file.part.0;JLI_Launch;MacroAssembler::cmp_narrow_klass;MacroAssembler::check_klass_subtype_fast_path;LibraryCallKit::inline_fp_conversions;StubRoutines ;Interpreter;Interpreter;Interpreter;Interpreter;Interpreter;Interpreter;int sun.nio.ch.NioSocketImpl.tryWrite;int sun.nio.ch.FileDispatcherImpl.write0 40000
+java;__strncat_ssse3;inflate_file.part.0;JLI_Launch;MacroAssembler::cmp_narrow_klass;MacroAssembler::check_klass_subtype_fast_path;LibraryCallKit::inline_fp_conversions;StubRoutines ;Interpreter;Interpreter;Interpreter;Interpreter;Interpreter;Interpreter;java.io.FileDescriptor sun.nio.ch.NioSocketImpl.beginWrite;Java_sun_nio_fs_UnixNativeDispatcher_fstatat0 40000
+java;__strncat_ssse3;inflate_file.part.0;JLI_Launch;MacroAssembler::cmp_narrow_klass;MacroAssembler::check_klass_subtype_fast_path;LibraryCallKit::inline_fp_conversions;StubRoutines ;Interpreter;Interpreter;Interpreter;Interpreter;Interpreter;Interpreter;void org.openjdk.jmh.runner.link.BinaryLinkClient.pushFrame;Interpreter;Interpreter;Interpreter 120000
+java;__strncat_ssse3;inflate_file.part.0;JLI_Launch;MacroAssembler::cmp_narrow_klass;MacroAssembler::check_klass_subtype_fast_path;LibraryCallKit::inline_fp_conversions;StubRoutines ;Interpreter;Interpreter;Interpreter;Interpreter;Interpreter;Interpreter;void org.openjdk.jmh.runner.link.BinaryLinkClient.pushFrame;Interpreter;Interpreter;Interpreter;Interpreter;Interpreter 40000
+java;__strncat_ssse3;inflate_file.part.0;JLI_Launch;MacroAssembler::cmp_narrow_klass;MacroAssembler::check_klass_subtype_fast_path;LibraryCallKit::inline_fp_conversions;StubRoutines ;Interpreter;Interpreter;Interpreter;Interpreter;Interpreter;org.openjdk.jmh.results.IterationResult org.openjdk.jmh.runner.BenchmarkHandler.runIteration;I2C/C2I adapters 40000
+java;__strncat_ssse3;inflate_file.part.0;JLI_Launch;MacroAssembler::cmp_narrow_klass;MacroAssembler::check_klass_subtype_fast_path;LibraryCallKit::inline_fp_conversions;StubRoutines ;Interpreter;Interpreter;Interpreter;Interpreter;Interpreter;org.openjdk.jmh.results.IterationResult org.openjdk.jmh.runner.BenchmarkHandler.runIteration;Interpreter;Interpreter 40000
+java;long java.io.ObjectOutputStream$BlockDataOutputStream.getUTFLength 40000
+java;long java.io.ObjectOutputStream$BlockDataOutputStream.getUTFLength;asm_sysvec_apic_timer_interrupt;sysvec_apic_timer_interrupt;irq_exit_rcu;__softirqentry_text_start;run_timer_softirq;__run_timers.part.0;call_timer_fn;vbg_heartbeat_timer;vbg_req_perform 80000
+java;void java.io.ObjectOutputStream$BlockDataOutputStream.writeByte 120000
+java;void java.io.ObjectOutputStream$BlockDataOutputStream.writeUTF 160000
+java;void java.io.ObjectStreamClass.writeNonProxy 80000
+org.sample.MyBe;__strncat_ssse3;SystemDictionary::find_method_handle_type;[libjvm.so];[libjvm.so];MacroAssembler::fast_md5;LibraryCallKit::inline_string_copy;LibraryCallKit::inline_fp_conversions;StubRoutines ;Interpreter;Interpreter;java.lang.Object java.util.concurrent.Executors$RunnableAdapter.call 80000
+org.sample.MyBe;__strncat_ssse3;SystemDictionary::find_method_handle_type;[libjvm.so];[libjvm.so];MacroAssembler::fast_md5;LibraryCallKit::inline_string_copy;LibraryCallKit::inline_fp_conversions;StubRoutines ;Interpreter;Interpreter;org.openjdk.jmh.results.BenchmarkTaskResult org.openjdk.jmh.runner.BenchmarkHandler$BenchmarkTask.call;resolve_opt_virtual_call;vframe::vframe;interpretedVFrame::set_locals;create_stack_value_from_oop_map;ClassVerifier::verify_class;JfrEvent<EventReservedStackActivation>::write_sized_event 40000
+org.sample.MyBe;__strncat_ssse3;SystemDictionary::find_method_handle_type;[libjvm.so];[libjvm.so];MacroAssembler::fast_md5;LibraryCallKit::inline_string_copy;LibraryCallKit::inline_fp_conversions;StubRoutines ;Interpreter;Interpreter;org.openjdk.jmh.runner.BenchmarkHandler$WorkerData org.openjdk.jmh.runner.BenchmarkHandler.newWorkerData 80000
+swapper;secondary_startup_64_no_verify;start_secondary;cpu_startup_entry;do_idle;cpuidle_idle_call;default_idle_call;arch_cpu_idle;native_safe_halt 3960000
+swapper;secondary_startup_64_no_verify;x86_64_start_kernel;x86_64_start_reservations;start_kernel;arch_call_rest_init;rest_init;cpu_startup_entry;do_idle;cpuidle_idle_call;default_idle_call;arch_cpu_idle;native_safe_halt 1600000
+xdg-document-po;[unknown];[libglib-2.0.so.0.7200.1] 40000
+xdg-document-po;_nss_dns_gethostbyaddr2_r 40000

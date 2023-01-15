@@ -1,0 +1,5 @@
+GC_Thread#5;__strncat_ssse3;SystemDictionary::find_method_handle_type;[libjvm.so];[libjvm.so];[libjvm.so];__strstr_sse2_unaligned;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_futex;do_futex;futex_wake;wake_up_q;try_to_wake_up;__lock_text_start 80000
+GC_Thread#5;__strncat_ssse3;SystemDictionary::find_method_handle_type;[libjvm.so];[libjvm.so];[libjvm.so];__strstr_sse2_unaligned;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_futex;do_futex;futex_wake;wake_up_q;try_to_wake_up;__lock_text_start;asm_sysvec_apic_timer_interrupt;sysvec_apic_timer_interrupt;irq_exit_rcu;__softirqentry_text_start 40000
+Thread-34;[unknown];void org.openjdk.jmh.runner.format.TextReportFormat.iterationResult 40000
+Thread-34;[unknown];void org.openjdk.jmh.runner.format.TextReportFormat.iterationResult;asm_sysvec_apic_timer_interrupt;sysvec_apic_timer_interrupt;irq_exit_rcu;__softirqentry_text_start 40000
+swapper;secondary_startup_64_no_verify;start_secondary;cpu_startup_entry;do_idle;cpuidle_idle_call;default_idle_call;arch_cpu_idle;native_safe_halt 240000

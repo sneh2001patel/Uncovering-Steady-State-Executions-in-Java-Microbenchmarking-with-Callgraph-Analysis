@@ -1,0 +1,18 @@
+C2_CompilerThre;__strncat_ssse3;SystemDictionary::find_method_handle_type;[libjvm.so];[libjvm.so];java_lang_String::char_converter;java_lang_String::create_from_str;JfrEvent<EventG1AdaptiveIHOP>::write_sized_event;InterpreterRuntime::frequency_counter_overflow;InterpreterRuntime::register_finalizer;TemplateInterpreterGenerator::generate_deopt_entry_for;SystemDictionaryShared::add_lambda_proxy_class;TemplateInterpreterGenerator::generate_all;RangeCheckEliminator::update_bound;DependencyContext::remove_all_dependents 160000
+C2_CompilerThre;__strncat_ssse3;SystemDictionary::find_method_handle_type;[libjvm.so];[libjvm.so];java_lang_String::char_converter;java_lang_String::create_from_str;JfrEvent<EventG1AdaptiveIHOP>::write_sized_event;InterpreterRuntime::frequency_counter_overflow;InterpreterRuntime::register_finalizer;TemplateInterpreterGenerator::generate_result_handler_for;ciObjectFactory::ciObjectFactory 200000
+gnome-shell;[unknown];[unknown];[libgdk-3.so.0.2404.29] 40000
+gnome-shell;[unknown];[unknown];[unknown];[libmutter-10.so.0.0.0] 40000
+gnome-shell;[unknown];[unknown];[unknown];[libmutter-10.so.0.0.0];asm_sysvec_apic_timer_interrupt;sysvec_apic_timer_interrupt;irq_exit_rcu;__softirqentry_text_start;run_timer_softirq;__run_timers.part.0;call_timer_fn;vbg_heartbeat_timer;vbg_req_perform 40000
+gnome-shell;[unknown];[unknown];[unknown];meta_window_actor_from_actor 40000
+gnome-shell;[unknown];__netlink_request;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_poll;do_sys_poll;do_poll.constprop.0 40000
+gnome-shell;[unknown];__res_context_send;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_sendmsg;__sys_sendmsg;___sys_sendmsg;____sys_sendmsg;sock_sendmsg;unix_stream_sendmsg;sock_def_readable;__wake_up_sync_key;__wake_up_common_lock;__lock_text_start 40000
+gnome-terminal-;[unknown];[unknown];[unknown];[libgdk-3.so.0.2404.29] 40000
+gnome-terminal-;[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];g_type_check_instance_is_fundamentally_a 40000
+gnome-terminal-;[unknown];__netlink_request;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_poll;do_sys_poll;do_poll.constprop.0;__fget_light 40000
+gnome-terminal-;[unknown];__netlink_request;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_poll;do_sys_poll;do_poll.constprop.0;tty_poll;n_tty_poll;tty_write_room;tty_buffer_space_avail 40000
+gnome-terminal-;[unknown];g_hook_ref 40000
+org.sample.MyBe;__strncat_ssse3;SystemDictionary::find_method_handle_type;[libjvm.so];[libjvm.so];MacroAssembler::fast_md5;LibraryCallKit::inline_string_copy;LibraryCallKit::inline_fp_conversions;StubRoutines ;Interpreter;Interpreter;_new_array_Java;ErrorContext::stackmap_details;[libjvm.so];ElfDecoder::~ElfDecoder 40000
+org.sample.MyBe;__strncat_ssse3;SystemDictionary::find_method_handle_type;[libjvm.so];[libjvm.so];MacroAssembler::fast_md5;LibraryCallKit::inline_string_copy;LibraryCallKit::inline_fp_conversions;StubRoutines ;Interpreter;Interpreter;_new_array_Java;ErrorContext::stackmap_details;[libjvm.so];ShenandoahSATBMarkQueueSet::ShenandoahSATBMarkQueueSet;[libc.so.6] 160000
+org.sample.MyBe;__strncat_ssse3;SystemDictionary::find_method_handle_type;[libjvm.so];[libjvm.so];MacroAssembler::fast_md5;LibraryCallKit::inline_string_copy;LibraryCallKit::inline_fp_conversions;StubRoutines ;Interpreter;Interpreter;int[] org.sample.MyBenchmark.getArray 400000
+swapper;secondary_startup_64_no_verify;start_secondary;cpu_startup_entry;do_idle;cpuidle_idle_call;default_idle_call;arch_cpu_idle;native_safe_halt 2360000
+swapper;secondary_startup_64_no_verify;x86_64_start_kernel;x86_64_start_reservations;start_kernel;arch_call_rest_init;rest_init;cpu_startup_entry;do_idle;cpuidle_idle_call;default_idle_call;arch_cpu_idle;native_safe_halt 440000

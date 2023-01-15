@@ -1,0 +1,19 @@
+gnome-shell;[kms_swrast_dri.so] 80000
+gnome-shell;[libc.so.6] 120000
+gnome-shell;[unknown];[libEGL.so.1.1.0] 40000
+gnome-shell;[unknown];[unknown];[unknown];clutter_stage_window_get_type 80000
+gnome-shell;[unknown];[unknown];g_closure_unref 40000
+gnome-shell;[unknown];[unknown];g_main_context_prepare 40000
+gnome-shell;[unknown];__glDispatchCheckMultithreaded 40000
+gnome-shell;g_slice_alloc 80000
+gnome-shell;g_slice_alloc0 40000
+gnome-shell;setsourcefilter;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_ioctl;vmw_unlocked_ioctl;vmw_generic_ioctl;drm_ioctl;drm_ioctl_kernel;drm_mode_addfb2_ioctl;drm_internal_framebuffer_create 40000
+gnome-shell;setsourcefilter;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_ioctl;vmw_unlocked_ioctl;vmw_generic_ioctl;drm_ioctl;drm_ioctl_kernel;drm_mode_page_flip_ioctl;drm_atomic_helper_page_flip;drm_atomic_nonblocking_commit;drm_atomic_helper_commit;queue_work_on 40000
+kworker/u16:0-e;ret_from_fork;kthread;worker_thread;process_one_work;commit_work;commit_tail 40000
+kworker/u16:0-e;ret_from_fork;kthread;worker_thread;process_one_work;commit_work;commit_tail;drm_atomic_helper_commit_tail;drm_atomic_helper_commit_planes;vmw_sou_primary_plane_atomic_update;vmw_event_fence_action_queue;vmw_goal_waiter_add;vmw_generic_waiter_add 80000
+kworker/u16:0-e;ret_from_fork;kthread;worker_thread;process_one_work;commit_work;commit_tail;drm_atomic_helper_commit_tail;drm_atomic_helper_commit_planes;vmw_sou_primary_plane_atomic_update;vmw_sou_plane_update_bo;vmw_du_helper_plane_update;vmw_validation_prepare;ttm_eu_reserve_buffers 40000
+org.sample.MyBe;__strncat_ssse3;SystemDictionary::find_method_handle_type;[libjvm.so];[libjvm.so];MacroAssembler::fast_md5;LibraryCallKit::inline_string_copy;LibraryCallKit::inline_fp_conversions;StubRoutines ;Interpreter;Interpreter;java.lang.Object org.openjdk.jmh.runner.BenchmarkHandler$BenchmarkTask.call;_new_array_Java;ErrorContext::stackmap_details;[libjvm.so];ShenandoahSATBMarkQueueSet::ShenandoahSATBMarkQueueSet;[libc.so.6] 160000
+org.sample.MyBe;__strncat_ssse3;SystemDictionary::find_method_handle_type;[libjvm.so];[libjvm.so];MacroAssembler::fast_md5;LibraryCallKit::inline_string_copy;LibraryCallKit::inline_fp_conversions;StubRoutines ;Interpreter;Interpreter;java.lang.Object org.openjdk.jmh.runner.BenchmarkHandler$BenchmarkTask.call;int[] org.sample.MyBenchmark.getArray 240000
+org.sample.MyBe;__strncat_ssse3;SystemDictionary::find_method_handle_type;[libjvm.so];[libjvm.so];MacroAssembler::fast_md5;LibraryCallKit::inline_string_copy;LibraryCallKit::inline_fp_conversions;StubRoutines ;Interpreter;Interpreter;java.lang.Object org.openjdk.jmh.runner.BenchmarkHandler$BenchmarkTask.call;int[] org.sample.MyBenchmark.getArray;asm_sysvec_call_function_single;sysvec_call_function_single;irqentry_exit;irqentry_exit_to_user_mode;exit_to_user_mode_prepare;exit_to_user_mode_loop 80000
+swapper;secondary_startup_64_no_verify;start_secondary;cpu_startup_entry;do_idle;cpuidle_idle_call;default_idle_call;arch_cpu_idle;native_safe_halt 2280000
+swapper;secondary_startup_64_no_verify;x86_64_start_kernel;x86_64_start_reservations;start_kernel;arch_call_rest_init;rest_init;cpu_startup_entry;do_idle;cpuidle_idle_call;default_idle_call;arch_cpu_idle;native_safe_halt 640000

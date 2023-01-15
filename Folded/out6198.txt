@@ -1,0 +1,1 @@
+gnome-shell;[unknown];[unknown];[unknown];[unknown];[libmutter-10.so.0.0.0];asm_sysvec_apic_timer_interrupt;sysvec_apic_timer_interrupt;irqentry_exit;irqentry_exit_to_user_mode;exit_to_user_mode_prepare;exit_to_user_mode_loop 40000

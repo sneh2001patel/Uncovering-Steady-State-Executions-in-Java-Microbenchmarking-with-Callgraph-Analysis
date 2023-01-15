@@ -1,0 +1,30 @@
+gnome-shell;[unknown];[unknown];[kms_swrast_dri.so] 40000
+gnome-shell;[unknown];[unknown];[unknown];[libglib-2.0.so.0.7200.1] 80000
+gnome-shell;[unknown];[unknown];[unknown];[libmutter-10.so.0.0.0] 40000
+gnome-shell;[unknown];[unknown];[unknown];____wcstof_l_internal 80000
+gnome-shell;[unknown];[unknown];[unknown];cogl_bitmap_new_for_data 120000
+gnome-shell;[unknown];[unknown];[unknown];cogl_texture_get_width 40000
+gnome-shell;[unknown];[unknown];[unknown];g_type_interface_peek 40000
+gnome-shell;[unknown];__netlink_request;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_poll;do_sys_poll;do_poll.constprop.0;ep_eventpoll_poll;__ep_eventpoll_poll.isra.0;ep_item_poll.isra.0;sock_poll;unix_poll 40000
+gnome-shell;[unknown];rcmd_af;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_write;ksys_write;eventfd_write 40000
+gnome-shell;g_hash_table_lookup 80000
+gnome-terminal-;[libgdk-3.so.0.2404.29];[unknown];g_main_context_dispatch 40000
+gnome-terminal-;[libvte-2.91.so.0.6800.0] 40000
+gnome-terminal-;[libvte-2.91.so.0.6800.0];[unknown];[unknown];[unknown];[libglib-2.0.so.0.7200.1] 40000
+gnome-terminal-;[unknown];[libcairo.so.2.11600.0] 40000
+gnome-terminal-;[unknown];[libgobject-2.0.so.0.7200.1] 40000
+gnome-terminal-;[unknown];[libgtk-3.so.0.2404.29];[libvte-2.91.so.0.6800.0];[libvte-2.91.so.0.6800.0] 80000
+gnome-terminal-;[unknown];[unknown];[unknown];[unknown];wl_proxy_marshal_array_flags 120000
+gnome-terminal-;[unknown];[unknown];[unknown];wl_proxy_marshal_flags 40000
+gnome-terminal-;[unknown];__res_context_send;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_sendmsg;__sys_sendmsg;___sys_sendmsg;____sys_sendmsg;sock_sendmsg;unix_stream_sendmsg;maybe_add_creds 160000
+gnome-terminal-;[unknown];__res_context_send;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_sendmsg;__sys_sendmsg;___sys_sendmsg;____sys_sendmsg;sock_sendmsg;unix_stream_sendmsg;sock_alloc_send_pskb;alloc_skb_with_frags;__alloc_skb;kmem_cache_alloc_node;obj_cgroup_charge;obj_cgroup_charge_pages;try_charge_memcg;refill_stock 40000
+gnome-terminal-;[unknown];__res_context_send;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_sendmsg;__sys_sendmsg;___sys_sendmsg;____sys_sendmsg;sock_sendmsg;unix_stream_sendmsg;sock_alloc_send_pskb;alloc_skb_with_frags;__alloc_skb;kmem_cache_alloc_node;obj_cgroup_charge;refill_obj_stock;drain_obj_stock 80000
+gnome-terminal-;____wcstold_l_internal 120000
+org.sample.MyBe;__strncat_ssse3;SystemDictionary::find_method_handle_type;[libjvm.so];[libjvm.so];MacroAssembler::fast_md5;LibraryCallKit::inline_string_copy;LibraryCallKit::inline_fp_conversions;StubRoutines ;Interpreter;Interpreter;java.lang.Object org.openjdk.jmh.runner.BenchmarkHandler$BenchmarkTask.call;_new_array_Java;ErrorContext::stackmap_details;[libjvm.so];ShenandoahSATBMarkQueueSet::ShenandoahSATBMarkQueueSet;[libc.so.6] 520000
+org.sample.MyBe;__strncat_ssse3;SystemDictionary::find_method_handle_type;[libjvm.so];[libjvm.so];MacroAssembler::fast_md5;LibraryCallKit::inline_string_copy;LibraryCallKit::inline_fp_conversions;StubRoutines ;Interpreter;Interpreter;java.lang.Object org.openjdk.jmh.runner.BenchmarkHandler$BenchmarkTask.call;_new_array_Java;ErrorContext::stackmap_details;[libjvm.so];ShenandoahSATBMode::initialize_heuristics;ElfDecoder::decode;SuperWord::insert_extracts 120000
+org.sample.MyBe;__strncat_ssse3;SystemDictionary::find_method_handle_type;[libjvm.so];[libjvm.so];MacroAssembler::fast_md5;LibraryCallKit::inline_string_copy;LibraryCallKit::inline_fp_conversions;StubRoutines ;Interpreter;Interpreter;java.lang.Object org.openjdk.jmh.runner.BenchmarkHandler$BenchmarkTask.call;int[] org.sample.MyBenchmark.getArray 640000
+swapper;secondary_startup_64_no_verify;start_secondary;cpu_startup_entry;do_idle;cpuidle_idle_call;default_idle_call 200000
+swapper;secondary_startup_64_no_verify;start_secondary;cpu_startup_entry;do_idle;cpuidle_idle_call;default_idle_call;arch_cpu_idle;native_safe_halt 6280000
+swapper;secondary_startup_64_no_verify;start_secondary;cpu_startup_entry;do_idle;cpuidle_idle_call;default_idle_call;arch_cpu_idle;native_safe_halt;asm_sysvec_apic_timer_interrupt;sysvec_apic_timer_interrupt;irq_exit_rcu;__softirqentry_text_start;run_rebalance_domains;rebalance_domains;load_balance;find_busiest_group;update_sd_lb_stats.constprop.0 120000
+swapper;secondary_startup_64_no_verify;start_secondary;cpu_startup_entry;do_idle;cpuidle_idle_call;default_idle_call;arch_cpu_idle;native_safe_halt;asm_sysvec_apic_timer_interrupt;sysvec_apic_timer_interrupt;irq_exit_rcu;__softirqentry_text_start;run_timer_softirq;__run_timers.part.0;call_timer_fn;vbg_heartbeat_timer;vbg_req_perform 40000
+swapper;secondary_startup_64_no_verify;x86_64_start_kernel;x86_64_start_reservations;start_kernel;arch_call_rest_init;rest_init;cpu_startup_entry;do_idle;cpuidle_idle_call;default_idle_call;arch_cpu_idle;native_safe_halt 1600000

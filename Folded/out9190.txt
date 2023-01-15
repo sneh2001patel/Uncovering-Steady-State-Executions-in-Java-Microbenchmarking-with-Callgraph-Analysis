@@ -1,0 +1,17 @@
+C2_CompilerThre;__strncat_ssse3;SystemDictionary::find_method_handle_type;[libjvm.so];[libjvm.so];java_lang_String::char_converter;java_lang_String::create_from_str;JfrEvent<EventG1AdaptiveIHOP>::write_sized_event;InterpreterRuntime::resolve_ldc;SignatureHandlerLibrary::add;TemplateTable::monitorenter 320000
+C2_CompilerThre;__strncat_ssse3;SystemDictionary::find_method_handle_type;[libjvm.so];[libjvm.so];java_lang_String::char_converter;java_lang_String::create_from_str;JfrEvent<EventG1AdaptiveIHOP>::write_sized_event;InterpreterRuntime::resolve_ldc;SignatureHandlerLibrary::add;TemplateTable::monitorenter;TemplateTable::instanceof 40000
+C2_CompilerThre;__strncat_ssse3;SystemDictionary::find_method_handle_type;[libjvm.so];[libjvm.so];java_lang_String::char_converter;java_lang_String::create_from_str;JfrEvent<EventG1AdaptiveIHOP>::write_sized_event;InterpreterRuntime::resolve_ldc;SignatureHandlerLibrary::add;TemplateTable::monitorenter;TemplateTable::monitorenter 120000
+Thread-34;java.lang.Object jdk.internal.reflect.GeneratedSerializationConstructorAccessor36.newInstance 120000
+Thread-34;void java.io.ObjectInputStream.readSerialData;asm_exc_page_fault;exc_page_fault;do_user_addr_fault 40000
+Thread-34;void java.io.ObjectInputStream.readSerialData;asm_exc_page_fault;exc_page_fault;do_user_addr_fault;handle_mm_fault;__handle_mm_fault 200000
+gmain;[libc.so.6] 40000
+gmain;[unknown];[unknown];g_rw_lock_reader_lock 200000
+gmain;[unknown];g_queue_peek_head 40000
+gmain;[unknown];g_str_hash 40000
+org.sample.MyBe;__strcat_ssse3;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_futex;do_futex;futex_wake 80000
+org.sample.MyBe;__strcat_ssse3;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_futex;do_futex;futex_wake;wake_up_q;try_to_wake_up;__lock_text_start 80000
+org.sample.MyBe;__strncat_ssse3;SystemDictionary::find_method_handle_type;[libjvm.so];[libjvm.so];MacroAssembler::fast_md5;LibraryCallKit::inline_string_copy;LibraryCallKit::inline_fp_conversions;StubRoutines ;Interpreter;Interpreter;Interpreter;Interpreter;Interpreter;Interpreter 40000
+org.sample.MyBe;__strncat_ssse3;SystemDictionary::find_method_handle_type;[libjvm.so];[libjvm.so];MacroAssembler::fast_md5;LibraryCallKit::inline_string_copy;LibraryCallKit::inline_fp_conversions;StubRoutines ;Interpreter;Interpreter;Interpreter;Interpreter;Interpreter;Interpreter;Interpreter;Interpreter 120000
+org.sample.MyBe;__strncat_ssse3;SystemDictionary::find_method_handle_type;[libjvm.so];[libjvm.so];MacroAssembler::fast_md5;LibraryCallKit::inline_string_copy;LibraryCallKit::inline_fp_conversions;StubRoutines ;Interpreter;Interpreter;Interpreter;Interpreter;Interpreter;Interpreter;Interpreter;Interpreter;Interpreter 40000
+org.sample.MyBe;__strncat_ssse3;SystemDictionary::find_method_handle_type;[libjvm.so];[libjvm.so];MacroAssembler::fast_md5;LibraryCallKit::inline_string_copy;LibraryCallKit::inline_fp_conversions;StubRoutines ;Interpreter;Interpreter;Interpreter;Interpreter;Interpreter;Interpreter;Interpreter;Interpreter;Interpreter;Interpreter;Interpreter;Interpreter;Interpreter;Interpreter;Interpreter 80000
+swapper;secondary_startup_64_no_verify;start_secondary;cpu_startup_entry;do_idle;cpuidle_idle_call;default_idle_call;arch_cpu_idle;native_safe_halt 1560000

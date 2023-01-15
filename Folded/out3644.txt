@@ -1,0 +1,13 @@
+Thread-16;[unknown];boolean java.io.ObjectInputStream$BlockDataInputStream.setBlockDataMode 40000
+Thread-16;[unknown];java.io.ObjectStreamClass java.io.ObjectStreamClass.getVariantFor 40000
+Thread-16;[unknown];void java.io.ObjectStreamClass.readNonProxy;java.lang.String java.lang.String.intern;MacroAssembler::sha256_AVX2_four_rounds_compute_last;LibraryCallKit::inline_encodeISOArray 40000
+Thread-16;[unknown];void java.io.ObjectStreamClass.readNonProxy;java.lang.String java.lang.String.intern;MacroAssembler::sha256_AVX2_four_rounds_compute_last;[libjvm.so];[libjvm.so] 120000
+Thread-16;java.lang.Class java.io.ObjectInputStream.resolveClass;MacroAssembler::fast_sha256 40000
+Thread-16;java.lang.Class java.io.ObjectInputStream.resolveClass;java.lang.Class java.lang.Class.forName0;JNU_IsInstanceOfByName;MacroAssembler::sha256_AVX2;init_cpu_features.constprop.0 40000
+Thread-16;java.lang.Class java.io.ObjectInputStream.resolveClass;java.lang.ClassLoader jdk.internal.misc.VM.latestUserDefinedLoader0;MacroAssembler::fast_sha256;RangedFlagAccessImpl<int, EventIntFlagChanged>::set_impl;[libjvm.so] 40000
+Thread-16;java.lang.Object java.io.ObjectInputStream.readOrdinaryObject;Interpreter 40000
+Thread-16;long java.io.ObjectInputStream$BlockDataInputStream.readUTFSpan 40000
+Thread-16;void java.io.ObjectStreamClass.initNonProxy 160000
+org.sample.MyBe;__strncat_ssse3;SystemDictionary::find_method_handle_type;[libjvm.so];[libjvm.so];MacroAssembler::fast_md5;LibraryCallKit::inline_string_copy;LibraryCallKit::inline_fp_conversions;StubRoutines ;Interpreter;Interpreter;void java.util.concurrent.FutureTask.run;Interpreter;org.openjdk.jmh.results.BenchmarkTaskResult org.sample.jmh_generated.MyBenchmark_testMethod_jmhTest.testMethod_SingleShotTime;Interpreter;_new_array_Java;ErrorContext::stackmap_details;[libjvm.so];ShenandoahSATBMarkQueueSet::ShenandoahSATBMarkQueueSet;[libc.so.6] 640000
+swapper;secondary_startup_64_no_verify;start_secondary;cpu_startup_entry;do_idle;cpuidle_idle_call;default_idle_call;arch_cpu_idle;native_safe_halt 2520000
+swapper;secondary_startup_64_no_verify;x86_64_start_kernel;x86_64_start_reservations;start_kernel;arch_call_rest_init;rest_init;cpu_startup_entry;do_idle;cpuidle_idle_call;default_idle_call;arch_cpu_idle;native_safe_halt 680000

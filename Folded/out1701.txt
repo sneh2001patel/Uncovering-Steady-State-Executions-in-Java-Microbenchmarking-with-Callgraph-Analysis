@@ -1,0 +1,20 @@
+Thread-10;[unknown];byte java.io.ObjectInputStream$BlockDataInputStream.readByte 40000
+Thread-10;[unknown];int java.io.BufferedInputStream.read;Interpreter 40000
+Thread-10;[unknown];java.io.ObjectStreamClass$FieldReflector java.io.ObjectStreamClass.getReflector 40000
+Thread-10;[unknown];java.lang.Class java.io.ObjectInputStream.resolveClass 80000
+Thread-10;[unknown];java.lang.Class java.io.ObjectInputStream.resolveClass;java.lang.ClassLoader jdk.internal.misc.VM.latestUserDefinedLoader0;MacroAssembler::fast_sha256 40000
+Thread-10;[unknown];java.lang.Class java.io.ObjectInputStream.resolveClass;java.lang.ClassLoader jdk.internal.misc.VM.latestUserDefinedLoader0;MacroAssembler::fast_sha256;RangedFlagAccessImpl<int, EventIntFlagChanged>::set_impl;RangedFlagAccessImpl<int, EventIntFlagChanged>::set_impl;jvmtiTrace_ResumeThread 40000
+Thread-10;[unknown];java.lang.Class java.lang.Class.forName;java.lang.Class java.lang.Class.forName0;JNU_IsInstanceOfByName;MacroAssembler::sha256_AVX2;[libjvm.so];[libjvm.so] 160000
+Thread-10;[unknown];java.lang.Object java.lang.ClassValue.get 40000
+Thread-10;[unknown];void java.io.ObjectInputStream.readSerialData;java.lang.Object jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke;Interpreter;Interpreter 40000
+Thread-10;[unknown];void java.io.ObjectStreamClass.initNonProxy 80000
+Thread-10;[unknown];void java.io.ObjectStreamClass.readNonProxy 160000
+Thread-10;[unknown];void java.io.ObjectStreamClass.readNonProxy;java.lang.String java.lang.String.intern;MacroAssembler::sha256_AVX2_four_rounds_compute_last;[libjvm.so];[libjvm.so] 40000
+Thread-10;boolean java.util.Arrays.equals 40000
+Thread-10;java.io.ObjectStreamClass java.io.ObjectInputStream.readClassDesc 40000
+Thread-10;java.lang.Object java.io.ObjectInputStream.readObject0 80000
+org.sample.MyBe;__strncat_ssse3;SystemDictionary::find_method_handle_type;[libjvm.so];[libjvm.so];MacroAssembler::fast_md5;LibraryCallKit::inline_string_copy;LibraryCallKit::inline_fp_conversions;StubRoutines ;Interpreter;Interpreter;java.lang.Object org.openjdk.jmh.runner.BenchmarkHandler$BenchmarkTask.call;_new_array_Java;ErrorContext::stackmap_details;[libjvm.so];ShenandoahSATBMarkQueueSet::ShenandoahSATBMarkQueueSet;[libc.so.6] 160000
+org.sample.MyBe;__strncat_ssse3;SystemDictionary::find_method_handle_type;[libjvm.so];[libjvm.so];MacroAssembler::fast_md5;LibraryCallKit::inline_string_copy;LibraryCallKit::inline_fp_conversions;StubRoutines ;Interpreter;Interpreter;java.lang.Object org.openjdk.jmh.runner.BenchmarkHandler$BenchmarkTask.call;_new_array_Java;ErrorContext::stackmap_details;[libjvm.so];ShenandoahSATBMode::initialize_heuristics;ElfDecoder::decode;RegMask::is_misaligned_pair 40000
+org.sample.MyBe;__strncat_ssse3;SystemDictionary::find_method_handle_type;[libjvm.so];[libjvm.so];MacroAssembler::fast_md5;LibraryCallKit::inline_string_copy;LibraryCallKit::inline_fp_conversions;StubRoutines ;Interpreter;Interpreter;java.lang.Object org.openjdk.jmh.runner.BenchmarkHandler$BenchmarkTask.call;int[] org.sample.MyBenchmark.getArray 720000
+swapper;secondary_startup_64_no_verify;start_secondary;cpu_startup_entry;do_idle;cpuidle_idle_call;default_idle_call;arch_cpu_idle;native_safe_halt 2960000
+swapper;secondary_startup_64_no_verify;x86_64_start_kernel;x86_64_start_reservations;start_kernel;arch_call_rest_init;rest_init;cpu_startup_entry;do_idle;cpuidle_idle_call;default_idle_call;arch_cpu_idle;native_safe_halt 840000

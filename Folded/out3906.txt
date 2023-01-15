@@ -1,0 +1,29 @@
+VM_Periodic_Tas;[unknown];__GI___strncasecmp_l_sse2 40000
+VM_Periodic_Tas;[unknown];__GI___strncasecmp_l_sse2;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_futex;do_futex;_raw_spin_lock 40000
+gnome-shell;[unknown];[libglib-2.0.so.0.7200.1] 120000
+gnome-shell;[unknown];[libglib-2.0.so.0.7200.1];asm_sysvec_apic_timer_interrupt;sysvec_apic_timer_interrupt;irq_exit_rcu;__softirqentry_text_start 120000
+gnome-shell;[unknown];[libglib-2.0.so.0.7200.1];asm_sysvec_apic_timer_interrupt;sysvec_apic_timer_interrupt;irqentry_exit;irqentry_exit_to_user_mode;exit_to_user_mode_prepare;exit_to_user_mode_loop 40000
+gnome-shell;[unknown];[libglib-2.0.so.0.7200.1];g_private_get 80000
+gnome-shell;[unknown];[libmozjs-91.so.91.7.0] 40000
+gnome-shell;[unknown];[unknown];[unknown];[libgobject-2.0.so.0.7200.1] 40000
+gnome-shell;[unknown];[unknown];[unknown];[libmutter-10.so.0.0.0] 40000
+gnome-shell;[unknown];[unknown];[unknown];[unknown];[libinput.so.10.13.0];rcmd_af;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_read;ksys_read;rw_verify_area 80000
+gnome-shell;[unknown];[unknown];[unknown];[unknown];[unknown];[libmutter-10.so.0.0.0] 40000
+gnome-shell;[unknown];__netlink_request;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_poll;do_sys_poll;do_poll.constprop.0;__fdget;__fget_light;__fget_files 40000
+gnome-shell;[unknown];clock_gettime@plt 40000
+gnome-shell;[unknown];g_mutex_unlock 40000
+gnome-shell;[unknown];g_private_get 40000
+gnome-shell;g_slice_alloc 80000
+gnome-shell;setsourcefilter;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_ioctl;vmw_unlocked_ioctl;vmw_generic_ioctl;drm_ioctl;drm_ioctl_kernel;drm_mode_page_flip_ioctl;drm_atomic_helper_page_flip;drm_atomic_nonblocking_commit;drm_atomic_check_only;vmw_kms_atomic_check_modeset 40000
+gnome-shell;setsourcefilter;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_ioctl;vmw_unlocked_ioctl;vmw_generic_ioctl;drm_ioctl;drm_ioctl_kernel;drm_mode_page_flip_ioctl;drm_atomic_helper_page_flip;drm_atomic_nonblocking_commit;drm_atomic_check_only;vmw_kms_atomic_check_modeset;drm_atomic_helper_check;drm_atomic_helper_check_planes;vmw_du_crtc_atomic_check 80000
+kworker/u16:1-e;ret_from_fork;kthread;worker_thread;process_one_work;commit_work;commit_tail;drm_atomic_helper_commit_tail;drm_atomic_helper_commit_planes;vmw_sou_primary_plane_atomic_update;vmw_event_fence_action_queue 80000
+kworker/u16:1-e;ret_from_fork;kthread;worker_thread;process_one_work;commit_work;commit_tail;drm_atomic_helper_commit_tail;drm_atomic_helper_commit_planes;vmw_sou_primary_plane_atomic_update;vmw_event_fence_action_queue;vmw_goal_waiter_add;vmw_generic_waiter_add 40000
+kworker/u16:1-e;ret_from_fork;kthread;worker_thread;process_one_work;commit_work;commit_tail;drm_atomic_helper_commit_tail;drm_atomic_helper_commit_planes;vmw_sou_primary_plane_atomic_update;vmw_sou_plane_update_bo;vmw_du_helper_plane_update;vmw_cmd_commit;vmw_local_fifo_commit;vmw_fifo_ping_host 80000
+kworker/u16:1-e;ret_from_fork;kthread;worker_thread;process_one_work;commit_work;commit_tail;drm_atomic_helper_commit_tail;drm_atomic_helper_commit_planes;vmw_sou_primary_plane_atomic_update;vmw_sou_plane_update_bo;vmw_du_helper_plane_update;vmw_validation_prepare;vmw_validation_bo_validate;vmw_validation_bo_validate_single;ttm_bo_validate 120000
+org.sample.MyBe;__strncat_ssse3;SystemDictionary::find_method_handle_type;[libjvm.so];[libjvm.so];MacroAssembler::fast_md5;LibraryCallKit::inline_string_copy;LibraryCallKit::inline_fp_conversions;StubRoutines ;Interpreter;Interpreter;_new_array_Java;ErrorContext::stackmap_details;[libjvm.so];ShenandoahSATBMarkQueueSet::ShenandoahSATBMarkQueueSet;[libc.so.6] 40000
+org.sample.MyBe;__strncat_ssse3;SystemDictionary::find_method_handle_type;[libjvm.so];[libjvm.so];MacroAssembler::fast_md5;LibraryCallKit::inline_string_copy;LibraryCallKit::inline_fp_conversions;StubRoutines ;Interpreter;Interpreter;_new_array_Java;ErrorContext::stackmap_details;[libjvm.so];ShenandoahSATBMode::initialize_heuristics;ElfDecoder::decode;SuperWord::insert_extracts 240000
+org.sample.MyBe;__strncat_ssse3;SystemDictionary::find_method_handle_type;[libjvm.so];[libjvm.so];MacroAssembler::fast_md5;LibraryCallKit::inline_string_copy;LibraryCallKit::inline_fp_conversions;StubRoutines ;Interpreter;Interpreter;int[] org.sample.MyBenchmark.getArray 960000
+swapper;secondary_startup_64_no_verify;start_secondary;cpu_startup_entry;do_idle;cpuidle_idle_call;default_idle_call;arch_cpu_idle;native_safe_halt 4520000
+swapper;secondary_startup_64_no_verify;start_secondary;cpu_startup_entry;do_idle;cpuidle_idle_call;default_idle_call;arch_cpu_idle;native_safe_halt;asm_sysvec_apic_timer_interrupt;sysvec_apic_timer_interrupt;irq_exit_rcu;__softirqentry_text_start 240000
+swapper;secondary_startup_64_no_verify;start_secondary;cpu_startup_entry;do_idle;cpuidle_idle_call;default_idle_call;arch_cpu_idle;native_safe_halt;asm_sysvec_apic_timer_interrupt;sysvec_apic_timer_interrupt;irq_exit_rcu;__softirqentry_text_start;run_timer_softirq;__run_timers.part.0;call_timer_fn;vbg_heartbeat_timer;vbg_req_perform 40000
+swapper;secondary_startup_64_no_verify;start_secondary;cpu_startup_entry;do_idle;schedule_idle;__schedule;finish_task_switch.isra.0 120000

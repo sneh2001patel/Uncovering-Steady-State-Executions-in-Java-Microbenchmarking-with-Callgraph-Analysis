@@ -1,0 +1,14 @@
+C1_CompilerThre;__strncat_ssse3;SystemDictionary::find_method_handle_type;[libjvm.so];[libjvm.so];java_lang_String::char_converter;SignumDNode::make;SystemDictionary::find_method_handle_type;JfrEvent<EventGCPhasePauseLevel4>::write_sized_event;PhaseCFG::schedule_early;[libc.so.6] 40000
+Thread-34;[unknown];[unknown];void java.io.PrintStream.write;void java.io.FileOutputStream.writeBytes;jexpm1;[libjava.so];rcmd_af;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_write;ksys_write;vfs_write;__fsnotify_parent;fsnotify;send_to_group 40000
+Thread-34;[unknown];[unknown];void java.io.PrintStream.write;void java.io.FileOutputStream.writeBytes;jexpm1;[libjava.so];rcmd_af;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_write;ksys_write;vfs_write;new_sync_write;ext4_file_write_iter;ext4_buffered_write_iter;generic_perform_write;ext4_da_write_begin;ext4_block_write_begin 40000
+Thread-34;[unknown];vtable chunks 40000
+Thread-34;boolean java.lang.String.equals 40000
+Thread-34;java.lang.Class java.io.ObjectInputStream.resolveClass;java.lang.Class java.lang.Class.forName0;JNU_IsInstanceOfByName;MacroAssembler::sha256_AVX2;[libjvm.so];[libjvm.so] 80000
+Thread-34;java.lang.Class java.io.ObjectInputStream.resolveClass;java.lang.ClassLoader jdk.internal.misc.VM.latestUserDefinedLoader0;MacroAssembler::fast_sha256 40000
+Thread-34;java.lang.Class java.io.ObjectInputStream.resolveClass;java.lang.ClassLoader jdk.internal.misc.VM.latestUserDefinedLoader0;MacroAssembler::fast_sha256;RangedFlagAccessImpl<int, EventIntFlagChanged>::set_impl;[libjvm.so] 40000
+Thread-34;java.lang.Class java.io.ObjectInputStream.resolveClass;java.lang.ClassLoader jdk.internal.misc.VM.latestUserDefinedLoader0;MacroAssembler::fast_sha256;[libjvm.so] 40000
+Thread-34;void java.io.ObjectInputStream.readSerialData 40000
+Thread-34;void java.io.ObjectStreamClass.initNonProxy 40000
+org.sample.MyBe;__strncat_ssse3;SystemDictionary::find_method_handle_type;[libjvm.so];[libjvm.so];MacroAssembler::fast_md5;LibraryCallKit::inline_string_copy;LibraryCallKit::inline_fp_conversions;StubRoutines ;Interpreter;Interpreter;int[] org.sample.MyBenchmark.getArray 720000
+swapper;secondary_startup_64_no_verify;start_secondary;cpu_startup_entry;do_idle;cpuidle_idle_call;default_idle_call;arch_cpu_idle;native_safe_halt 2040000
+swapper;secondary_startup_64_no_verify;x86_64_start_kernel;x86_64_start_reservations;start_kernel;arch_call_rest_init;rest_init;cpu_startup_entry;do_idle;cpuidle_idle_call;default_idle_call;arch_cpu_idle;native_safe_halt 520000

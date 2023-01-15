@@ -1,0 +1,51 @@
+Thread-28;[unknown];[unknown];void java.io.PrintStream.write;void java.io.FileOutputStream.writeBytes;jexpm1;[libjava.so];rcmd_af;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_write;ksys_write;vfs_write;__fsnotify_parent;fsnotify;send_to_group;fsnotify_handle_inode_event.isra.0;inotify_handle_inode_event;fsnotify_add_event;__wake_up;__wake_up_common_lock;__lock_text_start 40000
+Thread-28;[unknown];[unknown];void java.io.PrintStream.write;void java.io.FileOutputStream.writeBytes;jexpm1;[libjava.so];rcmd_af;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_write;ksys_write;vfs_write;new_sync_write;ext4_file_write_iter;ext4_buffered_write_iter;file_modified;file_update_time;generic_update_time;__mark_inode_dirty;ext4_dirty_inode;__ext4_mark_inode_dirty;ext4_mark_iloc_dirty;ext4_do_update_inode.isra.0;__raw_callee_save___pv_queued_spin_unlock 40000
+Thread-28;__strncat_ssse3;SystemDictionary::find_method_handle_type;[libjvm.so];[libjvm.so];MacroAssembler::fast_md5;LibraryCallKit::inline_string_copy;LibraryCallKit::inline_fp_conversions;StubRoutines ;Interpreter 40000
+Thread-28;int java.net.Socket$SocketInputStream.read;int sun.nio.ch.SocketDispatcher.read0;rcmd_af;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_read;ksys_read;vfs_read;new_sync_read;sock_read_iter;sock_recvmsg;inet6_recvmsg;tcp_recvmsg;tcp_recvmsg_locked;tcp_cleanup_rbuf;tcp_send_ack;__tcp_send_ack.part.0;__alloc_skb;kmalloc_reserve;__kmalloc_node_track_caller;kmalloc_slab 120000
+Thread-28;java.lang.Object jdk.internal.reflect.GeneratedSerializationConstructorAccessor30.newInstance 160000
+Thread-28;void java.text.DecimalFormatSymbols.initialize;asm_exc_page_fault;exc_page_fault;do_user_addr_fault;handle_mm_fault;__handle_mm_fault;handle_pte_fault;do_anonymous_page;alloc_pages_vma 80000
+Thread-28;void java.util.Formatter$FormatSpecifier.print 40000
+Thread-28;void java.util.Formatter$FormatSpecifier.print;asm_sysvec_apic_timer_interrupt;sysvec_apic_timer_interrupt;irq_exit_rcu;__softirqentry_text_start 40000
+Thread-28;void jdk.internal.math.FloatingDecimal$BinaryToASCIIBuffer.dtoa 40000
+Thread-28;void org.openjdk.jmh.runner.format.TextReportFormat.iterationResult 120000
+java;__strcat_ssse3;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_futex;do_futex;futex_wake;wake_up_q;try_to_wake_up;__lock_text_start 40000
+llvmpipe-2;[kms_swrast_dri.so] 120000
+llvmpipe-2;[unknown];[kms_swrast_dri.so] 40000
+llvmpipe-2;[unknown];[kms_swrast_dri.so];[perf-1594.map] 160000
+llvmpipe-2;[unknown];[unknown];[kms_swrast_dri.so] 80000
+llvmpipe-2;[unknown];[unknown];[kms_swrast_dri.so];[perf-1594.map] 640000
+llvmpipe-2;[unknown];[unknown];[unknown];[unknown];[kms_swrast_dri.so] 40000
+llvmpipe-2;[unknown];__GI___strncasecmp_l_sse2;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_futex;do_futex;futex_wake;wake_up_q;try_to_wake_up;__lock_text_start 80000
+llvmpipe-2;[unknown];__strncpy_sse2_unaligned 40000
+llvmpipe-5;[kms_swrast_dri.so] 40000
+llvmpipe-5;[unknown];[kms_swrast_dri.so] 80000
+llvmpipe-5;[unknown];[kms_swrast_dri.so];[perf-1594.map] 40000
+llvmpipe-5;[unknown];[unknown];[kms_swrast_dri.so] 320000
+llvmpipe-5;[unknown];[unknown];[kms_swrast_dri.so];[perf-1594.map] 480000
+llvmpipe-5;[unknown];[unknown];[kms_swrast_dri.so];[perf-1594.map];asm_exc_page_fault;exc_page_fault;do_user_addr_fault;handle_mm_fault;__handle_mm_fault 40000
+llvmpipe-5;[unknown];[unknown];[kms_swrast_dri.so];asm_sysvec_apic_timer_interrupt;sysvec_apic_timer_interrupt;irqentry_exit;irqentry_exit_to_user_mode;exit_to_user_mode_prepare;exit_to_user_mode_loop 40000
+llvmpipe-6;[kms_swrast_dri.so] 40000
+llvmpipe-6;[unknown];[kms_swrast_dri.so] 40000
+llvmpipe-6;[unknown];[kms_swrast_dri.so];[perf-1594.map] 400000
+llvmpipe-6;[unknown];[unknown];[kms_swrast_dri.so];[perf-1594.map] 560000
+llvmpipe-6;[unknown];[unknown];[kms_swrast_dri.so];[perf-1594.map];asm_exc_page_fault;exc_page_fault;do_user_addr_fault;handle_mm_fault;__handle_mm_fault;handle_pte_fault;do_fault;do_read_fault;__do_fault;vmw_bo_vm_fault;ttm_bo_vm_fault_reserved;vmf_insert_pfn_prot;insert_pfn;__get_locked_pte 40000
+llvmpipe-6;[unknown];[unknown];[unknown];[unknown];[kms_swrast_dri.so] 80000
+llvmpipe-6;[unknown];[unknown];[unknown];[unknown];__vdso_clock_gettime 40000
+llvmpipe-6;[unknown];[unknown];[unknown];[unknown];parse_qtd_backslash;[[vdso]] 40000
+org.sample.MyBe;__strncat_ssse3;SystemDictionary::find_method_handle_type;[libjvm.so];[libjvm.so];MacroAssembler::fast_md5;LibraryCallKit::inline_string_copy;LibraryCallKit::inline_fp_conversions;StubRoutines ;Interpreter;Interpreter;void java.util.concurrent.FutureTask.run;void java.util.concurrent.FutureTask.run;Interpreter;org.openjdk.jmh.results.BenchmarkTaskResult org.sample.jmh_generated.MyBenchmark_testMethod_jmhTest.testMethod_SingleShotTime;Interpreter;org.apache.logging.log4j.core.impl.ThrowableProxy org.apache.logging.log4j.core.impl.MutableLogEvent.getThrownProxy;asm_sysvec_apic_timer_interrupt;sysvec_apic_timer_interrupt;irq_exit_rcu;__softirqentry_text_start 40000
+swapper;secondary_startup_64_no_verify;start_secondary;cpu_startup_entry;do_idle;cpuidle_idle_call;default_idle_call;arch_cpu_idle;native_safe_halt 4560000
+swapper;secondary_startup_64_no_verify;start_secondary;cpu_startup_entry;do_idle;cpuidle_idle_call;default_idle_call;arch_cpu_idle;native_safe_halt;asm_sysvec_apic_timer_interrupt;sysvec_apic_timer_interrupt;irq_exit_rcu;__softirqentry_text_start 40000
+swapper;secondary_startup_64_no_verify;start_secondary;cpu_startup_entry;do_idle;cpuidle_idle_call;default_idle_call;arch_cpu_idle;native_safe_halt;asm_sysvec_apic_timer_interrupt;sysvec_apic_timer_interrupt;irq_exit_rcu;__softirqentry_text_start;run_rebalance_domains;rebalance_domains;load_balance 40000
+swapper;secondary_startup_64_no_verify;start_secondary;cpu_startup_entry;do_idle;schedule_idle;__schedule;finish_task_switch.isra.0 40000
+systemd-oomd;[unknown];[libc.so.6] 40000
+systemd-oomd;[unknown];[libsystemd-shared-249.so];parse_qtd_backslash 40000
+systemd-oomd;[unknown];__validuser2_sa;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_newfstatat;cp_new_stat 40000
+systemd-oomd;[unknown];greedy_realloc 40000
+systemd-oomd;[unknown];rcmd_af;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_openat;do_sys_openat2;do_filp_open;path_openat;alloc_empty_file;__alloc_file;kmem_cache_alloc;memcg_slab_post_alloc_hook 40000
+systemd-oomd;[unknown];rcmd_af;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_openat;do_sys_openat2;do_filp_open;path_openat;do_open;vfs_open;do_dentry_open;proc_reg_open;proc_single_open;single_open;kmem_cache_alloc_trace 40000
+systemd-oomd;[unknown];rcmd_af;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_openat;do_sys_openat2;get_unused_fd_flags;_find_next_bit 40000
+systemd-oomd;[unknown];rcmd_af;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_read;ksys_read;vfs_read;new_sync_read;kernfs_fop_read_iter;seq_read_iter;kernfs_seq_show;cgroup_seqfile_show;memory_stat_show;memory_stat_format;seq_buf_printf;memcpy 40000
+systemd-oomd;[unknown];rcmd_af;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_read;ksys_read;vfs_read;new_sync_read;proc_reg_read_iter;seq_read_iter;kvmalloc_node;__kmalloc_node 40000
+systemd-oomd;[unknown];rcmd_af;entry_SYSCALL_64_after_hwframe;do_syscall_64;syscall_enter_from_user_mode;syscall_trace_enter.constprop.0;__secure_computing;__seccomp_filter;seccomp_run_filters 120000
+systemd-oomd;[unknown];read_resource_pressure 40000
+systemd-oomd;[unknown];sd_event_ref 40000

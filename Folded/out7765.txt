@@ -1,0 +1,39 @@
+gedit;[libgobject-2.0.so.0.7200.1] 40000
+gedit;[libgtk-3.so.0.2404.29] 40000
+gedit;[unknown];[libc.so.6] 120000
+gedit;[unknown];[libgobject-2.0.so.0.7200.1] 80000
+gedit;[unknown];[libgtk-3.so.0.2404.29] 40000
+gedit;[unknown];[libgtk-3.so.0.2404.29];[unknown];[libgtk-3.so.0.2404.29] 80000
+gedit;[unknown];[unknown];[unknown];[im-wayland.so] 40000
+gedit;[unknown];[unknown];[unknown];[unknown];g_list_remove 80000
+gedit;[unknown];[unknown];[unknown];g_signal_emit;g_signal_emit_valist 160000
+gedit;[unknown];[unknown];[unknown];g_type_check_instance_is_fundamentally_a 80000
+gedit;[unknown];[unknown];[unknown];pango_attr_list_insert 40000
+gedit;[unknown];____wcstof_l_internal 40000
+gedit;[unknown];g_datalist_id_dup_data 40000
+gedit;____wcstof_l_internal 80000
+gedit;__strncat_ssse3 40000
+gedit;cairo_region_create 40000
+gedit;gtk_style_context_set_parent 80000
+gmain;[unknown];__vdso_clock_gettime 40000
+gmain;[unknown];rcmd_af;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_write;__fdget_pos 40000
+gmain;____wcstold_l_internal 80000
+gnome-shell;[unknown];[libmutter-10.so.0.0.0] 80000
+gnome-shell;[unknown];[libmutter-10.so.0.0.0];asm_sysvec_apic_timer_interrupt;sysvec_apic_timer_interrupt;irq_exit_rcu;__softirqentry_text_start 80000
+gnome-shell;[unknown];[libmutter-clutter-10.so.0.0.0];[unknown];clutter_pipeline_node_new 40000
+gnome-shell;[unknown];[libpixman-1.so.0.40.0] 320000
+gnome-shell;[unknown];[unknown];[unknown];[libmutter-10.so.0.0.0] 40000
+gnome-shell;[unknown];[unknown];[unknown];[libmutter-clutter-10.so.0.0.0] 40000
+gnome-shell;[unknown];[unknown];[unknown];cairo_region_reference 160000
+gnome-shell;[unknown];[unknown];[unknown];clutter_backend_get_default_seat 40000
+gnome-shell;[unknown];[unknown];[unknown];g_type_check_instance_cast 40000
+gnome-shell;[unknown];[unknown];____wcstold_l_internal 40000
+gnome-shell;[unknown];graphene_vec3_subtract 40000
+gnome-shell;____wcstof_l_internal 40000
+gnome-shell;st_theme_node_get_type 40000
+kworker/1:1-mm_;ret_from_fork;kthread;worker_thread;process_one_work;kfree_rcu_monitor;__lock_text_start 40000
+org.sample.MyBe;__strncat_ssse3;SystemDictionary::find_method_handle_type;[libjvm.so];[libjvm.so];MacroAssembler::fast_md5;LibraryCallKit::inline_string_copy;LibraryCallKit::inline_fp_conversions;StubRoutines ;Interpreter;Interpreter;void java.util.concurrent.FutureTask.run;void java.util.concurrent.FutureTask.run;Interpreter;org.openjdk.jmh.results.BenchmarkTaskResult org.sample.jmh_generated.MyBenchmark_testMethod_jmhTest.testMethod_SingleShotTime;Interpreter;_new_array_Java;ErrorContext::stackmap_details;[libjvm.so];ShenandoahSATBMarkQueueSet::ShenandoahSATBMarkQueueSet;ShenandoahRuntime::load_reference_barrier_weak_narrow 40000
+org.sample.MyBe;__strncat_ssse3;SystemDictionary::find_method_handle_type;[libjvm.so];[libjvm.so];MacroAssembler::fast_md5;LibraryCallKit::inline_string_copy;LibraryCallKit::inline_fp_conversions;StubRoutines ;Interpreter;Interpreter;void java.util.concurrent.FutureTask.run;void java.util.concurrent.FutureTask.run;Interpreter;org.openjdk.jmh.results.BenchmarkTaskResult org.sample.jmh_generated.MyBenchmark_testMethod_jmhTest.testMethod_SingleShotTime;Interpreter;_new_array_Java;ErrorContext::stackmap_details;[libjvm.so];ShenandoahSATBMarkQueueSet::ShenandoahSATBMarkQueueSet;[libc.so.6] 400000
+org.sample.MyBe;__strncat_ssse3;SystemDictionary::find_method_handle_type;[libjvm.so];[libjvm.so];MacroAssembler::fast_md5;LibraryCallKit::inline_string_copy;LibraryCallKit::inline_fp_conversions;StubRoutines ;Interpreter;Interpreter;void java.util.concurrent.FutureTask.run;void java.util.concurrent.FutureTask.run;Interpreter;org.openjdk.jmh.results.BenchmarkTaskResult org.sample.jmh_generated.MyBenchmark_testMethod_jmhTest.testMethod_SingleShotTime;Interpreter;int[] org.sample.MyBenchmark.getArray 280000
+swapper;secondary_startup_64_no_verify;start_secondary;cpu_startup_entry;do_idle;cpuidle_idle_call;default_idle_call;arch_cpu_idle;native_safe_halt 4480000
+swapper;secondary_startup_64_no_verify;start_secondary;cpu_startup_entry;do_idle;cpuidle_idle_call;default_idle_call;arch_cpu_idle;native_safe_halt;asm_sysvec_apic_timer_interrupt;sysvec_apic_timer_interrupt;irq_exit_rcu;__softirqentry_text_start;run_timer_softirq;__run_timers.part.0;call_timer_fn;vbg_heartbeat_timer;vbg_req_perform 240000

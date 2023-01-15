@@ -1,0 +1,5 @@
+GC_Thread#0;__GI___strncasecmp_l_sse2;entry_SYSCALL_64_after_hwframe;do_syscall_64;syscall_exit_to_user_mode;exit_to_user_mode_prepare;blkcg_maybe_throttle_current 80000
+GC_Thread#2;__GI___strncasecmp_l_sse2 40000
+GC_Thread#5;__strncat_ssse3;SystemDictionary::find_method_handle_type;[libjvm.so];[libjvm.so];[libjvm.so];CompilerToVM::initialize_intrinsics;[libjvm.so] 40000
+Thread-34;boolean jdk.internal.math.FloatingDecimal$BinaryToASCIIBuffer.isNegative 40000
+swapper;secondary_startup_64_no_verify;start_secondary;cpu_startup_entry;do_idle;cpuidle_idle_call;default_idle_call;arch_cpu_idle;native_safe_halt 240000

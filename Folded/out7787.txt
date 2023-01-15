@@ -1,0 +1,17 @@
+Thread-28;java.lang.Class java.io.ObjectInputStream.resolveClass;java.lang.ClassLoader jdk.internal.misc.VM.latestUserDefinedLoader0;MacroAssembler::fast_sha256;RangedFlagAccessImpl<int, EventIntFlagChanged>::set_impl;IdealKit::storeCM 40000
+Thread-28;void java.io.ObjectStreamClass$FieldReflector.setPrimFieldValues 120000
+Thread-28;void java.io.ObjectStreamClass.initNonProxy 120000
+gdbus;[unknown];[unknown];g_variant_builder_add_value 80000
+gdbus;[unknown];g_utf8_validate_len 80000
+gdbus;[unknown];rcmd_af 40000
+gdbus;g_direct_equal 80000
+gdbus;g_pointer_bit_lock 120000
+gnome-shell;[unknown];[libmozjs-91.so.91.7.0] 160000
+gnome-shell;[unknown];[libmozjs-91.so.91.7.0];[libmozjs-91.so.91.7.0] 80000
+gnome-shell;[unknown];g_object_get_property 40000
+ibus-extension-;[unknown];[unknown];__strncat_ssse3 40000
+ibus-extension-;[unknown];g_variant_serialiser_needed_size 80000
+java;__strncat_ssse3;inflate_file.part.0;JLI_Launch;MacroAssembler::cmp_narrow_klass;MacroAssembler::check_klass_subtype_fast_path;LibraryCallKit::inline_fp_conversions;StubRoutines ;Interpreter;Interpreter;Interpreter;Interpreter;Interpreter;Interpreter 280000
+perf;__vstrfmon_l_internal;main;run_builtin;cmd_record;record__mmap_read_evlist.constprop.0;perf_mmap__push;record__pushfn;rcmd_af;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_write;ksys_write;vfs_write;new_sync_write;ext4_file_write_iter;ext4_buffered_write_iter;generic_perform_write;ext4_da_write_begin;grab_cache_page_write_begin;pagecache_get_page;add_to_page_cache_lru;__add_to_page_cache_locked;__mem_cgroup_charge;charge_memcg;try_charge_memcg;refill_stock 40000
+perf;__vstrfmon_l_internal;main;run_builtin;cmd_record;record__mmap_read_evlist.constprop.0;perf_mmap__push;record__pushfn;rcmd_af;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_write;ksys_write;vfs_write;new_sync_write;ext4_file_write_iter;ext4_buffered_write_iter;generic_perform_write;ext4_da_write_begin;grab_cache_page_write_begin;pagecache_get_page;alloc_pages 120000
+swapper;secondary_startup_64_no_verify;start_secondary;cpu_startup_entry;do_idle;cpuidle_idle_call;default_idle_call;arch_cpu_idle;native_safe_halt 480000

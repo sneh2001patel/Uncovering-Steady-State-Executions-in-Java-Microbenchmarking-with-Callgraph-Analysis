@@ -1,0 +1,56 @@
+gnome-shell;[kms_swrast_dri.so] 280000
+gnome-shell;[kms_swrast_dri.so];asm_sysvec_apic_timer_interrupt;sysvec_apic_timer_interrupt;irq_exit_rcu;__softirqentry_text_start 80000
+gnome-shell;[kms_swrast_dri.so];asm_sysvec_apic_timer_interrupt;sysvec_apic_timer_interrupt;irq_exit_rcu;__softirqentry_text_start;run_timer_softirq;__run_timers.part.0;call_timer_fn;process_timeout;wake_up_process;try_to_wake_up;__lock_text_start 40000
+gnome-shell;[libm.so.6] 40000
+gnome-shell;[unknown];[kms_swrast_dri.so] 80000
+gnome-shell;[unknown];[kms_swrast_dri.so];[unknown];[kms_swrast_dri.so] 40000
+gnome-shell;[unknown];[libgobject-2.0.so.0.7200.1] 40000
+gnome-shell;[unknown];[libmutter-10.so.0.0.0] 40000
+gnome-shell;[unknown];[libpixman-1.so.0.40.0] 80000
+gnome-shell;[unknown];[libst-1.0.so] 80000
+gnome-shell;[unknown];[unknown];[kms_swrast_dri.so] 80000
+gnome-shell;[unknown];[unknown];[libc.so.6] 40000
+gnome-shell;[unknown];[unknown];[unknown];[libmutter-10.so.0.0.0] 80000
+gnome-shell;[unknown];[unknown];[unknown];[libmutter-10.so.0.0.0];cairo_region_num_rectangles 40000
+gnome-shell;[unknown];[unknown];[unknown];[libmutter-10.so.0.0.0];graphene_rect_offset 40000
+gnome-shell;[unknown];[unknown];[unknown];[libmutter-clutter-10.so.0.0.0] 80000
+gnome-shell;[unknown];[unknown];[unknown];[unknown];[libinput.so.10.13.0] 80000
+gnome-shell;[unknown];[unknown];[unknown];[unknown];g_slice_free1 80000
+gnome-shell;[unknown];[unknown];[unknown];[unknown];g_type_check_instance_is_fundamentally_a 40000
+gnome-shell;[unknown];[unknown];[unknown];clutter_actor_paint 40000
+gnome-shell;[unknown];[unknown];[unknown];clutter_paint_node_ref 40000
+gnome-shell;[unknown];[unknown];[unknown];clutter_transform_node_get_type 40000
+gnome-shell;[unknown];[unknown];[unknown];g_signal_has_handler_pending 40000
+gnome-shell;[unknown];[unknown];[unknown];g_type_check_instance_is_a 40000
+gnome-shell;[unknown];g_slice_free1 40000
+gnome-shell;[unknown];g_type_check_class_cast 40000
+gnome-shell;[unknown];g_type_check_instance_cast 40000
+gnome-shell;[unknown];g_type_check_instance_is_a 40000
+gnome-shell;[unknown];graphene_matrix_transpose 40000
+gnome-shell;[unknown];graphene_vec3_dot 40000
+gnome-shell;[unknown];graphene_vec4_get_w 40000
+gnome-shell;[unknown];pixman_region32_translate 80000
+gnome-shell;____wcstof_l_internal 80000
+gnome-shell;_cogl_pipeline_layer_get_texture 80000
+gnome-shell;g_closure_invoke;g_cclosure_marshal_generic;[libc.so.6] 40000
+gnome-shell;g_type_check_instance_is_fundamentally_a 80000
+java;__strncat_ssse3;inflate_file.part.0;JLI_Launch;MacroAssembler::cmp_narrow_klass;MacroAssembler::check_klass_subtype_fast_path;LibraryCallKit::inline_fp_conversions;StubRoutines ;Interpreter;Interpreter;Interpreter;Interpreter;Interpreter;Interpreter 40000
+java;__strncat_ssse3;inflate_file.part.0;JLI_Launch;MacroAssembler::cmp_narrow_klass;MacroAssembler::check_klass_subtype_fast_path;LibraryCallKit::inline_fp_conversions;StubRoutines ;Interpreter;Interpreter;Interpreter;Interpreter;Interpreter;int sun.nio.ch.NioSocketImpl.tryWrite;int sun.nio.ch.FileDispatcherImpl.write0;rcmd_af;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_write;ksys_write;vfs_write;new_sync_write;sock_write_iter;sock_sendmsg;inet6_sendmsg;tcp_sendmsg;tcp_sendmsg_locked;tcp_push;__tcp_push_pending_frames;tcp_write_xmit;tcp_tso_segs 40000
+java;__strncat_ssse3;inflate_file.part.0;JLI_Launch;MacroAssembler::cmp_narrow_klass;MacroAssembler::check_klass_subtype_fast_path;LibraryCallKit::inline_fp_conversions;StubRoutines ;Interpreter;Interpreter;Interpreter;Interpreter;Interpreter;long java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos;parse_qtd_backslash 40000
+java;void java.io.ObjectOutputStream.writeObject0 80000
+kcompactd0;ret_from_fork;kthread;kcompactd;extfrag_for_order;fill_contig_page_info 40000
+org.sample.MyBe;__strcat_ssse3;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_futex;do_futex;futex_wake;wake_up_q;try_to_wake_up;__lock_text_start 40000
+org.sample.MyBe;__strncat_ssse3;SystemDictionary::find_method_handle_type;[libjvm.so];[libjvm.so];MacroAssembler::fast_md5;LibraryCallKit::inline_string_copy;LibraryCallKit::inline_fp_conversions;StubRoutines ;Interpreter;Interpreter;_new_array_Java;ClassVerifier::verify_method 40000
+org.sample.MyBe;__strncat_ssse3;SystemDictionary::find_method_handle_type;[libjvm.so];[libjvm.so];MacroAssembler::fast_md5;LibraryCallKit::inline_string_copy;LibraryCallKit::inline_fp_conversions;StubRoutines ;Interpreter;Interpreter;_new_array_Java;ErrorContext::stackmap_details;[libjvm.so];ShenandoahSATBMarkQueueSet::ShenandoahSATBMarkQueueSet;[libc.so.6] 400000
+org.sample.MyBe;__strncat_ssse3;SystemDictionary::find_method_handle_type;[libjvm.so];[libjvm.so];MacroAssembler::fast_md5;LibraryCallKit::inline_string_copy;LibraryCallKit::inline_fp_conversions;StubRoutines ;Interpreter;Interpreter;int sun.nio.ch.NioSocketImpl.tryWrite;int sun.nio.ch.FileDispatcherImpl.write0;rcmd_af;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_write;ksys_write;vfs_write;new_sync_write;sock_write_iter;sock_sendmsg;apparmor_socket_sendmsg 40000
+org.sample.MyBe;__strncat_ssse3;SystemDictionary::find_method_handle_type;[libjvm.so];[libjvm.so];MacroAssembler::fast_md5;LibraryCallKit::inline_string_copy;LibraryCallKit::inline_fp_conversions;StubRoutines ;Interpreter;Interpreter;int[] org.sample.MyBenchmark.getArray 1200000
+org.sample.MyBe;__strncat_ssse3;SystemDictionary::find_method_handle_type;[libjvm.so];[libjvm.so];MacroAssembler::fast_md5;LibraryCallKit::inline_string_copy;LibraryCallKit::inline_fp_conversions;StubRoutines ;Interpreter;Interpreter;java.lang.Object java.util.concurrent.Executors$RunnableAdapter.call 40000
+org.sample.MyBe;__strncat_ssse3;SystemDictionary::find_method_handle_type;[libjvm.so];[libjvm.so];MacroAssembler::fast_md5;LibraryCallKit::inline_string_copy;LibraryCallKit::inline_fp_conversions;StubRoutines ;Interpreter;Interpreter;void java.lang.AbstractStringBuilder.ensureCapacityInternal 40000
+org.sample.MyBe;__strncat_ssse3;SystemDictionary::find_method_handle_type;[libjvm.so];[libjvm.so];MacroAssembler::fast_md5;LibraryCallKit::inline_string_copy;LibraryCallKit::inline_fp_conversions;StubRoutines ;Interpreter;Interpreter;void java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.doSignal 40000
+org.sample.MyBe;__strncat_ssse3;SystemDictionary::find_method_handle_type;[libjvm.so];[libjvm.so];MacroAssembler::fast_md5;LibraryCallKit::inline_string_copy;LibraryCallKit::inline_fp_conversions;StubRoutines ;Interpreter;Interpreter;void org.openjdk.jmh.results.SingleShotResult.<init> 200000
+org.sample.MyBe;void java.io.ObjectOutputStream.writeArray;MacroAssembler::fast_pow 40000
+swapper;secondary_startup_64_no_verify;start_secondary;cpu_startup_entry;do_idle;cpuidle_idle_call;default_idle_call;arch_cpu_idle;native_safe_halt 10360000
+swapper;secondary_startup_64_no_verify;start_secondary;cpu_startup_entry;do_idle;cpuidle_idle_call;default_idle_call;arch_cpu_idle;native_safe_halt;asm_sysvec_apic_timer_interrupt;sysvec_apic_timer_interrupt;irq_exit_rcu;__softirqentry_text_start 160000
+swapper;secondary_startup_64_no_verify;start_secondary;cpu_startup_entry;do_idle;cpuidle_idle_call;default_idle_call;arch_cpu_idle;native_safe_halt;asm_sysvec_apic_timer_interrupt;sysvec_apic_timer_interrupt;irq_exit_rcu;__softirqentry_text_start;run_timer_softirq;__run_timers.part.0;call_timer_fn;vbg_heartbeat_timer;vbg_req_perform 40000
+swapper;secondary_startup_64_no_verify;start_secondary;cpu_startup_entry;do_idle;cpuidle_idle_call;default_idle_call;arch_cpu_idle;native_safe_halt;asm_sysvec_call_function_single;sysvec_call_function_single;irq_exit_rcu;__softirqentry_text_start 40000
+swapper;secondary_startup_64_no_verify;start_secondary;cpu_startup_entry;do_idle;schedule_idle;__schedule;finish_task_switch.isra.0 40000

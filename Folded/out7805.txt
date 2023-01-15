@@ -1,0 +1,60 @@
+G1_Service;__strncat_ssse3;SystemDictionary::find_method_handle_type;[libjvm.so];MutexedWriteOp<CheckpointWriteOp<JfrBuffer> >::process;JNIJVMCI::JavaKind::set_typeChar;JNIJVMCI::JavaKind::set_typeChar;JNIJVMCI::InstalledCode::get_entryPoint;[libjvm.so];__strncpy_sse2_unaligned 40000
+Thread-28;StubRoutines  80000
+Thread-28;int java.net.Socket$SocketInputStream.read;int sun.nio.ch.SocketDispatcher.read0;rcmd_af 40000
+Thread-28;int java.net.Socket$SocketInputStream.read;int sun.nio.ch.SocketDispatcher.read0;rcmd_af;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_read;ksys_read;vfs_read;new_sync_read;sock_read_iter;sock_recvmsg;inet6_recvmsg;tcp_recvmsg;lock_sock_nested;_raw_spin_lock_bh;__pv_queued_spin_lock_slowpath 80000
+gjs;[libgjs.so.0.0.0] 40000
+gjs;[libmozjs-91.so.91.7.0] 80000
+gjs;[libmozjs-91.so.91.7.0];asm_exc_page_fault;exc_page_fault;do_user_addr_fault;handle_mm_fault;__handle_mm_fault;handle_pte_fault;do_wp_page;wp_page_copy;flush_tlb_mm_range 40000
+gjs;[libmozjs-91.so.91.7.0];asm_sysvec_apic_timer_interrupt;sysvec_apic_timer_interrupt;irqentry_exit;irqentry_exit_to_user_mode;exit_to_user_mode_prepare;exit_to_user_mode_loop;schedule;__schedule;finish_task_switch.isra.0 80000
+gjs;[unknown];[libgirepository-1.0.so.1.0.0] 160000
+gjs;[unknown];[libgjs.so.0.0.0];[libgjs.so.0.0.0] 40000
+gjs;[unknown];[libmozjs-91.so.91.7.0] 160000
+gjs;[unknown];[libmozjs-91.so.91.7.0];[libmozjs-91.so.91.7.0] 40000
+gjs;[unknown];[libmozjs-91.so.91.7.0];[unknown];[libmozjs-91.so.91.7.0] 40000
+gjs;[unknown];[unknown];[libmozjs-91.so.91.7.0] 160000
+gjs;[unknown];[unknown];g_atomic_ref_count_dec 80000
+gjs;[unknown];mozilla::TimeStamp::Now 40000
+gjs;____wcstof_l_internal 40000
+gjs;____wcstold_l_internal 80000
+gjs;g_bit_lock 80000
+gjs;g_malloc0 80000
+gnome-shell;[libc.so.6] 40000
+gnome-shell;[libmozjs-91.so.91.7.0] 80000
+gnome-shell;[libmutter-clutter-10.so.0.0.0] 40000
+gnome-shell;[unknown];[libglib-2.0.so.0.7200.1] 40000
+gnome-shell;[unknown];[libgobject-2.0.so.0.7200.1] 40000
+gnome-shell;[unknown];[libmozjs-91.so.91.7.0] 160000
+gnome-shell;[unknown];[libmozjs-91.so.91.7.0];[libgjs.so.0.0.0] 40000
+gnome-shell;[unknown];[libmozjs-91.so.91.7.0];[libmozjs-91.so.91.7.0] 40000
+gnome-shell;[unknown];[unknown];JSScript::lookupScope 40000
+gnome-shell;[unknown];[unknown];[libmozjs-91.so.91.7.0] 80000
+gnome-shell;[unknown];[unknown];[unknown];[libmozjs-91.so.91.7.0] 40000
+gnome-shell;[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[libgjs.so.0.0.0] 40000
+gnome-shell;[unknown];[unknown];[unknown];g_closure_unref 40000
+gnome-shell;[unknown];[unknown];[unknown];g_object_new;g_type_fundamental 40000
+gnome-shell;[unknown];[unknown];[unknown];g_signal_emit 80000
+gnome-shell;[unknown];[unknown];__strftime_internal 40000
+gnome-shell;[unknown];[unknown];g_datalist_id_dup_data 40000
+gnome-shell;[unknown];g_mutex_lock 40000
+gnome-shell;[unknown];g_slice_free1 80000
+gnome-shell;____wcstold_l_internal 160000
+gnome-shell;g_hash_table_lookup 40000
+gnome-shell;g_idle_source_new 120000
+gnome-shell;g_object_set_qdata_full 40000
+ksoftirqd/2;ret_from_fork;kthread;smpboot_thread_fn;run_ksoftirqd;__softirqentry_text_start;run_timer_softirq;__run_timers.part.0;call_timer_fn;vbg_heartbeat_timer;vbg_req_perform 40000
+ksoftirqd/2;ret_from_fork;kthread;smpboot_thread_fn;schedule;__schedule;finish_task_switch.isra.0 40000
+org.sample.MyBe;[unknown];boolean java.util.concurrent.locks.ReentrantLock$Sync.tryRelease 40000
+org.sample.MyBe;__strncat_ssse3;SystemDictionary::find_method_handle_type;[libjvm.so];[libjvm.so];MacroAssembler::fast_md5;LibraryCallKit::inline_string_copy;LibraryCallKit::inline_fp_conversions;StubRoutines ;Interpreter;Interpreter;_new_array_Java;ErrorContext::stackmap_details;[libjvm.so];ShenandoahSATBMarkQueueSet::ShenandoahSATBMarkQueueSet;[libc.so.6] 760000
+org.sample.MyBe;__strncat_ssse3;SystemDictionary::find_method_handle_type;[libjvm.so];[libjvm.so];MacroAssembler::fast_md5;LibraryCallKit::inline_string_copy;LibraryCallKit::inline_fp_conversions;StubRoutines ;Interpreter;Interpreter;int sun.nio.ch.NioSocketImpl.tryWrite;int sun.nio.ch.FileDispatcherImpl.write0;rcmd_af;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_write;ksys_write;vfs_write;new_sync_write;sock_write_iter;sock_sendmsg;inet6_sendmsg;tcp_sendmsg;tcp_sendmsg_locked;tcp_push;__tcp_push_pending_frames;tcp_write_xmit;__tcp_transmit_skb;ip_queue_xmit;__ip_queue_xmit;ip_local_out;ip_output;ip_finish_output;__ip_finish_output;ip_finish_output2;__local_bh_enable_ip;do_softirq;__softirqentry_text_start;net_rx_action;__napi_poll;process_backlog;__netif_receive_skb;__netif_receive_skb_one_core;ip_rcv;ip_local_deliver;ip_local_deliver_finish;ip_protocol_deliver_rcu;tcp_v4_rcv;tcp_v4_do_rcv;tcp_rcv_established;tcp_data_ready;sock_def_readable 120000
+org.sample.MyBe;__strncat_ssse3;SystemDictionary::find_method_handle_type;[libjvm.so];[libjvm.so];MacroAssembler::fast_md5;LibraryCallKit::inline_string_copy;LibraryCallKit::inline_fp_conversions;StubRoutines ;Interpreter;Interpreter;int[] org.sample.MyBenchmark.getArray 400000
+rcu_sched;ret_from_fork;kthread;rcu_gp_kthread;rcu_gp_fqs_loop;schedule_timeout;schedule;__schedule;finish_task_switch.isra.0 40000
+snap-store;[unknown];[libdbus-1.so.3.19.11] 80000
+snap-store;[unknown];[libdbus-1.so.3.19.11];asm_sysvec_apic_timer_interrupt;sysvec_apic_timer_interrupt;irq_exit_rcu;__softirqentry_text_start 160000
+snap-store;[unknown];[libglib-2.0.so.0.6400.6] 80000
+snap-store;[unknown];[unknown];[libgdk-3.so.0.2404.30] 80000
+snap-store;[unknown];g_main_context_dispatch 40000
+snap-store;g_source_ref 200000
+swapper;secondary_startup_64_no_verify;start_secondary;cpu_startup_entry;do_idle;cpuidle_idle_call;default_idle_call;arch_cpu_idle;native_safe_halt 3440000
+swapper;secondary_startup_64_no_verify;start_secondary;cpu_startup_entry;do_idle;cpuidle_idle_call;default_idle_call;arch_cpu_idle;native_safe_halt;asm_sysvec_call_function_single;sysvec_call_function_single;irq_exit_rcu;__softirqentry_text_start 240000
+swapper;secondary_startup_64_no_verify;start_secondary;cpu_startup_entry;do_idle;schedule_idle;__schedule;finish_task_switch.isra.0 40000
+swapper;secondary_startup_64_no_verify;x86_64_start_kernel;x86_64_start_reservations;start_kernel;arch_call_rest_init;rest_init;cpu_startup_entry;do_idle;cpuidle_idle_call;default_idle_call;arch_cpu_idle;native_safe_halt 1280000

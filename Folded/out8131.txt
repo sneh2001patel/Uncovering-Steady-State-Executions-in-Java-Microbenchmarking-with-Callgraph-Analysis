@@ -1,0 +1,23 @@
+GC_Thread#0;__GI___strncasecmp_l_sse2;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_futex;do_futex;futex_wait;futex_wait_queue_me;schedule;__schedule;finish_task_switch.isra.0 80000
+GC_Thread#2;__strncat_ssse3;SystemDictionary::find_method_handle_type;[libjvm.so];[libjvm.so];[libjvm.so] 40000
+GC_Thread#2;__strncat_ssse3;SystemDictionary::find_method_handle_type;[libjvm.so];[libjvm.so];[libjvm.so];CompilerToVM::initialize_intrinsics 80000
+GC_Thread#3;__strncat_ssse3;SystemDictionary::find_method_handle_type;[libjvm.so];[libjvm.so];[libjvm.so];CompilerToVM::initialize_intrinsics;[libjvm.so];[libjvm.so];LogImpl<;parse_qtd_backslash;[[vdso]] 40000
+GC_Thread#4;__GI___strncasecmp_l_sse2;entry_SYSCALL_64_after_hwframe;do_syscall_64;syscall_exit_to_user_mode;exit_to_user_mode_prepare;exit_to_user_mode_loop;__rseq_handle_notify_resume;rseq_ip_fixup;__get_user_8 120000
+VM_Thread;__strncat_ssse3;SystemDictionary::find_method_handle_type;[libjvm.so];[libjvm.so];[libjvm.so];[libjvm.so];[libjvm.so];JVMCIGlobals::check_jvmci_flags_are_consistent;JavaArgumentUnboxer::do_type;c2v_registerNativeMethods;c2v_disassembleCodeBlob;CompilerToVM::initialize_intrinsics;[libjvm.so];PSYoungGen::used_in_words;init_cpu_features.constprop.0 40000
+VM_Thread;__strncat_ssse3;SystemDictionary::find_method_handle_type;[libjvm.so];[libjvm.so];[libjvm.so];[libjvm.so];[libjvm.so];JVMCIGlobals::check_jvmci_flags_are_consistent;JavaArgumentUnboxer::do_type;c2v_registerNativeMethods;c2v_disassembleCodeBlob;CompilerToVM::initialize_intrinsics;[libjvm.so];__strstr_sse2_unaligned;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_futex;do_futex;futex_wake;wake_up_q;try_to_wake_up;__lock_text_start 240000
+VM_Thread;__strncat_ssse3;SystemDictionary::find_method_handle_type;[libjvm.so];[libjvm.so];[libjvm.so];[libjvm.so];[libjvm.so];JVMCIGlobals::check_jvmci_flags_are_consistent;JavaArgumentUnboxer::do_type;c2v_registerNativeMethods;c2v_disassembleCodeBlob;LoopStripMiningIterConstraintFunc;RangedFlagAccessImpl<unsigned int, EventUnsignedIntFlagChanged>::set_impl;c2v_asReflectionExecutable 40000
+gnome-shell;[unknown];[unknown];[unknown];____wcstof_l_internal 40000
+gnome-shell;[unknown];[unknown];[unknown];clutter_stage_get_grab_actor 40000
+gnome-shell;[unknown];__netlink_request;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_poll;do_sys_poll;do_poll.constprop.0;__fdget;__fget_light;__fget_files 40000
+gnome-shell;[unknown];__netlink_request;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_poll;do_sys_poll;do_poll.constprop.0;sock_poll 40000
+gnome-shell;[unknown];__netlink_request;entry_SYSCALL_64_after_hwframe;do_syscall_64;syscall_exit_to_user_mode;exit_to_user_mode_prepare;exit_to_user_mode_loop;__rseq_handle_notify_resume;rseq_ip_fixup;__get_user_8 40000
+gnome-shell;[unknown];g_main_context_check 40000
+gnome-shell;[unknown];g_private_get 40000
+gnome-shell;[unknown];libevdev_event_type_get_max 40000
+gnome-shell;[unknown];rcmd_af;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_write;ksys_write;vfs_write;eventfd_write 120000
+gnome-shell;[unknown];rcmd_af;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_write;ksys_write;vfs_write;rw_verify_area;apparmor_file_permission 80000
+gnome-shell;____wcstold_l_internal 40000
+swapper;secondary_startup_64_no_verify;start_secondary;cpu_startup_entry;do_idle;cpuidle_idle_call;default_idle_call;arch_cpu_idle;native_safe_halt 3080000
+swapper;secondary_startup_64_no_verify;start_secondary;cpu_startup_entry;do_idle;cpuidle_idle_call;default_idle_call;arch_cpu_idle;native_safe_halt;asm_sysvec_apic_timer_interrupt;sysvec_apic_timer_interrupt;irq_exit_rcu;__softirqentry_text_start;run_timer_softirq;__run_timers.part.0;call_timer_fn;vbg_heartbeat_timer;vbg_req_perform 40000
+swapper;secondary_startup_64_no_verify;start_secondary;cpu_startup_entry;do_idle;schedule_idle;__schedule;finish_task_switch.isra.0 40000
+swapper;secondary_startup_64_no_verify;x86_64_start_kernel;x86_64_start_reservations;start_kernel;arch_call_rest_init;rest_init;cpu_startup_entry;do_idle;cpuidle_idle_call;default_idle_call;arch_cpu_idle;native_safe_halt 640000

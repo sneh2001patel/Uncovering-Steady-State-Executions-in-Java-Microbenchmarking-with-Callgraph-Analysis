@@ -1,0 +1,14 @@
+gnome-shell;[kms_swrast_dri.so] 80000
+gnome-shell;[unknown];[kms_swrast_dri.so] 200000
+gnome-shell;[unknown];[kms_swrast_dri.so];[kms_swrast_dri.so] 40000
+gnome-shell;[unknown];[unknown];[kms_swrast_dri.so] 40000
+gnome-shell;[unknown];[unknown];[unknown];[kms_swrast_dri.so] 40000
+gnome-shell;[unknown];[unknown];[unknown];clutter_actor_paint 40000
+gnome-shell;[unknown];[unknown];____wcstold_l_internal 40000
+gnome-shell;[unknown];[unknown];cogl_buffer_set_update_hint 40000
+gnome-shell;[unknown];____wcstold_l_internal 80000
+gnome-shell;cogl_framebuffer_get_viewport4fv 40000
+gnome-shell;g_slice_alloc0 40000
+org.sample.MyBe;__strncat_ssse3;SystemDictionary::find_method_handle_type;[libjvm.so];[libjvm.so];MacroAssembler::fast_md5;LibraryCallKit::inline_string_copy;LibraryCallKit::inline_fp_conversions;StubRoutines ;Interpreter;Interpreter;_new_array_Java;ErrorContext::stackmap_details;[libjvm.so];ShenandoahSATBMode::initialize_heuristics;ElfDecoder::decode;[libjvm.so] 80000
+org.sample.MyBe;__strncat_ssse3;SystemDictionary::find_method_handle_type;[libjvm.so];[libjvm.so];MacroAssembler::fast_md5;LibraryCallKit::inline_string_copy;LibraryCallKit::inline_fp_conversions;StubRoutines ;Interpreter;Interpreter;int[] org.sample.MyBenchmark.getArray 240000
+swapper;secondary_startup_64_no_verify;start_secondary;cpu_startup_entry;do_idle;cpuidle_idle_call;default_idle_call;arch_cpu_idle;native_safe_halt 3840000

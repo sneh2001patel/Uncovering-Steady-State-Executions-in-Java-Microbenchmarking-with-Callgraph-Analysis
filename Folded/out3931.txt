@@ -1,0 +1,43 @@
+Thread-16;int java.net.Socket$SocketInputStream.read;int sun.nio.ch.SocketDispatcher.read0;rcmd_af;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_read;ksys_read;vfs_read;new_sync_read;sock_read_iter;sock_recvmsg;inet6_recvmsg;tcp_recvmsg;tcp_recvmsg_locked;tcp_cleanup_rbuf;tcp_send_ack;__tcp_send_ack.part.0;__tcp_transmit_skb;ip_queue_xmit;__ip_queue_xmit;ip_local_out;ip_output;ip_finish_output;__ip_finish_output;ip_finish_output2;__local_bh_enable_ip;do_softirq;__softirqentry_text_start;net_rx_action;__napi_poll;process_backlog;__netif_receive_skb;__netif_receive_skb_one_core;ip_rcv;ip_local_deliver;ip_local_deliver_finish;ip_protocol_deliver_rcu;tcp_v4_rcv;tcp_v4_do_rcv;tcp_rcv_established;__kfree_skb;skb_release_head_state 40000
+gnome-shell;[libgjs.so.0.0.0] 40000
+gnome-shell;[libmozjs-91.so.91.7.0] 40000
+gnome-shell;[unknown];JS_InstanceOf 40000
+gnome-shell;[unknown];[libgjs.so.0.0.0] 80000
+gnome-shell;[unknown];[libgjs.so.0.0.0];[libgjs.so.0.0.0] 40000
+gnome-shell;[unknown];[libgjs.so.0.0.0];[libgjs.so.0.0.0];[libffi.so.8.1.0] 40000
+gnome-shell;[unknown];[libgjs.so.0.0.0];____wcstof_l_internal 80000
+gnome-shell;[unknown];[libgjs.so.0.0.0];g_base_info_get_namespace 40000
+gnome-shell;[unknown];[libmozjs-91.so.91.7.0] 120000
+gnome-shell;[unknown];[libmozjs-91.so.91.7.0];[perf-1594.map];[perf-1594.map] 40000
+gnome-shell;[unknown];[libmozjs-91.so.91.7.0];[perf-1594.map];[unknown];[perf-1594.map];[perf-1594.map] 40000
+gnome-shell;[unknown];[libmozjs-91.so.91.7.0];[perf-1594.map];[unknown];[perf-1594.map];[unknown];[perf-1594.map];[perf-1594.map] 80000
+gnome-shell;[unknown];[libmozjs-91.so.91.7.0];[perf-1594.map];[unknown];[perf-1594.map];[unknown];[perf-1594.map];[unknown];[perf-1594.map];[perf-1594.map] 80000
+gnome-shell;[unknown];[unknown];[libmozjs-91.so.91.7.0] 40000
+gnome-shell;[unknown];[unknown];[unknown];[unknown];[unknown];[unknown];[libmozjs-91.so.91.7.0] 40000
+gnome-shell;[unknown];__strftime_internal 40000
+gnome-shell;[unknown];__strncat_ssse3 40000
+gnome-shell;[unknown];g_datalist_id_get_data 40000
+gnome-shell;[unknown];g_registered_type_info_get_type_init 40000
+gnome-shell;[unknown];g_slice_free1 40000
+gnome-shell;[unknown];g_strdup 40000
+gnome-shell;[unknown];g_value_info_get_value 40000
+nautilus;[libgio-2.0.so.0.7200.1];__vfscanf_internal 40000
+nautilus;[libgio-2.0.so.0.7200.1];__vfscanf_internal;__vfscanf_internal 80000
+nautilus;[unknown];[libc.so.6] 40000
+nautilus;[unknown];[libglib-2.0.so.0.7200.1] 80000
+nautilus;[unknown];[unknown];[unknown];g_settings_get_value 80000
+nautilus;[unknown];[unknown];[unknown];g_type_check_instance_cast 40000
+nautilus;[unknown];[unknown];g_mutex_unlock 40000
+nautilus;[unknown];__vfscanf_internal 40000
+nautilus;[unknown];g_markup_parse_context_new 40000
+nautilus;[unknown];gtk_selection_data_set 120000
+nautilus;____wcstof_l_internal 40000
+nautilus;____wcstold_l_internal 160000
+nautilus;____wcstold_l_internal;asm_sysvec_apic_timer_interrupt;sysvec_apic_timer_interrupt;irq_exit_rcu;__softirqentry_text_start;run_timer_softirq;__run_timers.part.0;call_timer_fn;vbg_heartbeat_timer;vbg_req_perform 80000
+nautilus;g_bit_lock 40000
+nautilus;g_slice_alloc 80000
+org.sample.MyBe;__strcat_ssse3;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_futex;do_futex;futex_wake;wake_up_q;try_to_wake_up;__lock_text_start 40000
+org.sample.MyBe;__strncat_ssse3;SystemDictionary::find_method_handle_type;[libjvm.so];[libjvm.so];MacroAssembler::fast_md5;LibraryCallKit::inline_string_copy;LibraryCallKit::inline_fp_conversions;StubRoutines ;Interpreter;Interpreter;int sun.nio.ch.NioSocketImpl.tryWrite;int sun.nio.ch.FileDispatcherImpl.write0;rcmd_af;entry_SYSCALL_64_after_hwframe;do_syscall_64;__x64_sys_write;ksys_write;vfs_write;new_sync_write;sock_write_iter;sock_sendmsg;inet6_sendmsg;tcp_sendmsg;tcp_sendmsg_locked;tcp_push;__tcp_push_pending_frames;tcp_write_xmit;__tcp_transmit_skb;ip_queue_xmit;__ip_queue_xmit;ip_local_out;ip_output;ip_finish_output;__ip_finish_output;ip_finish_output2;__local_bh_enable_ip;do_softirq;__softirqentry_text_start;net_rx_action;__napi_poll;process_backlog;__netif_receive_skb;__netif_receive_skb_one_core;ip_rcv 40000
+org.sample.MyBe;__strncat_ssse3;SystemDictionary::find_method_handle_type;[libjvm.so];[libjvm.so];MacroAssembler::fast_md5;LibraryCallKit::inline_string_copy;LibraryCallKit::inline_fp_conversions;StubRoutines ;Interpreter;Interpreter;int[] org.sample.MyBenchmark.getArray 800000
+org.sample.MyBe;__strncat_ssse3;SystemDictionary::find_method_handle_type;[libjvm.so];[libjvm.so];MacroAssembler::fast_md5;LibraryCallKit::inline_string_copy;LibraryCallKit::inline_fp_conversions;StubRoutines ;Interpreter;Interpreter;void org.apache.logging.log4j.core.appender.OutputStreamManager.flushBuffer 40000
+swapper;secondary_startup_64_no_verify;start_secondary;cpu_startup_entry;do_idle;cpuidle_idle_call;default_idle_call;arch_cpu_idle;native_safe_halt 3480000
